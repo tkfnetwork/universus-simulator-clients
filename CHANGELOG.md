@@ -18,6 +18,10 @@ The version you are running is written in the corner of the main menu.
 - Main menu is drawn larger to suit the narrower window.
 - Fixed: finishing a mulligan with Ready gives back the cards you set aside on
   your deck. They were left there and the hand stayed short.
+- Fixed: the deck manager and other menus ran off the top of the window. Every
+  view now keeps a clear margin inside the screen.
+- Fixed: the version stamp and the account line were carried off the bottom of
+  the main menu when it was drawn larger.
 
 ## 0.0.1
 

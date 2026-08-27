@@ -8,30 +8,30 @@ You will need a [tcgs.io account](https://tcgs.io?game=universus) and a deck of 
 
 | Platform | File | Size | Built (UTC) |
 | --- | --- | --- | --- |
-| linux | [linux.zip](linux.zip) | 69 MB | 2026-08-26T14:23Z |
-| macos-arm64 | [macos-arm64.zip](macos-arm64.zip) | 69 MB | 2026-08-26T14:24Z |
-| macos-x86_64 | [macos-x86_64.zip](macos-x86_64.zip) | 73 MB | 2026-08-26T14:24Z |
-| windows | [windows.zip](windows.zip) | 79 MB | 2026-08-26T14:23Z |
+| linux | [linux.zip](linux.zip) | 69 MB | 2026-08-27T21:51Z |
+| macos-arm64 | [macos-arm64.zip](macos-arm64.zip) | 69 MB | 2026-08-27T21:52Z |
+| macos-x86_64 | [macos-x86_64.zip](macos-x86_64.zip) | 73 MB | 2026-08-27T21:52Z |
+| windows | [windows.zip](windows.zip) | 79 MB | 2026-08-27T21:51Z |
 
 macOS comes as two downloads, one per processor: **macos-arm64** for Apple Silicon, which is every Mac from late 2020 onwards, and **macos-x86_64** for an Intel Mac. If you are not sure, the Apple menu, then About This Mac, names the chip.
 
 Check a download against what was built:
 
 ```
-aa7cc565296d34f33553b49645b20f87c327e28aea0bf27c8d667ab57b03990f  linux.zip
-3349e0bcbcf0d173f402565282ccb6083002eb76cb022185cbe02952562eab8e  macos-arm64.zip
-d899a7a74017955705c1d85be745ffdd61c10ad572a2b31935cff6f84987576e  macos-x86_64.zip
-da1ef00e13b85d409cc2401d6eceabe0ff57de25d0f05c001f78b92461d3e680  windows.zip
+f70a3b09b3c748193c479c79639418d16b3b7f77829cf4ba87bee2a1bf2eaa74  linux.zip
+298327a4377c18092d9cb83ee6e39d199e32d18db2b1f3de1b2711a8ad016ef8  macos-arm64.zip
+2fa6d9035f3505fb341802fcc749b5f2563955e8e668c762ebae410b76885bf0  macos-x86_64.zip
+1de69ec3cc5bd97e1d8735c9d65a4bab63933cccfcb18ef633247eacc06e4bec  windows.zip
 ```
 
 ## What is in these builds
 
 | Platform | Version | Engine | Access | Channel | Relay | API | Built-in deck |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| linux | 0.0.2 | 4.7.stable.mono.arch_linux.5b4e0cb0f | restricted | ALPHA | hosted | default | false |
-| macos-arm64 | 0.0.2 | 4.7.stable.mono.arch_linux.5b4e0cb0f | restricted | ALPHA | hosted | default | false |
-| macos-x86_64 | 0.0.2 | 4.7.stable.mono.arch_linux.5b4e0cb0f | restricted | ALPHA | hosted | default | false |
-| windows | 0.0.2 | 4.7.stable.mono.arch_linux.5b4e0cb0f | restricted | ALPHA | hosted | default | false |
+| linux | 0.0.2 | 4.7.2.stable.mono.arch_linux.ed1daf0bf | restricted | ALPHA | hosted | default | false |
+| macos-arm64 | 0.0.2 | 4.7.2.stable.mono.arch_linux.ed1daf0bf | restricted | ALPHA | hosted | default | false |
+| macos-x86_64 | 0.0.2 | 4.7.2.stable.mono.arch_linux.ed1daf0bf | restricted | ALPHA | hosted | default | false |
+| windows | 0.0.2 | 4.7.2.stable.mono.arch_linux.ed1daf0bf | restricted | ALPHA | hosted | default | false |
 
 What changed in each version is in [CHANGELOG.md](CHANGELOG.md). The version a build is stamped with is also written in the corner of its main menu, next to the commit it came from.
 

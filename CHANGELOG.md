@@ -22,6 +22,13 @@ The version you are running is written in the corner of the main menu.
   view now keeps a clear margin inside the screen.
 - Fixed: the version stamp and the account line were carried off the bottom of
   the main menu when it was drawn larger.
+- Fixed: an attack printed "this attack cannot be blocked" could still be
+  blocked. Burning Fist is the card in Standard that says it.
+- Fixed: a bonus granted to the next attack you play went to the attack being
+  resolved instead, or to no attack at all. Unexpected Reunion's sacrificed
+  foundation bought nothing.
+- Fixed: the same misreading on seven more cards. Some lost the bonus outright,
+  some gave away only half of it.
 
 ## 0.0.1
 

@@ -42,6 +42,32 @@ The version you are running is written in the corner of the main menu.
 - Fixed: spending a counter to pay a cost left the old number on the card.
 - Counter badges are coloured for every counter in Standard. Seven were drawn
   white.
+- Fixed: sixteen Form abilities whose name carried a qualifier in front of it,
+  such as Deadlock Form Commit or Warrior First Form, could not be played at
+  all.
+- Fixed: an attack printing "cannot be blocked by mid attacks" or "cannot be
+  partially blocked" was blocked anyway.
+- Fixed: a block bonus granted by a card in your card pool never applied, and
+  did not stop when the card left the pool.
+- Fixed: "your checks to play attacks get +1" raised every check you made, not
+  only the ones it names. Nine cards print the wider version, and two more
+  print it on a character where it did nothing at all.
+- Fixed: nine cards let you pay a keyword's momentum cost another way, and none
+  of them ever offered it.
+- Fixed: "commit assets as though they were foundations" counted the asset
+  toward passing the check and then would not let you click it.
+- Fixed: two cards that act at the start of your End Phase or Combat Phase
+  never fired.
+- Fixed: "ready 1 non-Unique asset or foundation" offered foundations only, and
+  could offer a Unique card.
+- Fixed: a card that removes itself when it leaves your card pool was discarded
+  instead.
+- Fixed: a card that rebuilds itself face down committed when cleared during
+  your Combat Phase went to the discard.
+- Fixed: an attack that removes itself the fourth time it is played in a turn
+  never did.
+- Fixed: "if you would mill 1 or more cards, mill that many plus 1 instead"
+  did nothing.
 
 ## 0.0.1
 

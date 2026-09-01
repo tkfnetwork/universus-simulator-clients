@@ -29,6 +29,19 @@ The version you are running is written in the corner of the main menu.
   foundation bought nothing.
 - Fixed: the same misreading on seven more cards. Some lost the bonus outright,
   some gave away only half of it.
+- Fixed: counters with a two word name were never placed. King Ghidorah and
+  Devil Gene counters went missing, so every card reading them found nothing.
+- Fixed: a card that removes itself "with a counter on it" dropped the counter.
+  The counter is the mark used to play the card back out of the removed pile.
+- Fixed: a card drained at the start of the End Phase waited for a counter it
+  was supposed to place itself, so it sat in the pool forever.
+- Fixed: counters added to a card in your rival's stage went onto your own
+  card, and your rival's screen never drew the badge on the card carrying it.
+- Fixed: the win condition counting your rival's foundations ignored whether
+  they carried counters, and could win the game off an ordinary board.
+- Fixed: spending a counter to pay a cost left the old number on the card.
+- Counter badges are coloured for every counter in Standard. Seven were drawn
+  white.
 
 ## 0.0.1
 

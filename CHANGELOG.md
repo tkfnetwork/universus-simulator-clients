@@ -271,6 +271,171 @@ The version you are running is written in the corner of the main menu.
   draw counts.
 - Fixed: Dance of the Phoenix froze nothing unless the rival had 10 or more
   foundations.
+- Fixed: The Intensity of Mikasa Ackerman and This Is My Chance!! never applied
+  their bonus. Both ask about the only attack in your card pool, and neither is
+  an attack itself.
+- Fixed: The Intensity of Mikasa Ackerman gave no damage. Its bonus equals the
+  attack's printed speed, up to 6.
+- Fixed: Ocean Buddies gave your rival no card at all unless you had played a
+  Roman Cancel ability. The Roman Cancel only turns their card face down.
+- Fixed: April O'Neil, High School Reporter let you pick the branch. The milled
+  card's check value picks it.
+- Fixed: April O'Neil, High School Reporter drew a card without the review it
+  charges for.
+- Fixed: Coup de Chevalier offered its whole menu on every commit, so one attack
+  could take the same branch three times.
+- Fixed: Robert never offered the hand discard that stands in for momentum on
+  its Powerful ability.
+- Fixed: Commander's Rage took a Wall counter whether or not you used it to pay
+  for Powerful. It is an offer, not an order.
+- Fixed: Wingnut, Mechanical Genius gave the sealed foundation straight back. It
+  seals it again at the beginning of your rival's turn.
+- Fixed: Secretary of Defense re-sealed every foundation sealed that turn rather
+  than the one it named.
+- Fixed: Acceptable Losses and Pact of Wrath never charged the health they offer
+  to lose, so the bonus counting it was always zero.
+- Fixed: Pact of Wrath made your rival spend momentum whether or not you lost the
+  health that pays for it.
+- Fixed: Cull the Weak drained the backup being attacked rather than the one you
+  chose.
+- Fixed: Shinobi Prodigy never slowed the next attack.
+- Fixed: Keg never took the attack aimed at another backup.
+- Fixed: Heaven or Hell turned no card over, and offered your whole discard pile
+  instead of a copy of the card revealed.
+- Fixed: Cammy, Covert Chameleon never made its check, so it never flipped and
+  committed after being attacked.
+- Fixed: Memory Upgrade gave you nothing. You now take the first Enhance of the
+  attack it responds to.
+- Fixed: A Gift Returned offered your whole discard pile rather than cards with a
+  check value of 6.
+- Fixed: Around the World offered your whole discard pile rather than the two
+  cards it names.
+- Fixed: Uraotogi Expertise offered any foundation rather than one sharing three
+  symbols with your character.
+- Fixed: Canister Creation Strike offered any foundation rather than one at the
+  printed difficulty it works out.
+- Fixed: Leatherhead, Eager Expat added two cards to your rival's card pool
+  whether or not they had ten foundations.
+- Fixed: Caleb Widogast, Fiery Transmuter offered your whole discard pile. It
+  returns a Spell card with the same difficulty as the one you discarded to pay
+  for it.
+- Fixed: Shroom-Shooter put both Mushroom counters on itself instead of the two
+  foundations you choose.
+- Fixed: Splitgill Lung Strike put its counter on itself rather than on the card
+  you pick in either player's stage.
+- Fixed: Gunslinger's Focus let you block with any card in hand, but that block
+  was worth nothing. It now carries the +2 mid block modifier it prints.
+- Fixed: Itsuka Kendo's hand size was cleared before your own draw step, so it
+  never lasted until the end of your next turn.
+- Fixed: an empty window stopped auto-passing when priority arrived before your
+  rival's board had finished loading.
+- Fixed: a card rebuilt to keep the two boards in step was counted by a zone
+  that never drew it, so it was invisible on your side.
+- Fixed: leaving a game while a mill was still on screen left the milled card
+  out of the discard pile shown to you.
+- Fixed: "cancel it" did nothing. Forty-two cards print it, and the ability they
+  answered went on to resolve in full. High-Speed Dodge, Drive Parry, "Strange
+  Energies" and the rest are now offered the moment your rival plays an ability,
+  before its effects happen.
+- Fixed: Lock and Load's Blitz never cancelled the first enhance your rival
+  played during the attack.
+- Fixed: a response written "after your rival plays a Blitz ability" or "after
+  your rival plays an enhance ability" was offered to the wrong player during
+  your rival's attack.
+- A cancelled ability has still been played, so its cost stays paid and it
+  still counts against what can be played this step.
+- Fixed: Dexterous Assault and Vagrant Truthseeker never let you change the
+  block zone of the card you had just played as a block. You were never asked,
+  and the block was scored against the zone printed on the card.
+- Fixed: Invisible Infiltration gave the removed foundation back one attack
+  late, and not at all if the turn ended first. A dropped attack does not
+  resolve, so it no longer gives it back at all.
+- Fixed: Weathered Fury's delayed health loss was paid at the same wrong moment.
+- Fixed: The Apathy of Annie Leonhart committed itself and bought nothing. Click
+  it during the Block Step to block with it.
+- Fixed: blocking with a backup from your stage left your rival's screen showing
+  the card in two places.
+- Fixed: Twin Twains never made your rival add a second option to their
+  Diplomacy card's ability.
+- Fixed: Dragon of the Darkness Flame's discard from hand paid the Powerful cost
+  but counted for none of the damage, and only ever spent one card of the three
+  it prints.
+- Fixed: an attack keyword with an alternative cost was hidden entirely when
+  your momentum was empty, which is the board those cards are printed for.
+- Fixed: Rock'n Roll Circus did nothing at all. It never offered to change its
+  own block zone, and its damage bonus counted no block zones, so it was always
+  +0. Changing the zone is what adds a zone to your card pool for it to count.
+- Fixed: Ling Xiaoyu's Enhance counted no block zones either, so it added no
+  damage.
+- Fixed: the middle block zone counted as two zones, because some cards print
+  it as "middle" and others as "mid". Ling Xiaoyu's draw could be taken with
+  only two real zones in your card pool.
+- Fixed: a face down card in your card pool counted as a block zone. A face
+  down card has no printed properties.
+- Fixed: nineteen abilities that print what to sacrifice took the card they are
+  printed on instead. Bite and Claw and Horseback Charge spent the attack
+  itself, and William Anderson III spent the character.
+- Fixed: a Power token price now spends a Power token. Thirteen abilities read
+  it as sacrificing themselves, Cybertronic Weaponry among them.
+- Fixed: "Sacrifice 1 ready foundation" no longer accepts a committed one, and
+  the face up and face down prices each check the facing of the card you pick.
+- Fixed: "Sacrifice 1 Titan backup" now requires a Titan.
+- Abilities whose price cannot be paid are no longer offered.
+- Fixed: "after this attack receives a speed bonus of 3 or greater" now reads
+  the bonus it was given rather than the total the attack is carrying. Fa Jin
+  Flurry fired on three separate +1s, and Third Wielder: Fa Jin never fired at
+  all.
+- Fixed: Shin Hashogeki's damage threshold was dropped entirely, so it fired on
+  a bonus of +1.
+- Fixed: Predatory Bite healed 0. It reads the sacrificed backup's remaining
+  stamina, which was never recorded.
+- Fixed: Destoroyah Emerges and Standing Tall sacrificed no Power tokens and
+  ignored "with difficulty X", so they could destroy or build any foundation.
+  You are now asked what X is and the target must match it exactly.
+- Fixed: Izuku Midoriya, On the Move's second Form committed the character
+  instead of X foundations. X is 3 minus the face down cards in your card pool.
+- Fixed: Tinker's Touch always granted Powerful, and at rating 2. It offers
+  EX: 2, Powerful: 3 or Stun: 1, and you now pick.
+- Fixed: Desperate Plea always built face up. You are now asked face up or face
+  down.
+- Fixed: Merciless Lead always removed from both decks. You now choose which
+  players it hits, including neither.
+- Fixed: Healing Spell gave the stamina to the first backup in your stage. You
+  now choose the backup.
+- Fixed: Horn Dash Hammer added its counter to the first card carrying one. You
+  now choose the card, in either stage.
+- Fixed: Soothing Grog's Rage treated your rival's character as a target at any
+  counter count, and preferred it over every other card. The printed threshold
+  of 4 is now enforced and you choose the card.
+- Fixed: Jet Uppercut took the first 4 cards in your discard pile. It is "up to
+  4" of your choice, and its damage bonus counts the non-attacks you picked.
+- Fixed: cards that pick from your rival's discard pile showed you your own pile
+  instead. Devour Your Power, Sins of the Past, Joining the Fight, Invite Hell,
+  Malicious Assault, Vanishing Storm and Disintegration removed nothing at all
+  whenever your rival's pile held more than one card they could take.
+- Fixed: Jet Haymaker and Immense Showdown always used your own discard pile.
+  They read "a player's", so you now choose whose, and they no longer ask how
+  many: the count is printed.
+- Fixed: Krista Lenz only put a card back from your own discard pile, and picked
+  it for you. It reaches both piles now, and you choose the card in each.
+- Fixed: Special Report offered your rival's discard pile only when your own was
+  empty. You now choose the pile and the card.
+- Fixed: Trickster's Blessing took the last card of your own discard pile, and
+  your rival's screen never saw the move at all.
+- Fixed: Decompose removed cards from your rival's discard pile on your screen
+  only. Your rival kept holding them.
+
+- Fixed: Disciplined Maneuver and Eren Yeager removed nothing at all unless
+  your discard pile held the whole count they name. They now remove what is
+  there, and Disciplined Maneuver's damage counts the cards that moved.
+- Fixed: Bladed Uppercut never raised its own EX rating, and Gargantuan Grapple
+  raised nothing. Raising every keyword rating reached Powerful and Stun only.
+- Fixed: a keyword rating printed at 0 was read as no keyword, so Gargantuan
+  Grapple's Breaker 0 and Stun 0 could not be raised.
+- Fixed: Training Todoroki's damage read four of the six rated keywords and
+  ignored any rating another card had raised.
+- Fixed: a raise to Powerful, Stun or EX was dropped, so Gas Propellant and
+  Appendage Onslaught did less than they printed.
 
 ## 0.0.1
 

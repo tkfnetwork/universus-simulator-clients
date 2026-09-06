@@ -437,6 +437,97 @@ The version you are running is written in the corner of the main menu.
 - Fixed: a raise to Powerful, Stun or EX was dropped, so Gas Propellant and
   Appendage Onslaught did less than they printed.
 
+- Fixed: searching your deck laid the results out past the top and bottom of
+  the window with no way to scroll, so the first and last rows could not be
+  read or clicked. The results scroll now and the panel fits the window.
+- Fixed: Sacrifice for the Cause discarded the card and added no damage. Its
+  "X equals the block modifier of the discarded card" read the cost's cards
+  after they had already been handed on, so X was always 0. Dash toward
+  Disaster, Genkai and Borrowed Energy read the discarded card the same way.
+
+- Fixed: 409 cards carried none of their printed keywords. Cards that print
+  their keywords in the stat line rather than the keyword list had no Fury, no
+  Punch and no Weapon as far as the game was concerned, so blocking
+  restrictions, triggers and "for each Fury attack" all answered off the wrong
+  half of the card.
+- Fixed: a keyword a card only grants under a condition was read as a keyword
+  it prints. On 51 cards, including Blizzard Rush and Kamuriyuki, the granted
+  rating applied unconditionally.
+- Fixed: Bakugo's Gauntlet raised every one of its keyword ratings instead of
+  the one you pick, and never asked. It prints "1 of".
+- Fixed: the keyword rating prompt offered Powerful, Stun and EX only, and
+  skipped any keyword the attack prints at 0. Bakugo's Gauntlet was offered two
+  keywords it does not carry and neither of the two it does.
+- Fixed: Nature's Tempest chose your foundations for you, keeping the first of
+  each name, and flipped only your own board. You now pick which copies stay
+  face up and how many, and both players see the flips.
+- Fixed: Jet Jaguar built the first foundation in each discard pile rather than
+  one you name, and the rival half took a card off the top of their deck
+  instead.
+- Fixed: a bonus printed with a condition on it was given off any board at all.
+  Annie Leonhart, Awakened, The Curiosity of Armin Arlert, Nott's Flask, Evil
+  Aura and Jin Kazama.
+- Fixed: eleven abilities that print an "If ..." and then a payoff paid the
+  payoff regardless of the board. Among them Welcome To Space Land counting
+  face down foundations, Xilien Agent asking whether your rival is at Deadlock,
+  Megalomania counting sealed cards, "Big Sister" of 1-B comparing hand sizes
+  and Master of Wind asking whether it is your only attack.
+- Fixed: Rifle Arm added both of the speed changes it offers instead of one.
+- Fixed: Positional Advantage checked whether it was your only attack and then
+  did nothing. Its payoff, your rival returning a foundation to their hand, was
+  never carried out.
+- Fixed: face down foundations were not counted as foundations. Nineteen checks
+  were affected, Deadlock among them, so a stage built face down was invisible
+  to all of them.
+- Fixed: sacrificing a face down foundation did not count as sacrificing a
+  foundation, so nothing waiting on a sacrifice was paid.
+- Fixed: Thunder Spear trimming its own third copy was announced as a sacrifice.
+  It is destroyed, and the sacrifice paid every ability waiting on one.
+- Fixed: counts of printed difficulty on foundations read the hidden face of
+  face down cards.
+- Fixed: "build it" built the card printing the ability instead of the card you
+  had just played, blocked with or checked. Rapid Rescue, Creative Counter,
+  Nejire Hado (II), Size Specialist, Bishop, Donatello, Izuku Midoriya,
+  Younger Toguro, Beast Titan and Radiant Pegasus Bomb.
+- Fixed: gates that count what has already happened counted nothing, so the
+  reward was handed over on any board. Jean Kirstein counting cleared cards,
+  War Hammer Titan counting sacrifices, Change of Plans counting blocks,
+  Lethal Slash and Smoke-Screened Ambush counting cards played, Tempest Demon
+  God Fist counting momentum spent, Rooftop Rumble and Rinku counting commits,
+  Hange's Thunder Spear Strike and Rabbit Finesse counting destroyed
+  foundations, and Cornered Dagger Master watching the discard pile.
+- Fixed: "If you did" paid out whether or not you did it. Armin Arlert,
+  Scared Strategist and Vex, Siren now pay on either half of the choice they
+  offer, and Meeting Hange, Battle for Dominance, Wielding One For All and
+  Midnight (II) read what the operation actually touched.
+- Fixed: rewards waiting on a check that had not been made yet were paid
+  immediately. SpaceGodzilla and Twisted Reflection now wait for your rival's
+  check, and Funky Breath waits for your block to fail.
+- Fixed: "destroyed by a rival effect" paid out for a foundation you destroyed
+  yourself. Bright-Eyed Dreams, Marco's Potential, Binding Mr. Aizawa, Threat
+  Neutralized and Armored Car Hercules, the last of which never fired at all.
+- Fixed: Hange Zoe's +2 speed for committing a backup was never applied.
+- Fixed: Titan Swarm was 3 cheaper on every copy, not only the second try.
+- Fixed: Sky Dominance cleared whatever attack it found. It now waits for your
+  next high attack to deal damage and offers the clear.
+- Fixed: Mystic Recovery did not return the 3 cards it prints.
+- Fixed: Rule Acquisition #111 never offered to put the card on the bottom of
+  your rival's deck, and April's Investigation reordered your own deck rather
+  than theirs. Both now show you the cards you looked at.
+- Fixed: Clearing the Way was discarded when cleared during your Combat Phase
+  instead of being built face down committed.
+- Fixed: "X, or Y instead" applied both halves. Scanlan Shorthalt, Terraforming
+  Cannon, Scouting Skirmish and Rabbit Finesse each paid the base and the
+  replacement together.
+- Fixed: Mei Hatsume (II) discarded and drew even when you took the speed bonus.
+- Fixed: Best Served Cold recovered the top card of your deck instead of the
+  foundation your rival had just committed.
+- Fixed: "put the rest back in any order" put them back in the order they came
+  off the deck. Willy Tybur's Sacrifice and United Front now let you name it.
+- Fixed: face down cards in a stage counted as copies of a named card. Ice Sword
+  Execution committed them, and Momo Yaoyorozu (III) refused to build a card the
+  stage already held face down.
+
 ## 0.0.1
 
 - First alpha build.

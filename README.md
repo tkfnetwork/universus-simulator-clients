@@ -8,20 +8,20 @@ You will need a [tcgs.io account](https://tcgs.io?game=universus) and a deck of 
 
 | Platform | File | Size | Built (UTC) |
 | --- | --- | --- | --- |
-| linux | [linux.zip](linux.zip) | 69 MB | 2026-09-06T22:05Z |
-| macos-arm64 | [macos-arm64.zip](macos-arm64.zip) | 69 MB | 2026-09-06T22:06Z |
-| macos-x86_64 | [macos-x86_64.zip](macos-x86_64.zip) | 73 MB | 2026-09-06T22:06Z |
-| windows | [windows.zip](windows.zip) | 79 MB | 2026-09-06T22:05Z |
+| linux | [linux.zip](linux.zip) | 69 MB | 2026-09-07T10:00Z |
+| macos-arm64 | [macos-arm64.zip](macos-arm64.zip) | 69 MB | 2026-09-07T10:01Z |
+| macos-x86_64 | [macos-x86_64.zip](macos-x86_64.zip) | 73 MB | 2026-09-07T10:01Z |
+| windows | [windows.zip](windows.zip) | 79 MB | 2026-09-07T10:00Z |
 
 macOS comes as two downloads, one per processor: **macos-arm64** for Apple Silicon, which is every Mac from late 2020 onwards, and **macos-x86_64** for an Intel Mac. If you are not sure, the Apple menu, then About This Mac, names the chip.
 
 Check a download against what was built:
 
 ```
-8afafbca8ef0e81ece14f6bb23dd73969c543e51818ef7d592c7846203176443  linux.zip
-0d687726735ff33d953bf96de825284aefb22cc7191c91680617679603e61b2c  macos-arm64.zip
-ba4d81641daf00dac54ceeea19487293ae0af37d7b77deac19b4bfa2e4e52bc3  macos-x86_64.zip
-b9acd8f43e9f5954d7613a23056d228ca5d8f881adf5a5229ec05916b1e23a5a  windows.zip
+df6e07db38df57ad97e681fdaf2e523862778cc7de5bf1730556f406d428ee1c  linux.zip
+c07fda125fddfd157f182a102712fc7682bcdcb2c1814eac26273635c39f54df  macos-arm64.zip
+bd10bc5b1789ae90a1027665cdcdbcacfebb8a71365df78ad1b633eebb795063  macos-x86_64.zip
+8e6b319d53ead992772231897e86a5ef9c396f70f031a460169d449b444a00d0  windows.zip
 ```
 
 ## What is in these builds

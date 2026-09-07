@@ -527,6 +527,63 @@ The version you are running is written in the corner of the main menu.
 - Fixed: face down cards in a stage counted as copies of a named card. Ice Sword
   Execution committed them, and Momo Yaoyorozu (III) refused to build a card the
   stage already held face down.
+- Fixed: Wide Awake unsealed itself and sealed itself straight back, so it did
+  nothing. It now unseals one of the cards your rival sealed.
+- Fixed: "commit 1 of them" offered every rival foundation instead of the ones
+  the ability named. Affects Secretary of Defense and Mai Fighting Style, whose
+  commit and freeze can no longer land on two different foundations.
+- Fixed: Secretary of Defense's second ability could never trigger, because
+  committing a rival's foundation raised no event to respond to.
+- Fixed: responses to your rival committing foundations, discarding in combat or
+  spending momentum were never offered. Affects Brad Boimler, Marshall Law,
+  Stun-Baton Thrust, Shock-Baton Jab, Rokuyukai Huddle, Aerial Recon and Pact of
+  Wrath.
+- Fixed: "due to your effect" and "due to this attack's Stun ability" fired when
+  your rival committed foundations to pay their own costs. The cause is now
+  checked, so Stun-Baton Thrust and Shock-Baton Jab size their bonus from the
+  foundations their own Stun took.
+- Fixed: Acrobatic Style responded to your own flips and commits and never to a
+  rival foundation committed by your effect.
+- Fixed: responses to one of your own foundations being committed by a rival
+  effect were offered to your rival instead of you. Affects Battle Aura, Battle
+  Plan, Break the Spell, Busy Eating, Counselor of Plants, Dungeoneering Armor,
+  Hidden Motives, Holding Out Hope, Seasoned in Hardship, Stealth and Cunning
+  and Warden's Protection.
+- Fixed: responses to your rival gaining or losing health were offered to your
+  rival. Affects Spring into Action, Harness Undeath, Ready to Go and Survival
+  of the Fittest.
+- Fixed: responses that name your own board fired on your rival's instead.
+  Affects Alisa Bosconovitch, Lars Alexandersson, Rebellion, Yggdrasil Rebel
+  Leader, Blood Talon, Phoenix Stance, Jaguar Sprint, Nina Williams and
+  Outmaneuver.
+- Fixed: Survey Mission, Hopelessness, Asuka Kazama and Jaw Titan Attacks!
+  answered their event on the wrong side of the board.
+- Fixed: Best Served Cold answered your rival committing their own foundations
+  rather than yours being committed by their effect.
+- Fixed: Own Free Will fired on foundations you destroyed or spent yourself.
+- Fixed: building a card opened the response window on both players at once,
+  which could stall the End Phase. Affects Anti-Mutant Neutralizer, Fungus Among
+  Us, Kindhearted and Nott's Flask.
+- Fixed: abilities that answer your rival's Ready Step were offered to the wrong
+  player. Affects Chu and Imprisoned.
+- Fixed: an instruction printed "after this attack resolves" ran the moment the
+  ability was played instead. Colossal Detonation destroyed every foundation in
+  both stages at the Blitz Step, Propelled Kick, Inverted Cut and Sniper's Combo
+  cleared the attack out of the pool it was still resolving from, Gator Roll
+  flipped the attack mid-sequence, Electric Moth readied your character early,
+  and Trinket returned itself to your hand early.
+- Fixed: those instructions no longer fire at all when the attack is dropped.
+- Fixed: an instruction printed at a phase boundary ran the moment the ability
+  was played instead. Extra Rations discarded the 2 cards it had just drawn,
+  Cute Host Koto drew its 3 cards a whole Combat Phase early, Rushing Intercept
+  was cleared from the card pool before it could build itself out of it, and
+  Cage of Hell moved itself to your momentum twice.
+- Fixed: Loot Box took back the wrong card. "That card" is the one it built, and
+  it was read as the card that triggered the ability, which an Enhance has none
+  of, so nothing came back at all.
+- Fixed: Happy Chaos never offered the card it looked at. It now shows the top
+  card of your deck once the attack deals damage, and offers your hand, your
+  momentum or neither.
 
 ## 0.0.1
 

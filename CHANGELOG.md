@@ -584,6 +584,89 @@ The version you are running is written in the corner of the main menu.
 - Fixed: Happy Chaos never offered the card it looked at. It now shows the top
   card of your deck once the attack deals damage, and offers your hand, your
   momentum or neither.
+- Fixed: seven cards printed "you may" over an action the game took for you
+  anyway. This Is My Chance!! cleared the attack the rest of the card was
+  buffing, Armin Arlert, Power of the Colossus discarded from your hand for its
+  draw, and Electric Shock flipped your attack over. Each now asks, in the
+  card's own words.
+- Fixed: twelve cards lost the ceiling printed on their own count. "(max. 5)"
+  was cut off with the sentence, so Breach the Perimeter scaled with your whole
+  momentum pile, Hitch Dreyse and Battle Aura Release with your whole stage, and
+  Pizza Party with everything in play. Revelatory Speech and Storm Bringer
+  healed 1 instead of up to 4.
+- Fixed: This is Freedom paid nothing. Its X counted the foundations it had just
+  committed, and the count was refused before it was read.
+- Fixed: Suzuki Flurry's cap now comes from the card rather than the engine, so
+  the exemption for a Suzuki character still lifts it.
+- Fixed: seven cards printed "for each" and acted once whatever the board held.
+  Armored Titan, Finale gave +1 damage rather than one per card type in your
+  stage; Rebuilt Forces took 1 off your rival's check rather than one per backup;
+  Mt. Lady (III) and Mechanical Legion scaled with nothing.
+- Fixed: Heartbeat Surround and Spirit Charged Kick count a property of an attack
+  that has not been played yet, so the bonus now waits for the attack and is
+  worked out when it arrives.
+- Fixed: Upward Rai-Kou Ken clears one card per momentum spent on Powerful, up to
+  three, rather than exactly one.
+- Fixed: three cards that buy an ability by committing Power tokens committed
+  themselves instead. Brutal Bite, Corona Beam and Defiant Roar now spend the
+  tokens, and Brutal Bite and Corona Beam pay out per token spent rather than
+  once.
+- Fixed: a committed Power token stayed committed for the rest of the game. It
+  readies with the rest of your cards.
+- Fixed: Mollymauk Tealeaf, Carnival Hooligan sealed 1 rival foundation however
+  many cards it revealed.
+- Fixed: "each player commits 1 foundation" turned your own foundation face down
+  instead of committing it, on four cards. A face down foundation loses its
+  abilities and symbols; a committed one readies again next turn.
+- Fixed: "for every N" paid once per card instead of once per group of N, on
+  four cards.
+- Fixed: three cards that commit rival foundations for each attack in your card
+  pool committed exactly 1, whatever the pool held. King, The Beautiful Kick's
+  Illusion, Nejire Flood and Over the Shoulder Reverse.
+- Fixed: Covert Black-Ops Arms landed its bonus on the attack in flight, for any
+  attack. It now waits for your next Ally or Weapon attack and counts your
+  rival's foundations.
+- Fixed: Toru Hagakure (II) gave its rival's block modifier the flat +1 and not
+  the extra +1 per 4 foundations.
+- Fixed: attacks in your card pool, Kick and Punch cards in it, and cards in
+  your discard pile were counted as none.
+- Fixed: "non-Throw attack" applied to Throw attacks as well on six cards. Armin
+  Arlert, Power of the Colossus; Lady Kima of Vord; Endlessly Doting; "An
+  Embarrassment of Dooplers"; Kick Start My Heart; and Levi Ackerman, Humanity's
+  Strongest Soldier.
+- Fixed: an attack granted Throw now counts as a Throw for those cards.
+- Fixed: Lady Kima of Vord read the size of your card pool instead of half the
+  preceding attack's printed difficulty.
+- Fixed: Yasha Nydoorin, Orphanmaker paid +0 damage whatever its Rage counters
+  said.
+- Fixed: "your non-Tech, non-Weapon attack" only checked the second exclusion, so
+  a Tech attack took the bonus on Ryu, World Warrior and Baek Yoonho.
+- Fixed: the printed "non-Unique" exclusion was dropped on Zeke, Beast Titan;
+  The Beast Titan's Rock Barrage; Death Rattle; Momo Yaoyorozu (III); and Jet
+  Somersault Kick, so each could reach the one card the card rules out.
+- Fixed: "build 1 foundation from your hand" ignored the printed type and
+  offered attacks and actions as well, on twenty cards.
+- Fixed: a printed type in front of the build was dropped, so Armored All Might,
+  Armored Car Hercules, Curious Tea Preparation, Enchanted Weapon Attack, Quest
+  Board, Hunter's Ally and Wingnut, Mechanical Genius built any card instead of
+  the Armor, Party, Weapon, Ally or Tech card printed.
+- Fixed: a build printed "committed" came in ready on Disciplinary Action,
+  Threat Neutralized, Own Free Will, Jet Somersault Kick and Shun'ei, Amped-Up
+  Illusionist, so the cost was never paid.
+- Fixed: Kuwabara, Spirited Warrior built any foundation instead of one sharing
+  2 or more symbols with your character.
+- Fixed: The Attack Titan Emerges built any card in the discard pile instead of
+  one cheaper than the card its cost sacrificed.
+- Fixed: Replicator Enthusiast built twice.
+- Fixed: 30 abilities that name a ready, committed, face up or face down card
+  ignored the word and could take any card in the zone.
+- Fixed: Recall from your card pool and recall from a stage to hand never
+  received their printed restriction at all.
+- Fixed: Cancel offers that charge a face up sacrifice let the rival pay with a
+  face down foundation, and counted prices they could not pay.
+- Fixed: "1 ready face up foundation" kept only the first of the two words.
+- Fixed: Two spellings of face down, so No-Mercy Percy let the rival sacrifice
+  a face up foundation.
 
 ## 0.0.1
 

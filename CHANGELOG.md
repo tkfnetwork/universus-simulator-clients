@@ -667,6 +667,91 @@ The version you are running is written in the corner of the main menu.
 - Fixed: "1 ready face up foundation" kept only the first of the two words.
 - Fixed: Two spellings of face down, so No-Mercy Percy let the rival sacrifice
   a face up foundation.
+- Fixed: 9 abilities that ready, commit, seal or search for a card of a named
+  difficulty ignored the number and could take any card in the zone.
+- Fixed: 6 abilities printed for an attack or card of a named difficulty
+  applied to every attack, including Strong Windup and Hange Zoe.
+- Fixed: Beast Summoning could ready a foundation it had already readied that
+  Combat Phase.
+- Fixed: Desperate Sabotage added every milled card to hand instead of only
+  the backups.
+- Fixed: 5 abilities printed for an attack of a named speed or printed damage
+  applied to every attack, including Chase Down, Dual Handguns and Exploit
+  Weakness.
+- Fixed: Creative Counter and Blueflame Surge ignored the keyword their trigger
+  asks for and fired on any block.
+- Fixed: Where All Paths Converge never asked for a keyword and added every
+  milled card to hand.
+- Fixed: Time for Rest named no keyword and its -2 speed reached no attack.
+- Fixed: Horseback Charge, Sen-Siss Hou and Lars Alexandersson promised to build
+  the next foundation you play and built nothing when its check failed.
+- Fixed: Rebellion never changed the zone of the next attack.
+- Fixed: Aerial Kikosho never replayed itself from your card pool, and its -2
+  difficulty was not applied to the check that play makes.
+- Fixed: prompts aimed at a card pool highlighted no cards, so there was nothing
+  to click.
+- Fixed: an attack played from outside your hand was turned face down afterwards
+  as though it had Echo.
+- Fixed: Mischievous Doodler, "I Would Like to Rage!", Hates Lectures, Kamuriyuki
+  and Frightening Calm granted their keyword without its rating, which is the
+  same as granting nothing.
+- Fixed: Thoughtful Classmate, Shortcake Admirer and Big Fist Bash offered your
+  whole card pool instead of the middle or high attack they name.
+- Fixed: Weapon at the Ready, Sasha Blouse, Revive Ally, Nejire Hado (II),
+  Mutant Mash-Up and Gifts from Splinter offered your whole discard pile
+  instead of the card type and difficulty they name.
+- Fixed: Arrogant Smirk recalled any card from your card pool rather than a
+  Fury attack.
+- Fixed: Demon Plants let any card in your card pool skip progressive
+  difficulty rather than an Ally attack.
+- Fixed: Anti-Titan Artillery took stamina off any backup rather than a Titan
+  one.
+- Fixed: 80% Power built your rival's cards ready instead of committed, and
+  Audio Reverberation let them give up any foundation rather than the committed
+  or ready one it names.
+- Fixed: Godzilla, Titan of Terror, Oxygen Destroyer and Sung Jinwoo armed a
+  flashback with no restriction at all, so the top of your discard pile was
+  playable whatever it was.
+- Fixed: twelve attacks that buff themselves were played at their printed
+  numbers whatever the board said. Timely Counterattack, War Hammer Titan's
+  Bolt, Hange's Thunder Spear Strike, Combination Blast, Demonic Catastrophe,
+  Desperate Slash and six more now pay what they print.
+- Fixed: thirty-two conditions that count a card type in a zone could never be
+  true, so the cards read as gated and played with the sentence deleted. Brave
+  Volunteers, Izuku Midoriya, Deku, Raphael's Sai, Let's Stay Out and Caduceus
+  Clay are among them.
+- Fixed: Sleepyhead gave its first +1 damage even after your rival had lost
+  health.
+- Fixed: Suggestive Spell drew a card off any attack in your rival's discard
+  pile rather than ten.
+- Fixed: Treasure Hunting made you discard even with your rival's discard pile
+  fifteen deep.
+- Fixed: Mighty Blitz asked for a high or middle attack in your card pool and
+  counted neither.
+- Fixed: Brad Boimler, Acting Captain committed a foundation from each player
+  with no attacks in either card pool.
+- Fixed: Behemoth Typhoon took two of your rival's foundations for any check,
+  not one you paid three cards to pass.
+- Fixed: Tuning In gave +3 damage without six keywords in your card pool.
+- Fixed: Aizen Festival Swing made you discard while you held a Heat token.
+- Fixed: Scaling Heights gave +1 damage to attacks of any printed speed.
+- Fixed: Chorus of a Thousand Skulls gave +2 to the check on the first copy.
+- Fixed: Partners in Crime looked at the top of your deck after any attack, not
+  one sharing two symbols with your character.
+- Fixed: a keyword grant printed at the tail of a longer sentence granted
+  nothing. Draw Your Swords, Nott the Brave, Mollymauk Tealeaf, Titanstone
+  Knuckles, Itsuka Kendo, Big Fist Fury, Net Launcher, Sword of the Darkness
+  Flame and Deleterious Bomb all print a rated Stun they never gave.
+- Fixed: Benimaru and D'Vana Tendi each print a choice between two effects and
+  always took the first. Both arms are now offered.
+- Fixed: Besiege could be blocked by any card, ignoring its printed block
+  modifier of 3 or greater.
+- Fixed: Grenadier Blast and Bui destroyed themselves instead of the ready
+  foundation the player chooses.
+- Fixed: Night on the Town accepted a backup of any difficulty for a price that
+  names 3 or less.
+- Fixed: Net Launcher committed one card instead of three face up foundations
+  that do not share a name.
 
 ## 0.0.1
 

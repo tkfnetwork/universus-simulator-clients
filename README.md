@@ -8,20 +8,20 @@ You will need a [tcgs.io account](https://tcgs.io?game=universus) and a deck of 
 
 | Platform | File | Size | Built (UTC) |
 | --- | --- | --- | --- |
-| linux | [linux.zip](linux.zip) | 69 MB | 2026-09-08T09:30Z |
-| macos-arm64 | [macos-arm64.zip](macos-arm64.zip) | 69 MB | 2026-09-08T09:31Z |
-| macos-x86_64 | [macos-x86_64.zip](macos-x86_64.zip) | 74 MB | 2026-09-08T09:31Z |
-| windows | [windows.zip](windows.zip) | 79 MB | 2026-09-08T09:30Z |
+| linux | [linux.zip](https://git.kpho.me/cards-games/universus-simulator-clients/raw/branch/main/linux.zip) | 69 MB | 2026-09-08T22:50Z |
+| macos-arm64 | [macos-arm64.zip](https://git.kpho.me/cards-games/universus-simulator-clients/raw/branch/main/macos-arm64.zip) | 69 MB | 2026-09-08T22:51Z |
+| macos-x86_64 | [macos-x86_64.zip](https://git.kpho.me/cards-games/universus-simulator-clients/raw/branch/main/macos-x86_64.zip) | 74 MB | 2026-09-08T22:51Z |
+| windows | [windows.zip](https://git.kpho.me/cards-games/universus-simulator-clients/raw/branch/main/windows.zip) | 79 MB | 2026-09-08T22:51Z |
 
 macOS comes as two downloads, one per processor: **macos-arm64** for Apple Silicon, which is every Mac from late 2020 onwards, and **macos-x86_64** for an Intel Mac. If you are not sure, the Apple menu, then About This Mac, names the chip.
 
 Check a download against what was built:
 
 ```
-b72410c47fee1ffb572b067140ad02564a69e9217c0722655001c290436b4776  linux.zip
-9247a6b909a157b98c0e76ed125a0af8569a3450aa7b31ef783475ab50040eab  macos-arm64.zip
-8b95042b3034466b60e69da7c7a92a6874d3b1976d87e1b286c6b22892794acc  macos-x86_64.zip
-0f4953b3360a34559f942cb4a4ba6202da6563bc242c9a4d950911313b7f83ec  windows.zip
+ac1144695fb3904b0f9c02c729310274477bebb426346d8b10b963e3ac3e86ff  linux.zip
+a5d617733aeff000534e575149887c75e29c9abe3e0a1210b0e154de4d4e90d3  macos-arm64.zip
+11e5dd8cb0807596816d4b7d99392624ba8b9ef4e08ddd8314d5f9aa0c0a782f  macos-x86_64.zip
+4014d4970a3c483b47e9e5ec40236b1ea1304361cf3114cc80280eded9e2f952  windows.zip
 ```
 
 ## What is in these builds
@@ -33,7 +33,7 @@ b72410c47fee1ffb572b067140ad02564a69e9217c0722655001c290436b4776  linux.zip
 | macos-x86_64 | 0.0.2 | 4.7.2.stable.mono.arch_linux.ed1daf0bf | restricted | ALPHA | hosted | default | false |
 | windows | 0.0.2 | 4.7.2.stable.mono.arch_linux.ed1daf0bf | restricted | ALPHA | hosted | default | false |
 
-What changed in each version is in [CHANGELOG.md](CHANGELOG.md). The version a build is stamped with is also written in the corner of its main menu, next to the commit it came from.
+What changed in each version is in [CHANGELOG.md](CHANGELOG.md). The version a build is stamped with is also written across the bottom of its home screen, in the middle, next to the commit it came from.
 
 An `open` build lets anyone play, signed in or not. A `restricted` build is gated by login: it wants a tcgs.io account that has been granted access to this client, and signs everyone else out. A relay of `local only` means the client looks for one on the player's own machine, so that build can only pair with somebody sitting at it; `hosted` means it reaches one over the network and needs no setup.
 

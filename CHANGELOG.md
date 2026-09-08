@@ -2,7 +2,7 @@
 
 What changed in each build of the Universus Simulator client, newest first.
 
-The version you are running is written in the corner of the main menu.
+The version you are running is written across the bottom of the home screen, in the middle.
 
 ## 0.0.2
 

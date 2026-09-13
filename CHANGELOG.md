@@ -752,6 +752,29 @@ The version you are running is written across the bottom of the home screen, in 
   names 3 or less.
 - Fixed: Net Launcher committed one card instead of three face up foundations
   that do not share a name.
+- Fixed: Xilien Invasion and Xilien Agent asked for nothing. Each prints
+  removing a second copy of itself, from your hand or from your stage, on top
+  of removing the card you play, and that second copy was never asked for.
+- Fixed: a price that names a card could be paid with the card printing it.
+  Demonic Catastrophe removed itself for a price that names another copy.
+- Fixed: a face down foundation could pay a price that names a card. Face down
+  it prints no name to match.
+- Fixed: Heat Tackle and Stop and Dash never sealed themselves. Sealing the card
+  is what each one charges for answering, so both could answer again and again
+  for nothing.
+- Fixed: Antidepressant Scale changed the zone of its attack without sealing one
+  of your face up foundations, which is the price it prints.
+- Fixed: Military Airship committed but never froze itself, so it readied at the
+  start of your next turn and could be used again a turn early, every turn.
+- Fixed: Stun-Baton Thrust's blitz never readied a rival foundation. Neither
+  player saw anything happen, and you were never asked which one to ready.
+- Fixed: Heaven-Piercing Ice Wall's enhance drew you a card for free. It is
+  paid for by readying one of your rival's foundations, which never happened.
+- Fixed: Consuming Their Own's enhance gave its attack +4 damage without any
+  backup losing the 2 stamina it charges. You now choose which backup pays.
+- Fixed: Lady Nagant cancelled a rival enhance for a commit alone. The response
+  also charges the top card of your deck, which stayed on your deck instead of
+  going to your card pool.
 
 ## 0.0.1
 

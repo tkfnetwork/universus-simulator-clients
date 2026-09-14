@@ -775,6 +775,93 @@ The version you are running is written across the bottom of the home screen, in 
 - Fixed: Lady Nagant cancelled a rival enhance for a commit alone. The response
   also charges the top card of your deck, which stayed on your deck instead of
   going to your card pool.
+- Fixed: Strategic Meeting never turned over the top card of your deck, and
+  offered to put itself into your momentum rather than the card it revealed.
+  Adding the revealed card to your hand, which needs 3 or more keywords on it,
+  could not be taken on any board.
+- Fixed: Nejire Hado (II) took a Ranged attack back out of your discard pile for
+  free. It charges 3 off your maximum health for the rest of the game, and that
+  is now taken.
+- Fixed: Reiner Braun, Warrior and King Ghidorah, Emperor of the Cosmos both
+  print a way to survive losing the game and return to maximum health. Neither
+  worked, and reaching that point ended the game instead.
+- Fixed: the seven cards that take a keyword off an attack recorded the loss and
+  then went on treating the attack as though it still had it. Fortitude of the
+  Armored Titan, Last-Second Dodge, Raise Walls, Overdrive Uppercut, Wild Wild
+  Pussycats, Double Fists of the Mortal Flame and A Son's Love now all take what
+  they print.
+- Fixed: a keyword given to an attack after that attack had lost its keywords was
+  thrown away instead of being handed back.
+- Fixed: Deflect never worked at all. Adding the card to your card pool is the
+  price of playing it, and that price could not be paid, so no card printing
+  Deflect could play it and the damage it takes off a rival attack never came
+  off.
+- Fixed: an ability printed as [Hand] could only be played off an Action card.
+  Spirit Lollipop, Aerial Kikosho and Cyborg Slap each print one and none of
+  them is an Action, so theirs could never be played, and every card printing
+  Deflect was held back by the same rule on top of its price.
+- Fixed: Beauregard Lionett, Expositor and Not Now, I'm Gaming paid their prices
+  on your screen and not on your rival's. The attack Beauregard discards stayed
+  in your hand over there, and neither the commit nor the flip Not Now, I'm
+  Gaming pays showed up at all.
+- Fixed: an ability printed as [Card Pool] could only be played off the attack
+  you were in the middle of. Potato, Gear Shift, Scanlan's Hand, Slow but
+  Strong and Faultless Defense each print one on a card that is never an
+  attack, so theirs could never be played at all.
+- Fixed: a response printed as [Discard Pile] could never be played. Yeagerist
+  Takeover, Combined Firepower, Phoenix Stance, Twist Reality and Devil's
+  Instincts each print one, and clicking the card where it lay only opened the
+  pile to read it.
+- Fixed: a form printed as [Discard Pile] or [Card Pool] could never be played.
+  Short Work, Demonic Catastrophe, Predator Bardiche, Channel Chaos and Oxygen
+  Destroyer each print one, and a form was only ever offered on a card in your
+  stage or on your character.
+- Fixed: a card that lets you play an attack out of your discard pile offered
+  the whole pile, and then took the card at the bottom of it whatever you
+  clicked. Oxygen Destroyer names the attack it was played off, Godzilla, Titan
+  of Terror a printed difficulty, Shadow Monarch Skill Tree a Shadow Shift
+  attack, Fjord, the Sea's Champion a card by name, and Elder Toguro any attack
+  in the pile. None of them could be taken up at all, because clicking a card
+  in the pile only opened it to read.
+- Fixed: Sword Toss and Hiding Out counted toward progressive difficulty. Both
+  print that they do not, as the last thing their sentence says, and only the
+  speed and the damage they print alongside it were being applied.
+- Fixed: Ibara Shiozaki's second ability exempts your next middle attack from
+  progressive difficulty, and a middle attack was never recognised as one, so
+  the exemption sat there and could never be spent.
+- Fixed: a card that raises one type of your attacks raised nothing. Zeke,
+  Beast Titan gives your Ranged attacks +2 speed and +2 damage, The Prowess of
+  the Survey Corps gives your Weapon attacks +1 speed, and Harlowe, The
+  Gravitar, Sam Rutherford, Devron Racer, Spire of Conflux, Recipro Turbo and
+  Chain Punch: Sheath each name another type. No attack was ever recognised as
+  the type printed, so all of them paid out nothing.
+- Fixed: the same kind of card written against a printed difficulty rather than
+  a type paid nothing either. Godzilla, King of the Monsters, Anguirus, Fierce
+  Dragon and Repay a Debt raise your attacks with printed difficulty 5 or
+  greater, and Sword Skills raises those with printed difficulty 3 or less.
+- Fixed: Faith's Shield gave its damage to neither of the two attack types it
+  names, and Rokuyukai Huddle added nothing to your hand from the cards it
+  milled.
+- Fixed: Vex'ahlia, Resourceful Hunter exempts your next Ranged Weapon attack
+  from progressive difficulty, and only the damage printed alongside it was
+  ever given. An attack named by two printed types now has to be both of them,
+  not either one.
+- Fixed: a price that names which card it takes would take any card in your
+  stage. A cost printed as flipping a foundation could be paid by picking one
+  that was already face down, turning nothing over, and a price for two cards
+  could be paid with the same card twice. 135 cards print a price of this
+  kind, among them Reiner Braun, Warrior and Colossal Confrontation.
+- Fixed: a price asking for an asset could not be paid at all. An asset is
+  neither a foundation nor a backup, and those were the only cards the board
+  would let you pick.
+- Fixed: Falling Heel Strike's enhance was free. It prints a price of unflipping
+  one of your foundations, which was never read, so the +2 speed was given away
+  and could be taken with nothing face down in your stage to turn over.
+- Fixed: a foundation you had already committed could not pay a price that flips
+  a foundation. Which way up a card is and whether it has been spent are
+  separate things, and the same price printed on the card itself never asked, so
+  the board offered the ability and then the click did nothing. 29 abilities
+  choose a card for a price of this kind.
 
 ## 0.0.1
 

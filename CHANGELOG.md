@@ -64,6 +64,9 @@ The version you are running is written across the bottom of the home screen, in 
 - Fixed: the win condition counting your rival's foundations ignored whether
   they carried counters, and could win the game off an ordinary board.
 - Fixed: spending a counter to pay a cost left the old number on the card.
+- Fixed: Destoroyah Emerges and Standing Tall were not sacrificed on your
+  rival's screen when you paid for them with Power tokens. They went on seeing
+  the card sitting on your board after you had spent it.
 - Counter badges are coloured for every counter in Standard. Seven were drawn
   white.
 - Fixed: sixteen Form abilities whose name carried a qualifier in front of it,
@@ -862,6 +865,229 @@ The version you are running is written across the bottom of the home screen, in 
   separate things, and the same price printed on the card itself never asked, so
   the board offered the ability and then the click did nothing. 29 abilities
   choose a card for a price of this kind.
+- Fixed: counters spent from a card came off your board only. Counters are put
+  on by an ability, which both players replay, but paying one away is a price,
+  which travels a different way and had no handler, so your rival went on seeing
+  a card carrying counters it had already spent. Affects Charged counters on
+  Cabal's Ruin and Devil Gene counters on Kazuya Mishima.
+- Fixed: spending a Power token left it sitting in your token pile. The token
+  pays for its own +2 damage by being sacrificed, and a sacrifice moved the card
+  to the discard pile without taking it out of the pile it was in, so one token
+  went on paying that price for the rest of the game. Your rival's tokens
+  behaved the same way on your screen.
+- Fixed: spending a Roman Cancel token left it in the pile on your rival's
+  screen and took a card out of your hand there instead. All four of its
+  colours are paid for by removing the token, and the token pile was the one
+  zone the other player's copy of the board never looked in.
+- Fixed: an ability played from your card pool that pays by flipping the card
+  face down left it face up on your rival's screen, so their board still
+  offered a card that had already been spent. Seven cards print this price,
+  among them Response [Card Pool] Flip abilities.
+- Fixed: an attack or block of yours that your rival sealed stayed sealed on
+  your screen after the attack resolved, so you went without that card's
+  abilities for the rest of the turn while your rival's board had already given
+  them back.
+- Fixed: paying a keyword's cost with something other than momentum changed
+  your own board and nothing else. Scrap Cannon's asset, the counters spent by
+  Grog's Rage and Commander's Rage, the Spell flipped by Spellstorm and Second
+  Wielder sacrificing itself all stayed exactly where they were on your rival's
+  screen, so the price looked unpaid there and their board went on offering
+  cards you had already spent.
+- Fixed: Robert and Dragon of the Darkness Flame pay a Powerful cost with two
+  or three cards from your hand, and the attack's bonus counts every card paid
+  with. Your rival's screen counted one card however many you spent, so the
+  attack did a different amount of damage on each of the two boards.
+
+- Fixed: a card lying face down in a stage is a blank foundation, so it is
+  neither a backup nor an asset. It was still treated as whatever it is printed
+  as: a face down backup could be attacked as a backup, committed as one though
+  a foundation, counted toward abilities that ask how many backups you have,
+  and spent to pay a price that names one. A face down asset paid a price
+  naming an asset the same way.
+- Fixed: a backup lying face down in a stage still showed its green stamina
+  heart, so its number could be read off a card whose face neither player was
+  meant to see.
+- Fixed: "ready 1 foundation" would not ready a face down card. A stage grows
+  face down, so the cards most likely to be committed were the ones these
+  abilities refused, and a card that names a face down foundation outright only
+  worked when the hidden side happened to print Foundation.
+- Fixed: sacrificing a foundation passed over every face down one, so an ability
+  asking for one could find nothing to take, or take a card without letting you
+  choose. A face down card has no printed difficulty, so it can no longer be
+  given up for a price that names a number.
+- Fixed: the count of foundations committed to play an attack left out the face
+  down ones, and your rival's screen counted them a different way again, so the
+  two of you could see the same attack at different speeds.
+- Fixed: a card lying face down in a card pool was still counted as a foundation
+  there. It is a blank card.
+- Fixed: a card lying face down in your card pool could be spent to pay a price
+  that names a type, such as "remove 1 Fury attack from your card pool". A face
+  down card there prints no type at all. Prices that name a face down card, or
+  simply a card, still reach it as before.
+- Fixed: the same card could be picked by abilities that name a type in the card
+  pool, could be copied by an attack that takes the printed speed and damage of
+  another attack there, and could give your attack a type it does not print.
+- Fixed: a card that cannot be played while a named card sits in your card pool
+  was reading that name off face down cards, which print none.
+- Fixed: a face down card in your rival's stage could be destroyed by an
+  ability that names a card type or a difficulty, and was spared by one that
+  passes over unique cards. A face down card in a stage is a blank
+  foundation, so it prints none of those. An ability that simply destroys a
+  foundation still reaches it.
+- Fixed: clearing from your card pool read the hidden face of your face down
+  cards. One could be cleared as an AIR card, as a kick card or as another
+  attack, and was passed over by a clear that asks for a non-attack. A face
+  down card there is a blank card, so it is a non-attack and nothing else.
+  Clears that name a card, or a face down card, still reach it.
+- Fixed: readying, committing or sealing a foundation of a named difficulty
+  read the hidden face of a face down one. Absorbing Pollution, Switch to
+  Vertical Maneuvering!, Keyleth of Air Ashari and Beast Summoning could ready
+  one of yours, and Sand Blast, Utgard Castle Stands and Killing Intent could
+  reach across at one of your rival's. A face down foundation prints no
+  difficulty, so none of these reach it. A price that names no number, like
+  "ready 1 foundation", still does.
+- Fixed: counting cards of a named type or symbol in a stage or card pool read
+  the hidden front of a face down card. Brave Volunteers, A Trinket for Vex,
+  Izuku Midoriya, Let's Stay Out, Caduceus Clay, A Day for Relaxing, Fenthras,
+  Defensive Preparations, Strategy Meeting and Brad Boimler each counted one as
+  whatever it turned out to be on the other side. A face down card prints no
+  type and no symbol, so none of them count it. A face down card in a stage is
+  still a foundation, and anything counting foundations there still counts it.
+
+- Fixed: gates that pair two card types, and everything that counts by NAME,
+  read the hidden front of a face down card in a stage or card pool. Skirmish
+  Line and Hunter's Arrow counted one as an asset or a backup, Ancestral Curse
+  read a printed difficulty off it, Evoking the Wielders and All Might's
+  Armored Punch counted it as a differently named card, Zero Gravity Shot as a
+  high attack, "An Embarrassment of Dooplers" as a Doopler, Sung Jinwoo, E Rank
+  Hunter as a Shadow card, and Kuro Momotaro, May, Zero Satellites and Spirit
+  Uppercut each matched it against a name. A face down card shows no name to be
+  matched and no type to be paired, so none of them count it now.
+
+- Fixed: picking one card out of a zone by where it lies, and then asking it a
+  printed question anyway. Mikasa's Unrelenting Assault and Lady Kima of Vord
+  read the speed and the difficulty of "the preceding attack" off a face down
+  card, King treated one as the Throw attack it follows, Wielding One For All
+  counted blank foundations as differently named Vestiges, an attached
+  character was recognised by name through the back of a card, and a card lying
+  face down in the pool still excused itself from progressive difficulty. The
+  preceding ATTACK is now the nearest one that is showing, and the preceding
+  CARD is still whatever lies in that slot, which face down is no Throw.
+
+- Fixed: a card built face down still handed out the rules it prints. Jarett
+  Howarth made your character a Warrior, Little Mister milled an extra card,
+  Demon's Shaft took 1 off your rival's checks to play non-attack cards, and
+  "I Would Like to Rage!" excused its own first copy from progressive
+  difficulty, all while lying face down with nothing printed showing.
+- Fixed: Jack-8's face down foundations could be frozen and destroyed by your
+  rival. The rule is printed on the character, and only the stage was searched
+  for it.
+
+- Fixed: a card lying face down still answered response windows. The game
+  stopped to offer a window for a blank foundation's printed response, and
+  waited on a face down card as though your rival were holding a cancel.
+- Fixed: an Outwit ability was offered off a card that had been turned face
+  up. Outwit is played only while the card is face down, which is also why a
+  face down card still answers with one.
+- Fixed: an offer you had no way of paying for was still put to you, and
+  taking it handed over the reward for nothing. Reiner Braun got its bigger
+  damage swing with no foundation in your stage to sacrifice, Toothy Bite took
+  2 health off your rival on an empty momentum bar, and Drawing Power drew the
+  extra cards without the Power tokens it charges.
+- Fixed: a price you could only part pay was taken anyway. Dolores, Hidden
+  Wisdom asks for 3 foundations, and with one in your stage she took that one
+  and readied herself regardless. A price is paid in full or the offer is not
+  made at all, and on the cards that print an "Otherwise" that branch now runs
+  instead.
+- Fixed: an offer that came up while another prompt was already on screen
+  answered yes in your name and paid the price for you. It declines now.
+- Fixed: an "If" printed in front of a "you may" was read as a condition on the
+  price alone, so the offer came up even when the card said it should not, and
+  the reward it buys arrived either way. Strategic Maneuver built an asset of
+  any difficulty without discarding for it, and Porco Galliard and Zeke Yeager
+  offered a transformation that had not been earned.
+- Fixed: Strategic Maneuver's "Otherwise" was gated on the same difficulty it
+  is the alternative to, so turning down the discard left you with neither the
+  built card nor the chosen card in your hand.
+- Fixed: Godzilla, Shin Godzilla's Enhance made your rival sacrifice a
+  foundation whether or not the attack dealt damage, and asked you to commit
+  the card before anyone could know whether it had. The offer now waits for
+  the damage it is printed behind, and the sacrifice only follows if you take
+  it.
+- Fixed: six cards printing "seal it" sealed themselves rather than the card
+  they name. Porco Galliard sealed your own character when your rival played a
+  block, Filled with Doubt, Nonagon, Allura Vysoren and Spirit Detective sealed
+  themselves instead of the attack they answer, and Xango sealed itself instead
+  of the card each player had just added to their card pool. White Angel of
+  Death prints "seal this card" and is the one that really did mean itself.
+- Fixed: Pristine Swordplay and One For All: Full Cowling 8% Falling Roundhouse
+  could ready a foundation they had already readied this Combat Phase. Both
+  print that they only reach a card that has not been readied yet, and the
+  other twenty-seven cards printing the same restriction were keeping to it.
+- Fixed: Call of the Reaper readied every foundation in your stage that had
+  not been readied yet. It gives back the cards you committed to pass the
+  check to play the attack, and nothing else.
+- Fixed: Breakin', A Holo Escape, Alone Infection, Recipro Turbo, Monsters of
+  the Deep and Rapid Speed Slash each did both halves of a choice they print as
+  one or the other. You are now asked which one you want.
+- Fixed: Tornado Fist never offered the choice it prints. It always added the
+  top card of your deck to your momentum, and discarding it from your card pool
+  was not on the table at all.
+- Fixed: Queen of the Monsters only drew you a card. It also adds a foundation
+  from your discard pile back to your card pool, which is the larger half of
+  what it prints.
+- Fixed: Strategic Maneuver, Secluded Training Ground, Gifts from Splinter and
+  Collecting Scraps offered you nothing. Each asks for an asset in your discard
+  pile, and an asset was being looked for in the wrong place on the card, so no
+  card ever answered.
+- Fixed: five cards printed two instructions joined by "and" and only carried
+  out one of them. Swift Execution drew a card without banking itself, Holding
+  Out Hope never readied your foundation, Driven by Retribution left your
+  rival's stage alone, Resurrected Titans revealed two cards and discarded
+  neither, and Doty the Automaton could ready itself when it prints "other".
+- Fixed: three cards printed a choice of where a card goes and never offered
+  it. Godzilla vs Gigan always came back to your hand when it also offers the
+  top of your deck, I'm Old, Yusuke put the card in your hand rather than the
+  momentum or deck top it names, and Dagger, Dagger, Dagger could not reach a
+  card sitting in your momentum at all.
+- Fixed: a card asked for by name searched the whole zone instead. Bellow of
+  Rage offered any card in your discard pile rather than the ones with "Rage"
+  in their name.
+- Fixed: Tri Gravity Beam destroyed one of your own foundations to pay for a
+  look at your rival's hand, and then left the hand alone. It prints a card
+  removed from it, and now takes one.
+- Fixed: every attack that destroys a rival asset or backup destroyed nothing
+  at all. Armor Rush, Collateral Damage, Upward Disarming Swing, Luna Ring,
+  Massive Optimal Punch, Titanstone Knuckles, Jaw-Some Solution, Nape Strike,
+  Devastating Loss and To the Grave each name the type they take, and the card
+  they were allowed to take had to be a foundation at the same moment, which no
+  asset or backup ever is.
+- Fixed: To the Grave may only destroy a backup with 4 or less stamina. The cap
+  it prints was not read, so it reached any backup in the stage.
+- Fixed: Destoroyah, Perfect Lifeform destroys 2 rival non-character cards, and
+  could only reach their foundations.
+- Fixed: Unyielding Heat and Heartbeat Surround did nothing at all while they
+  sat in your card pool. Each prints what it does in front of the moment it
+  happens, and only the other word order was being read, so neither one ever
+  had a moment to happen in.
+- Fixed: Besiege and Hedrium Ray turned away the only blockers they allow.
+  Both say they can only be blocked by a card with a printed block modifier of
+  3 or greater, and they refused exactly those cards while letting every
+  smaller block through.
+- Fixed: Nullifying Force did not hold the damage it freezes. It says an
+  attack's damage cannot be modified, and it only stopped the number being
+  reduced, so any bonus still raised it.
+- Fixed: Floch Forster, Yeagerist Leader never doubled anything. The card
+  prints a choice between doubling an attack's damage and reducing it to 0, and
+  both halves were being carried out in that order, so the doubling was always
+  thrown away and the attack landed at 0 either way. You are now asked which
+  one you want.
+- Fixed: an enhance that names which attack it buffs could be played on any
+  attack at all. Titan Training reads "Your Fury or Titan attack gets +2
+  damage" and paid out on a Kick attack just as happily, and forty abilities
+  named a type this way without ever checking it, Solo Pro's Ferocity and Right
+  Flamingo among them. The same sentence written "This Fury or Titan attack"
+  was already checked.
 
 ## 0.0.1
 

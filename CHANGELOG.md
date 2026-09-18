@@ -38,6 +38,33 @@ The version you are running is written across the bottom of the home screen, in 
   pool.
 - Fixed: Abyss Damnation's seal was permanent. It is given back when the attack
   resolves unless you have a Heat token.
+- Fixed: Oxygen Destroyer refused to be played from your discard pile after you
+  had destroyed two of your rival's cards, which is exactly what it asks for. It
+  was counting the cards your rival had destroyed rather than the ones they
+  lost, so your rival destroying two of yours let it through instead.
+- Fixed: Hange's Thunder Spear Strike, Rabbit Finesse and Chucking Cars never
+  noticed a card being destroyed. Each of them asks whether a foundation or an
+  asset has been destroyed, and only one of the ways a card can be destroyed
+  was being recorded, so destroying a foundation the ordinary way told them
+  nothing at all.
+- Fixed: Swagger Step never noticed you readying a card. It asks whether you have
+  readied a card in your stage, and "ready this card", which 45 abilities
+  print, was recorded nowhere. Readying one of your rival's foundations was
+  written down as though the card had been yours, which armed it instead.
+- Fixed: Rooftop Rumble did not see you committing a card. It asks whether you
+  committed a foundation during the Enhance Step, and "commit this card",
+  which seven abilities print, was recorded nowhere, along with three other
+  ways an effect commits one.
+- Fixed: Shoot Style: Knee Smash, The Final Test and Master of a Thousand
+  Faces never noticed a card discarded to pay for something. Each asks whether
+  a card has been discarded, and discarding is the price of 68 abilities, so
+  the commonest way you discard, paying for the very ability that then asks,
+  was recorded nowhere. Milling to pay a price was silent in the same way.
+- Fixed: Interview Specialty and Dorian's Lute never noticed a card being
+  revealed. Both ask whether you have revealed one, and revealing a card to pay
+  for an ability, which is how most reveals happen, was filed under a different
+  question entirely. Revealing a card from your hand, the way Heaven or Hell
+  does, was not written down at all.
 - Fixed: Last-Second Dodge did not remove Throw from the attack.
 - Fixed: Massive Blow did not make your rival flip a foundation.
 - Fixed: 80% Power had your rival build one card face up rather than two
@@ -1088,6 +1115,315 @@ The version you are running is written across the bottom of the home screen, in 
   named a type this way without ever checking it, Solo Pro's Ferocity and Right
   Flamingo among them. The same sentence written "This Fury or Titan attack"
   was already checked.
+- Fixed: a damage bonus that names two attack types was paid twice. The Beast
+  Titan reads "This Ranged or Titan attack gets +2 damage" and handed out +4,
+  and Breaking Step added a flat +1 on top of the +1 for each attack in your
+  card pool it prints. Faith's Shield, which reads the same way with a minus,
+  now takes the 2 it prints off in one place.
+- Fixed: The Roar of the Spark always stunned the attack. It prints a choice,
+  "This attack gains Stun: 1 or gets -2 speed", and the second half was never
+  offered. The same choice printed the other way round was already a choice.
+- Fixed: Mark Tyner's response reads "that check gets +2 or -2" as one
+  choice again. Both halves were being applied, so choosing the penalty left
+  the check where it started and choosing the bonus paid double.
+- Fixed: Mitchell Cimino moves a keyword rating as well as speed. The card
+  prints "+1 or -2 speed and +1 or -1 to one of its keyword ratings" and only
+  the speed half was applied, so a committed foundation bought half of it.
+- Fixed: Cute Baby #202 raises every keyword rating the attack carries. It
+  moved Powerful and Stun alone, so an attack rated in Breaker or EX gained
+  nothing while two ratings it does not have moved instead.
+- Fixed: Chivalrous Charge handed you the card it prints for your rival. It
+  reads "if your rival has no cards in their hand, they draw 1 card", which is
+  what the attack pays for its +3 damage, and you were drawing it instead while
+  their hand stayed empty.
+- Fixed: Elegant Palace handed its +1 speed and +1 damage to both players. The
+  arena rewards whoever crossed 6 damage this turn, and their rival's next
+  attack was picking up the same bonus.
+- Fixed: Botan's Coaching left your rival out. It reads "both players discard 1
+  card and draw 1 card", and only you were discarding and drawing.
+- Fixed: Sakyo's Gamble could never pay the second +3 damage it prints. Only
+  you milled, so the card compared one milled card against nothing, and the
+  types it asks about can only differ once both players have milled.
+- Fixed: Hostile Introduction took a health off your rival the moment it was
+  played. It only prints that loss for when the card reaches your discard pile,
+  which is the moment the ten other cards printing the same sentence wait for.
+- Fixed: Bagpipe Cacophony turned no cards over. Revealing the top 3 cards of
+  your deck is the price of its Blitz, and it was never charged, so the card it
+  then asks you to put back on top had nothing to choose from. Your rival also
+  sees all three cards now rather than one.
+- Fixed: attacks that print a keyword behind Deadlock, like Support from Female
+  Titan's "Deadlock Stun: 2", worked on any board. Deadlock is a play
+  restriction, so those keywords only do anything while your rival has 11 or
+  more foundations in their stage. 26 cards print one.
+- Fixed: abilities printed behind a character trait or a character name, like a
+  "Thief Enhance" or Knife Edge Death-Match's "Chu Enhance", could be played by
+  anyone. That word ahead of the timing is a play restriction: only a character
+  with that trait, or with that name, may play the ability. 63 abilities print
+  one, and Knife Edge Death-Match wins the game outright.
+- Fixed: attacks printing a keyword rating behind a restriction, like
+  Decapitating Swing's "Brute Powerful: 3" or Swift Execution's "Deadlock EX: 4",
+  paid out for any character on any board. Powerful and EX apply the moment the
+  attack is played rather than being played themselves, so the restriction ahead
+  of them went unread. 11 attacks print one.
+
+- Fixed: Survey Corps Elite and Sword Advantage could be played for nothing in
+  every Enhance Step, over and over. Both print a reveal from your hand as the
+  moment they answer, the game never announced one, and so they waited for
+  nothing at all. Revealing a card out of your hand is now a moment cards can
+  answer, and both wait for it.
+
+- Fixed: Standard-Issue Sidearm gave its attack the +2 speed it prints but never
+  the Ranged, so the attack could still be blocked by cards that Ranged keeps
+  out. Every keyword the game knows can now be handed over by a card that
+  prints it.
+
+- Fixed: Violent Animus Shot removed a backup and drew you a card, but the
+  attack never gained the Flash it prints, so your rival still got an Enhance
+  Step to answer it. The keyword is handed over now, and only when a backup
+  was actually removed.
+
+- Fixed: cards printing "up to" a number took the whole number for you. Vertical
+  Training cleared both cards out of your card pool, Absorbing Pollution readied
+  two foundations whether or not you wanted the second, and Master's Touch froze
+  two of your own when freezing is the part you pay for. You now pick how many,
+  up to what the card prints.
+
+- Fixed: Hidden Motives and Loop the Loop could answer themselves. Hidden
+  Motives readied the very foundation that had just been committed, and Loop the
+  Loop handed itself back from your card pool to your hand. Both print "other",
+  and both now leave their own card out of the choice.
+
+- Fixed: Ryo's second enhance did nothing at all. It reads "if your Punch
+  attack is completely blocked, your rival loses health equal to its printed
+  damage", and the damage it counts was never worked out, so it took no
+  health. It was also being offered on attacks it does not name, and would
+  have paid out whether or not the attack was blocked.
+
+- Fixed: Whirling Slash never took its -3 difficulty off anything. The discount
+  is for your next Air attack, and an attack's symbol was the one thing the
+  discount could not read, so it waited in place for the rest of the game.
+
+- Fixed: Resurrected Titans discounted only the Shift attacks that list Shift
+  among their types. A card printing the keyword in its stat line instead was
+  charged the full difficulty.
+- Fixed: Dimension Sword never asked which foundation it was about. The
+  speed bonus counts the symbols one foundation in your stage shares with
+  your character, and with nothing to ask, it counted whatever cards the
+  attack had last touched: usually none at all.
+- Fixed: a keyword printed partway along a stat line ignored the restriction
+  printed in front of it. Swarmed by Titans stunned on any board rather than
+  waiting for a deadlock, and Ogre Boulder stunned for a character of any team.
+  A keyword spelled out after the first one was not recorded at all, on 29
+  attacks.
+- Fixed: Tyrant Rave, Deal with the Devil and Devil Jin sat out their own
+  response. Each of them answers a check that turns up an attack, and because
+  the sentence names no type of attack, the game read the word "an" as the
+  type and went looking for a kind of attack no card is.
+- Fixed: cards that count Rage, Mushroom and Devil Gene counters could not see
+  the counters they were counting. Decapitating Swing, Rip Apart, Unyielding
+  Rage and Grog's Rage never reached the Rage counts they print, Kinoko Komori
+  and Splitgill Lung Strike never reached their Mushroom count, and Hand of
+  Ambition took the 3 health anyway while a Devil Gene counter sat on your
+  character. Mishima Bloodline lost its Tenacious the same way. A counter is
+  filed under the name printed on the card, and these sentences asked for it
+  in lower case, so the two never met.
+- Fixed: True 100% Unleashed counted committed foundations as ready ones, and
+  Attack Titan's Wide-Swinging Blow counted face down foundations that were
+  committed rather than the ready ones it prints.
+- Fixed: Spike, Bounty Hunter and Battle Aura Release counted every foundation
+  in your stage instead of the face down ones, and Tangled Grasp counted every
+  card in your card pool instead of the face down ones.
+- Fixed: Connie's Sword Strike, Vax'ildan, Cunning Thief, Frenzied Dash,
+  Charged Alien Sploof, You Can't Catch Me! and Robert counted the card
+  printing the sentence as one of the other cards in your card pool.
+- Fixed: Mr. Dolphin, Great Yamada Attack, Frenzied Dash, Charged Alien Sploof
+  and You Can't Catch Me! counted every attack in your card pool rather than the
+  Ally, Fury, Tech or Weapon ones they print, and Titanpile counted every backup
+  in your stage rather than the Titan ones.
+- Fixed: Zeke Yeager, Warchief and Ursine Might counted the cards in a zone and
+  then ignored the number printed after the count, so each one paid one less
+  than it reads.
+- Fixed: Wielding One For All offered twice the choices it prints. A count
+  printed as "half the number of ... rounded down" was read in full, because
+  the half of the engine that answered it did no arithmetic at all.
+- Fixed: Wielding One For All counted only the foundations in your stage while
+  it prints "cards", so a Vestige asset standing there was never one of them.
+  The card offered fewer choices than it reads.
+- Fixed: Thunderous Roar counted your own face down foundations rather than
+  your rival's, because it prints the possessive in front of the noun and the
+  rival reading only knew the other word order.
+- Fixed: Catching a Meteor played the attack it milled, and nothing counted it
+  as a play. Smoke-Screened Ambush, Connie's Incapacitating Strike and Lethal
+  Slash never saw a card being played, the turn's tallies of attacks and of
+  non-action cards skipped it, and the battle log never said it had been
+  played. It also read as played from your hand when it had come off your
+  discard pile, which is the opposite of what Woman asks.
+- Fixed: Concealing Power's stronger half could never apply. It gives your
+  rival's next check -2, or -4 if you have played a card from anywhere other
+  than your hand, and which one it was got decided on the peer making the
+  check, the one board that was never told about those plays. Jean Kirstein,
+  Dependable Competitor went wrong the same way, showing your rival a smaller
+  damage bonus than the one you were getting while they decided whether to
+  block.
+
+- Fixed: Tempest Demon God Fist and Catching a Meteor only ever noticed
+  momentum spent to pay a price. Cards that instruct a player to spend
+  momentum, Rallied Assault on your own side and Bullet Kick on your rival's,
+  moved the cards to the discard pile without any of it counting as spending,
+  so the attack that builds itself back after two momentum and the counters
+  Catching a Meteor collects never arrived.
+- Fixed: The Traveler's Favorite noticed only one of the ways a card comes back.
+  Your attack gets +1 damage if a card has been added to your hand from your
+  discard pile, and only recalling one said so. Symbolic Shot and Unrelenting
+  Advance adding a card they milled, Kyoka Jiro (III) adding the card she
+  checked, Combination Salvo and Stockpiled Quirks taking back a card they spent,
+  and a search that finds the named card in the discard pile rather than the deck
+  all took a card out of that pile and none of them counted.
+- Fixed: being made to sacrifice a foundation did not count as sacrificing one.
+  When a card such as Destructive Fire says your rival sacrifices a foundation,
+  the rival picks it on their own machine, and that was the one path that wrote
+  nothing down. Abrupt Loss, Crossing Enemy Lines, Disrupting Plans and The War
+  Hammer Titan all read that you had sacrificed nothing straight after you had
+  been made to give one up, and abilities that answer your own sacrifices never
+  fired. Marco Bott, which names the card instead of counting, went the same way.
+  Being made to destroy a foundation went unrecorded too, and is still counted
+  apart from sacrificing, which is what the rules print.
+- Fixed: a mill your rival called for was not treated as a mill. When a card
+  such as Invite Hell says your rival mills, the mill happens on the rival's own
+  machine, and that path kept no record of which cards came off, opened none of
+  the windows a mill opens, and ignored a card in the stage that reads "if you
+  would mill 1 or more cards, mill that many plus 1 instead". Unbreakable Cheer
+  and Leonardo were never offered after it. Milling until you hit an attack,
+  which Stabbing Dagger and Yeagerist Takeover print, opened no window either.
+- Fixed: being ruined was not recorded as sacrificing. Ruin makes the ruined
+  player sacrifice face down foundations, but the cards it took were moved out
+  of the stage by hand instead, so on the machine of the player who lost them
+  nothing had happened. Abrupt Loss and The War Hammer Titan read zero straight
+  after their controller had been made to give three foundations up, abilities
+  answering "after you sacrifice 1 or more foundations" were never offered, and
+  a frozen card ruined out of the stage stayed listed as frozen.
+- Fixed: removing a card only counted when it paid for something. Cards removed
+  by an ability's effect, out of your discard pile, your card pool or your hand,
+  were not recorded as removed, so Kazuya Mishima never reached "if you have
+  removed 4 or more cards this turn" and the cards answering "after you remove 1
+  or more cards" were never offered. The two reasons are told apart now as well:
+  an ability that asks for a removal made to pay a cost no longer fires on one
+  that paid for nothing, which the printed text has always distinguished.
+- Fixed: five cards that print "from your hand" were reading a different moment.
+  Golden Destruction and Grinding Overtime answered a removal out of any zone, so
+  clearing your own discard pile paid them. Improving Skills, Item Menu and Timely
+  Recovery were watching the discard pile instead: they fired when the card was
+  discarded and stayed silent when it was actually removed from your hand, which
+  includes removing it to pay a cost.
+- Fixed: a card you removed from your rival's zones counted for nothing. Devour
+  Your Power, Vanishing Storm, Joining the Fight and Malicious Assault remove a
+  card from their discard pile, Driven by Retribution from their card pool, and
+  Spireling Fetch and Earwig Pincer off the top of their deck. None of it reached
+  Kazuya Mishima's "if you have removed 4 or more cards this turn", and none of it
+  offered Inspired Design or No-Mercy Percy, which ask only that you removed a
+  card and not who owned it.
+- Fixed: an ability printing two moments only ever answered the first. Prelude to
+  Destruction and Pizza Delivery say check or mill, and neither answered a mill.
+  Attitude Selector says discard or remove and never answered a removal.
+  Short-Range Shot says a foundation destroyed or a card discarded and never
+  answered a discard. Erwin Smith, 13th Commander of the Survey Corps says a
+  sacrifice or your attack dealing damage and took no Wall counter for the
+  damage. "Strange Energies" never answered your rival's Enhance ability.
+- Fixed: cards that print where they came from, or when, answered every trip
+  to the discard pile. Extra Cheese built itself committed off a foundation
+  destroyed outside combat and Brotherly Love sped up an attack the same way,
+  when both ask for a card from your hand or deck during an attack. Banana,
+  Hot gained you health off a card cleared from your card pool, when it asks
+  for your hand or your stage. Wolf's Ferocity, I'm With You, Loss of
+  Consciousness, Eren's Trial, Hostile Introduction, Cycle of Violence,
+  Avoiding Conflict and Unabashed Manner all print "during the Enhance Step"
+  and answered a discard in any step.
+- Fixed: blocking makes a check, so the cards that answer a check finally
+  reach one. Prepared for an Ambush and True 100% Unleashed print "after you
+  make a check to block" and had no moment to fire in at all, and the sixteen
+  that answer any check, Annie's Gamble among them, were offered only on a
+  check to play something.
+- Fixed: cards that pay for a check to play something no longer pay for any
+  check at all. Deadly Research wanted a backup or a Shift attack, Isla,
+  Dreaming Brilliance an Ally, Incoming Smash Kick itself and Mark Tyner
+  anything but a foundation, and all four paid out whatever was checked.
+  Devil's Instincts, Essek Thelyss and Strong Windup answer a check to play
+  a card, and would otherwise have started answering blocks as well. Fourth
+  Wielder: Danger Sense now asks that the card being played as a block is
+  the card it is printed on.
+- Fixed: Insubordination, Fighting for Control and Improvised Riposte paid out
+  on any check your rival made. Each prints the kind of card the rival is
+  checking to play, and now waits for that check instead of the next one.
+- Fixed: SpaceGodzilla, Bio-Quartz Monster made the whole ability, not just the
+  -3, wait on your rival checking to play a non-foundation card.
+- Fixed: The Power of SpaceGodzilla missed your rival's check when they blocked
+  on your turn. Their block makes a check like any other.
+- Fixed: a check your rival makes to block no longer counts as a check to play
+  a card, so cards that answer the rival's play check stay quiet during a block.
+- Fixed: Essek Thelyss, Expert Dunamancer and Mark Tyner answer a check either
+  player makes, and were offered only on checks you made yourself. Mark Tyner
+  also could not see what your rival was checking to play, so it paid nothing
+  on their half of the checks it prints about.
+- Fixed: Survival of the Fittest, Harness Undeath and Ready to Go paid out
+  whenever your rival GAINED health. They answer your rival losing health, and
+  now they wait for it.
+- Fixed: Spring into Action never saw your rival gain health when it was their
+  own card that healed them.
+- Fixed: Serving Shade, Feast, Same Old Field Rations, Moment of Peace,
+  Recuperation Time, False Visage and Unyielding Enthusiasm stayed quiet when it
+  was your rival's effect that moved your health. Your own health changing is
+  your moment, whoever caused it.
+- Fixed: Serving Shade, Survival of the Fittest, Harness Undeath and Emergency
+  Treatment never answered an attack. Damage is health lost, and combat was
+  taking it without telling the cards that wait for it.
+- Fixed: Ready to Go asks for health lost to an effect, and the words "due to an
+  effect" were being ignored. It stays down now when an attack took the health.
+- Fixed: Levi's Overhead Strike, Ferocious Attacker, Sleepyhead, Pepperbox Fire,
+  Perceived Weakness, Wine Opener, Syndicate Skills and Sadistic Tormentor read
+  "has lost health this turn" as no for a player who had just been hit.
+- Fixed: A Son's Love never took anything from your rival. It offers them the
+  top card of their deck for your second card, and accepting left their deck
+  and their momentum untouched while you drew all the same.
+- Fixed: Jaw Titan, Flying Form's EX 2 was not recognised as EX. The rating
+  was recorded, but anything that asked whether your attacks had the keyword,
+  including effects that raise every keyword rating you have, answered no.
+- Fixed: Don't Use That Word let you name eight keywords and only four of them
+  could be shut off. Powerful, EX, Breaker and Deflect, the ones most worth
+  naming, were not on the list at all, and Ruin is not a keyword.
+- Fixed: naming a keyword offered seven of them, so a deck built on Fury,
+  Kick, Ally or Spell could not name what it runs. Every keyword a legal card
+  prints can be named now, and a long list of options scrolls instead of
+  pushing the buttons off the screen.
+- Fixed: an attack that prints a minimum could be driven under it. Good and
+  Evil reads "-1 speed and -1 damage, to a minimum of 1 damage", but only the
+  bracketed form of a minimum was understood, so a 1 damage attack went to 0.
+
+- Fixed: a card that searches for something with two printed requirements now
+  asks for both. "1 Titan backup card with printed difficulty 4" would take a
+  Titan backup of any difficulty, and "1 backup or Shift attack with printed
+  difficulty 7 or less" would take any card at all inside that difficulty.
+- Fixed: "Ready 1 card with a Mushroom counter on it" now readies only a card
+  the ability marked. It readied any committed foundation, so the enhance spent
+  marking two of them bought nothing.
+- Fixed: a keyword an ability grants is no longer refused by the restriction
+  printed against the card's own copy of that keyword. Elemental Orb's
+  Electricity mode gave Swarmed by Titans Stun: 1 and it still waited for a
+  deadlock, and a block that Tsuyu Asui granted Breaker got nothing if it
+  printed a Breaker of its own behind a character you were not playing.
+- Fixed: a Breaker granted to your block is now worth what the grant says.
+  Brace for Impact prints a Breaker of 2 that only applies at deadlock, so
+  blocking with it after Fateful Decision granted Breaker: 1 took 2 off your
+  rival's next check instead of 1.
+- Fixed: "If you have removed a card this turn" now reads the record of the
+  player the card names. The count was kept once for the table rather than
+  once per player, so on your rival's screen their card read YOUR removals:
+  the same attack could show +2 damage on one board and nothing on the other.
+- Fixed: "If this is the second time you played this ability this turn" now
+  counts the plays made by the player the card names. The count was kept only
+  by the peer doing the playing, so on your screen a rival's second or third
+  play committed nothing: their character was committed, sealed, flipped or
+  transformed on their board and untouched on yours.
+
 
 ## 0.0.1
 

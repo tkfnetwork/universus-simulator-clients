@@ -1461,6 +1461,9 @@ The version you are running is written across the bottom of the home screen, in 
 - Fixed: an action card printing "First Form" offered that ability as your
   second or later form of a Combat Phase. It is only playable as the first one
   you play.
+- Fixed: replaying an attack as a form, and playing one out of your discard
+  pile, fired every form ability printed on the card for free. The stamina and
+  other costs went unpaid, and gates like "[Discard Pile]" were ignored.
 
 ## 0.0.1
 

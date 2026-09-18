@@ -1423,7 +1423,44 @@ The version you are running is written across the bottom of the home screen, in 
   by the peer doing the playing, so on your screen a rival's second or third
   play committed nothing: their character was committed, sealed, flipped or
   transformed on their board and untouched on yours.
-
+- Fixed: on the watching side, the copies a card your rival had played this
+  turn were counted off your own record. Panzer Unit Mounted Fire, Electric
+  Wind God Fist, Titan Swarm and Mechanical Legion, and the attacks that lose
+  their damage or get sealed on a repeated copy, answered the wrong player, so
+  the two screens disagreed about the attack.
+- Fixed: a card that gives your attacks +1 speed or +2 damage for the turn was
+  not applied to your attacks on your rival's screen, so the two boards read
+  different numbers and any response that asks how hard the attack hits was
+  offered on one screen only. The half about your own attacks now reaches the
+  other screen, like the half that slows your rival already did.
+- Fixed: a card in your card pool that slows your rival's attacks did not
+  slow them on your own screen. Your rival saw the attack at the lower speed
+  and you saw it at its printed one, so the block offer, and anything else
+  that reads how fast the attack is, answered differently on the two boards.
+- Fixed: an attack that prints "this attack cannot be partially blocked" was
+  still blocked in half. The line was read only on the attacking player's
+  side, and it is the blocking player's side that works out whether a block
+  was partial. The same attack printing that line as an Enhance always worked.
+- Fixed: an attack that buffs itself from its own printed text, such as +3
+  damage while you have a face down card in your card pool, showed the bonus
+  only on the attacking player's screen.
+- Fixed: Onyankopon's first enhance also stopped your rival from using their
+  own Onyankopon for the turn. The line that closes the name binds only the
+  player who played it.
+- Fixed: a card whose abilities unlock once your rival has discarded from their
+  hand stayed locked when you were the one who made them discard.
+- Fixed: when your rival played a card that stops face down cards counting
+  toward progressive difficulty, the discount was handed to you instead of to
+  them.
+- Fixed: a foundation your rival readied no longer counts as readied for
+  your own copy of the same card, so "ready 1 foundation that has not been
+  readied this Combat Phase" can still reach it.
+- Fixed: an attack printing a Deadlock Blitz announced the Blitz step even when
+  your rival was nowhere near deadlock. The step opened with nothing in it that
+  you could play.
+- Fixed: an action card printing "First Form" offered that ability as your
+  second or later form of a Combat Phase. It is only playable as the first one
+  you play.
 
 ## 0.0.1
 

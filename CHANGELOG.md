@@ -9,7 +9,9 @@ The version you are running is written across the bottom of the home screen, in 
 - Board is landscape and 4:3. Cards are drawn larger and the window opens at the
   board's own shape, so there are no black bars.
 - Card pool sits above your own stage. Both run the full width of the board.
-- A stage row holds ten foundations before it wraps.
+- A stage stays one row however much you build on it. Past ten foundations the
+  cards overlap the way your hand fans, so none of them is drawn smaller, all of
+  them stay on the board, and you can still drag them into any order you like.
 - Deck, discard and removed from game stand in the right-hand channel. Token
   pile and momentum stand in the left. All are drawn in full.
 - Arena is a full sized face up card in the left channel. Hovering one turns it
@@ -1545,6 +1547,51 @@ The version you are running is written across the bottom of the home screen, in 
 - The battle log is drawn larger on a small screen so its lines can be read. It
   grows across rather than down, so it covers no more of the board from top to
   bottom than it did and the game behind it stays in view.
+- Fixed: the battle log left out health that your rival's cards took or gave,
+  so the total printed beside a line could disagree with the health showing on
+  the board.
+- Fixed: "sacrifice this foundation" left the card standing in your stage, so
+  the price printed on it was never actually paid.
+- Fixed: a card offering to be sacrificed in place of spending momentum on an
+  EX ability never made the offer, so you always paid the momentum instead.
+- Fixed: three cards that give your attacks a bonus for the rest of the turn
+  handed out nothing at all, including one whose bonus is meant to reach every
+  attack except the card printing it.
+- Fixed: borrowing an enhance ability from a card you removed took every
+  enhance ability sitting in your removed pile instead of the one you chose,
+  and the loan never ended.
+- Fixed: an attack meant to inherit the keywords printed on the card you
+  removed to pay for it inherited nothing.
+- Fixed: Arrogant Smirk never gave you back a Fury attack. It asks whether you
+  have lost health during the Enhance Step, and nothing kept track of health
+  lost over anything shorter than a whole turn, so the question was answered by
+  asking whether you had spent health to pay a price instead. Its own price is
+  a sacrifice, so the answer was always no.
+- Fixed: Darkness Dragon Prowess granted no Stun at all. The rating it gives is
+  the amount of health lost during the Enhance Step, and it was reading the
+  health that paying for the ability had just cost. The ability is free, so that
+  was always none.
+- Fixed: For All Our Sakes sealed nothing at all, and the card it let off
+  progressive difficulty was itself rather than the card you sealed. It
+  prints one instruction across two sentences, and each sentence was being
+  read on its own.
+
+- Fixed: Arrow Kick gave its speed bonus to a committed character and its
+  damage bonus to nobody at all. The card prints two bonuses in one sentence,
+  one for a ready character and one for a committed one, and only the second
+  of the two conditions was being read.
+- Fixed: Shoot the Moss left both players waiting on each other and neither able
+  to go on. When a card puts the choice of option in your rival's hands, they
+  are now asked for it directly.
+- Fixed: the Pass button stayed live while you were being offered the chance to
+  cancel an ability. Pressing it moved the window on in the middle of a play
+  that had not finished, so it is held until the offer has been answered.
+- Fixed: three cards that look at the top few cards of a deck and put them back
+  in any order asked you to do it twice, and offered a single card the second
+  time instead of the number the card prints.
+- Fixed: healing could carry a character above the health printed on their card.
+  Printed health is a maximum, so healing now stops there however it reaches
+  them.
 
 ## 0.0.1
 

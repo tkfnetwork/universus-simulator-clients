@@ -1500,6 +1500,49 @@ The version you are running is written across the bottom of the home screen, in 
 - Fixed: Knee Press Nightmare did nothing with the cards it milled. Its Blitz
   now offers to pay this attack's Echo cost with cards from your hand when
   the mill turns over an attack.
+- Fixed: the Enhance Step reported no enhance to play while a card in your
+  stage plainly printed one. An ability that reads "If something, effect" is
+  playable whether or not the If holds, and only a card printed "Only playable
+  if" is held back now.
+- Fixed: playing an enhance was answered with "no enhance to play", on your
+  screen and your rival's, because priority came back with the cost already
+  spent.
+- Fixed: a Shift attack built transformed showed its attack side on your
+  rival's board, while your own showed the face you built. Both boards now
+  build the same face.
+- Fixed: Juri Han, Thrill-Seeker prints two bonuses, one for a Kick attack and
+  one for any attack once you have played three attacks this turn. The Kick
+  half was read as a rule about the whole enhance, so it could only ever be
+  played on a Kick and the second bonus was out of reach.
+- Fixed: Noble, Strong, and Beautiful discarded a card and drew one, but never gave the discarded
+  card back when your rival had ten or more foundations. That whole half of
+  the card was being ignored.
+- Fixed: cards that search your deck for a copy of a card they name offered
+  you the whole deck to pick from instead. "Cart Titan, Finale", "Vex'ahlia,
+  Resourceful Hunter", "Torbalan" and "JP, Regal Businessman" now find only
+  the card they print.
+- Fixed: JP, Regal Businessman and Superfly Stomp also put their own card
+  into your discard pile alongside the card they searched for.
+- Fixed: a prompt with a short question, like the one asking whether to
+  concede, was drawn as tall as the whole window. A menu is now only as tall as
+  what it holds, and still scrolls once it holds more than fits on screen.
+- Cards you rest the cursor on are blown up to the size the art was drawn at,
+  so the rules text is readable on a laptop screen rather than shrinking along
+  with the board. Nothing changes on a screen big enough to show the board at
+  full size.
+- Questions the game asks you, like choosing which ability to play, are drawn
+  at their own size rather than the board's, so the options are readable on a
+  laptop screen. A screen big enough to show the board at full size sees them
+  exactly as before.
+- When the game asks you to pick a card, the cards are drawn bigger on a small
+  screen so you can tell them apart. A search that turns up more cards than fit
+  still scrolls exactly as it did.
+- Looking through your discard or removed pile draws the cards bigger on a
+  small screen, spending width the grid was leaving empty. Deep piles scroll as
+  they did, and a screen big enough to show the board at full size is unchanged.
+- The battle log is drawn larger on a small screen so its lines can be read. It
+  grows across rather than down, so it covers no more of the board from top to
+  bottom than it did and the game behind it stays in view.
 
 ## 0.0.1
 

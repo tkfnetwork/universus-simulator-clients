@@ -18,6 +18,8 @@ The version you are running is written across the bottom of the home screen, in 
 - Main menu is drawn larger to suit the narrower window.
 - Game codes are easier to read out to somebody: they no longer use characters
   that look like each other, and a code typed in lower case still joins.
+- The client can be told to open as if it were on a smaller screen, with
+  `--screen=1366x768`, to see how the game reads on one.
 - Fixed: finishing a mulligan with Ready gives back the cards you set aside on
   your deck. They were left there and the hand stayed short.
 - Fixed: the deck manager and other menus ran off the top of the window. Every

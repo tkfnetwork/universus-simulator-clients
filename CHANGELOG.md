@@ -1466,6 +1466,40 @@ The version you are running is written across the bottom of the home screen, in 
 - Fixed: replaying an attack as a form, and playing one out of your discard
   pile, fired every form ability printed on the card for free. The stamina and
   other costs went unpaid, and gates like "[Discard Pile]" were ignored.
+- Fixed: M. Bison, Writhing Evil, Unlimited Psycho Crusher and JP, Regal
+  Businessman never noticed the cards you milled, so what they print was never
+  offered to you.
+- Fixed: Nothing But a Squawking Crow did nothing when it was milled during the
+  Enhance Step.
+- Fixed: Unlikely Duo did nothing when cards left your card pool during the
+  Combat Phase.
+- Fixed: Master of Taekwondo never came up before the Block Step, so it never
+  returned the attack to its printed speed.
+- Fixed: Fresh Cut Grass, Positive Reinforcement did nothing after a rival's
+  unblocked attack resolved.
+- Fixed: The Joker did nothing after you failed a check.
+- Fixed: Jacob Johnson did nothing when you blocked with an action card.
+- Fixed: Fast and with Finesse still counted toward progressive difficulty when
+  you played Kick attacks.
+- Fixed: Bison . . . Who Is That? and Assume the Worst did nothing when they
+  were committed to pay a Drive cost.
+- Fixed: Cammy, Killer Bee did nothing after you paid a Drive cost.
+- Fixed: Unlikely Duo could not be committed as a foundation to pay a Drive
+  cost, and offered to commit itself for nothing instead.
+- Fixed: Mysterious Murderer could not remove itself to pay a Drive cost.
+- Fixed: Juri Han, Thrill-Seeker could not sacrifice 2 foundations in place of
+  a Drive cost.
+- Fixed: Back to Ordinary never fired. It waited on you playing your third card
+  of the turn, a moment the game was not reading.
+- Fixed: Departure could not be played from your discard pile. The Form it
+  prints there offered nothing.
+- Fixed: Sekkan Kick did not hold either player to 1 enhance ability during
+  its Enhance Step.
+- Fixed: Front for My Operation cancelled a keyword ability and then took no
+  health for it, whatever that ability was rated.
+- Fixed: Knee Press Nightmare did nothing with the cards it milled. Its Blitz
+  now offers to pay this attack's Echo cost with cards from your hand when
+  the mill turns over an attack.
 
 ## 0.0.1
 

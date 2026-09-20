@@ -1704,6 +1704,130 @@ The version you are running is written across the bottom of the home screen, in 
   toward progressive difficulty to play foundations, and nothing anywhere
   recorded that, so every foundation you played after it cost as much as if
   the card were still counting against you.
+- Fixed: Hiei, Dragon Within let your rival answer the first block after all.
+  The card says they may not play responses to playing the first block, and
+  nothing anywhere read that sentence, so they still got a window to act in
+  before Hiei sealed the block away.
+- Fixed: a face down card in your stage counted as a copy of the card on its
+  hidden front. Laying one beside a Unique foundation sacrificed the foundation
+  for a duplicate neither player had been shown, and a face down card could be
+  the one taken.
+- Fixed: Mark Tyner never let you keep the 2 copies of a Unique foundation it
+  protects. The protection was looked for in your stage, and the card granting
+  it is a character, so the pair was sacrificed anyway.
+- Fixed: a card that promises your next Weapon attack extra damage handed it to
+  whatever you played next, and that attack spent it, so the Weapon attack it was
+  meant for arrived with nothing. Your opponent's screen also showed less damage
+  than you dealt, because only your own client had banked the bonus.
+- Fixed: the card that has each player add a card from their discard pile to
+  their card pool turned YOUR card face down as well as your opponent's, once
+  you had played a Roman Cancel ability. It only says their card goes face
+  down, and a face down card in the pool is a blank card, so the card you had
+  just added was no longer one you could play.
+- Fixed: twelve cards that name which card they want found nothing to choose
+  from, so the ability was spent and nothing happened. "Add 1 face down card
+  from your card pool to your hand", "add the top card of your discard pile to
+  your hand", "seal 1 non-attack card in your card pool", "add 1 action from
+  your discard pile to your hand", "add 1 other card from your card pool to
+  your hand", and the card that puts one of your opponent's stage cards into
+  their card pool face down.
+- Fixed: every ability whose price is "Mill N" then asks about what it milled
+  counted nothing, because paying the price kept no record of the cards it took.
+  "Add 1 Fury or Titan card milled this way to your momentum" found nothing to
+  add, and "+1 speed for each attack milled this way" added no speed. Psycho
+  Power, which mills to pay for itself and then uses the effect matching that
+  card's check, paid its price and did nothing at all. Your opponent's screen
+  now learns which card the price milled, so both of you see the same result.
+- Fixed: Electric Wind God Fist cannot be flipped while it is the fourth copy
+  or fewer you have played this turn, and it read how many copies you had
+  played instead of which copy it was. Playing a fifth copy left the first four
+  open to being flipped, and a copy still lying in your card pool from an
+  earlier turn could never be flipped at all.
+- Fixed: Titan Swarm's discount for a second attempt never arrived. The card
+  gets -3 difficulty when it is the second time you have tried to play one
+  that turn, and every check was made at full difficulty instead. The
+  discount now applies at the attempt, which is the moment the card names.
+
+- Fixed: the foundation that lets you use its Deflect from your stage bought
+  nothing. The ability was paid for and Deflect was still refused for not
+  being in your hand. It is now playable from the stage, for the one attack
+  the card gives it and for the one ability the card names.
+
+- Fixed: Combined Firepower could never be played out of your discard pile.
+  It says you may try to play it during an attack once you have removed a
+  card to pay a cost, and the permission was being recorded somewhere that
+  nothing deciding a play would ever look.
+
+- Fixed: a hand size increase printed "this turn" was thrown away at the start
+  of the Combat Phase, half way through the turn it was bought for. Short-Lived
+  Promotion and Researching the Answer both grant one before your Draw Step, and
+  every card that reads a hand size afterwards, "Big Sister" of 1-B and Alisa
+  Bosconovitch among them, was answering with the number that had not been
+  increased. It now lasts the turn out.
+
+- Fixed: Massive Size counted the cards in your hand rather than your hand size,
+  which are different numbers on almost every turn. It was worth the most with
+  an empty hand, when the card means it to be worth the least.
+
+- Fixed: Plate of the Dawnmartyr's health floor and G Corp Soldier's offer to
+  take the hit on its own stamina never did anything about a rival's effect,
+  which is the only thing either card protects against. Both were asked of the
+  wrong player, and both got in the way of prices you had chosen to pay
+  instead.
+
+- Fixed: every effect that moved health applied it twice, on both boards. The
+  peer watching a rival's play re-runs their effects, and a health change
+  already reports itself over the wire, so "your rival loses 2 health" took 4
+  from the character it named. Both boards were wrong by the same amount, so
+  nothing ever looked out of step.
+
+- Fixed: a Response printed for "2 or more" was offered after one. Two cards
+  count what you just did, sacrificing foundations and spending momentum, and
+  the count was dropped when their text was read, so each was playable at half
+  the price it prints.
+- Fixed: a Response printed for "after you check" was offered to whoever's turn it was. Blocking makes a check, and the player who blocks is the one whose turn it is not, so your own block check never offered these cards while the rival's block check on your turn answered as though you had made it. Twenty cards read the check that way, including the seven arena cards that print "when you play or check this card".
+- Fixed: an attack that reads "after 1 or more foundations are destroyed or 1 or more cards are discarded" was refused the discard it sets up itself. The clause names no player, but it was answered by whoever's turn it was, so a rival discarding during your own Combat Phase, which is what the card's Blitz makes them do, did not count.
+- Fixed: Rising Uppercut, Exilio and Countersnipe charged a Drive to try to
+  play themselves back as an attack after completely blocking one, and then
+  only printed a message. They now make the check and attack for real, on your
+  rival's turn, and your rival gets to block it.
+- Changed: the phase strip is drawn bigger on a small screen. Its chips were
+  set at the board's own scale, so on the window a 1366x768 laptop opens they
+  reached the screen at 8 pixels and the "REPEATS" caption at 5. The strip now
+  grows to the same half-of-authored floor the battle log is held to, and
+  stops at the band between the two card pools so it never covers a card.
+- Fixed: pressing End Turn while the game was asking you to pick a card
+  advanced the phase anyway. Paying a cost, and discarding for the no-form
+  penalty, are both answered by clicking a card rather than a button, so End
+  Turn kept the label it already had and stayed live, and pressing it moved
+  the turn on underneath an ability that was still waiting to be paid for.
+  The button is dead while a prompt is open now, and Cancel is still on the
+  other one.
+- Fixed: Mai Fighting Style did nothing when your rival readied foundations.
+  It prints "built or readied" and only the build half was ever answered, so
+  half of what the card offers could never happen.
+- Fixed: cards reading "after you flip a foundation" answered every commit
+  instead. A check commits foundations several times a turn, so four cards paid
+  out constantly, and the ten that print a commit answered your flips.
+- Fixed: "after this card is unflipped" listened to the flip and commit window,
+  which carries neither an unflip nor the card it was about. Turning a card face
+  up now opens its own moment.
+- Fixed: "after you commit this card to pay a cost" and its relatives answered
+  for every copy you had in play instead of the card the moment was about, so
+  the wrong card readied itself, or went to momentum for a cost it never paid.
+- Fixed: "after this card is committed during the Enhance Step" left the Enhance
+  Step out, and answered a commit made at any point in the turn.
+- Fixed: a card printing "Only playable if ..." on a form could be played
+  whether or not the condition held. Godzilla, King of the Monsters destroyed every foundation
+  in both stages without the ten foundations it asks for, and seven more cards
+  ignored the line they print.
+- Fixed: a sealed card still offered its form ability. A sealed card has no
+  abilities until the end of the turn, forms included, and the same went for a
+  card whose name had been silenced for the turn.
+- Fixed: starting a form from your stage and then backing out of paying for
+  it used up your Combat Phase's first form. A card printing "First Form" was
+  refused for the rest of the phase, and your rival's game disagreed about
+  whether it had been played at all.
 
 ## 0.0.1
 

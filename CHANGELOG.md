@@ -614,9 +614,11 @@ The version you are running is written across the bottom of the home screen, in 
   Cute Host Koto drew its 3 cards a whole Combat Phase early, Rushing Intercept
   was cleared from the card pool before it could build itself out of it, and
   Cage of Hell moved itself to your momentum twice.
-- Fixed: Loot Box took back the wrong card. "That card" is the one it built, and
-  it was read as the card that triggered the ability, which an Enhance has none
-  of, so nothing came back at all.
+- Fixed: Loot Box never handed back the card it built. "That card" is the one
+  it built, and it was read as the card that triggered the ability, which an
+  Enhance has none of, so nothing came back at all. Named correctly, the card
+  was then removed from the game at the end of the Combat Phase instead of
+  being added to your hand.
 - Fixed: Happy Chaos never offered the card it looked at. It now shows the top
   card of your deck once the attack deals damage, and offers your hand, your
   momentum or neither.
@@ -1592,6 +1594,116 @@ The version you are running is written across the bottom of the home screen, in 
 - Fixed: healing could carry a character above the health printed on their card.
   Printed health is a maximum, so healing now stops there however it reaches
   them.
+
+- Fixed: Moment of Normalcy prints a choice between returning an attack to its
+  printed speed or its printed damage, and was taking both. Nine other cards
+  that name only one of the two were throwing away the other as well.
+
+- Fixed: Devil Jin put himself into the card pool. The card to add is the
+  attack you just checked, and your rival's screen showed the board correctly
+  while yours did not. His check bonus was also counted twice.
+
+- Fixed: Heihachi Mishima's attacks never gained the Powerful 4 he prints,
+  so the momentum you can spend on it was never offered.
+
+- Fixed: a card could sit face up in your rival's hand, readable from across
+  the board, if it reached the hand already face up.
+
+- Fixed: In the Lead, and anything else that moves a card from your momentum
+  to your hand, handed you a card instead of letting you pick one. Which card
+  leaves your momentum is yours to choose.
+
+- Fixed: card art looked pixelated on smaller screens. Cards are drawn much
+  smaller than their artwork, and the artwork was being sampled at full size
+  however small the card was on screen.
+- Fixed: a card played out of your removed pile vanished from the board. It
+  reached your card pool, but was still counted as being in your hand as
+  well, so the next card you drew carried it off with the rest of the hand.
+- Fixed: being told to sacrifice or destroy a foundation lit up foundations
+  lying in your discard pile as if you could give one of those up. Only the
+  cards in the stage the instruction is aimed at are offered now.
+- Fixed: a deck carrying a second character started you as whichever of the two
+  was listed first. The wrong one was seated, your hand was dealt up to its
+  size rather than your own character's, and the character you meant to play
+  was shuffled into the deck.
+- Fixed: a bonus or penalty waiting on your next check stayed armed until you
+  made one, however many turns later that was. It now expires with the turn it
+  was played in.
+- Fixed: "add a Wall counter to a card in your stage" never asked which card.
+  The counter went onto the card printing the instruction, so played off an
+  attack it landed outside your stage altogether and that same card's bonus
+  for counters in your stage could never see it. "Remove a Wall counter from
+  a rival card" took one off a card of your own instead of theirs.
+- Fixed: the offer to flip a Spell card in your card pool to pay for a keyword
+  ability was labelled with the engine's own shorthand instead of saying what
+  it would cost you.
+- Fixed: while the game was asking you to confirm a play, the banner still
+  said you were waiting on your opponent and the Ready button relabelled
+  itself to Pass over the top of the question. A question on screen now
+  counts as what it is, one waiting on you.
+- Fixed: "your rival freezes 1 committed foundation" froze whichever of their
+  foundations the game happened to find first, and counted one that was
+  already frozen, so the card often did nothing at all. Your rival now
+  chooses which one, and the freeze shows up on both boards.
+- Fixed: an ability printed "Twice per Enhance Step" was not limited at
+  all. It could answer every card milled during the step rather than the
+  first two, handing out its damage bonus again and again.
+- Fixed: a blitz offering to clear an attack from your card pool instead of
+  spending momentum on its Echo cost went ahead and cleared one anyway. It
+  threw the card away and gave no discount. It now offers the choice.
+- Fixed: a card that hands your rival a block bonus for the turn took it
+  back the moment the next attack began. It now lasts the turn it was
+  printed for.
+- Fixed: War Hammer Titan had you choose an attack from your discard pile and
+  pay health equal to its check value, then added itself to your hand rather
+  than the card you chose and paid for.
+- Fixed: a card added to your hand out of your discard pile was left lying in
+  the pile as well, so it was in two places at once. Strategic Maneuver did
+  this every time you took the chosen card.
+- Fixed: Next-Gen Model and Crossing Enemy Lines both print "choose a
+  player", and neither one asked. They landed on whoever played them, so
+  Next-Gen Model milled you 2 and Crossing Enemy Lines aimed its own check
+  modifier at you.
+- Fixed: Resurrected Titans could only ever search out a backup. It prints "1
+  backup or Shift attack card", and the Shift attack half was never offered.
+- Fixed: an instruction naming a keyword missed every card printing that keyword
+  in its stat line rather than its type list. Offensive to Retake Wall Maria and
+  Unit Commander added no Ranged, Weapon or Ally card they revealed and then
+  discarded it with the rest, Mikasa Ackerman and Rafa, The Exo-Soldier cleared
+  no Weapon card from your card pool, and Hwoarang cleared no Kick card.
+- Fixed: a price naming a keyword could not be paid with half the cards that
+  print it. Chun-Li, Martial Arts Master and Inherited Will charge a Kick card,
+  and any Kick card printing the keyword in its stat line rather than its type
+  list was refused, along with the Weapon, Spell, Ally, XP, Tech and Vestige
+  prices that Mikasa Ackerman, Caleb Widogast and Carnival Barker charge.
+- Fixed: a gate asking what is in a zone missed every card printing the keyword
+  in its stat line rather than its type list. Furious Charge checks your card
+  pool for a Weapon before gaining Weapon itself and never found one, and
+  Deadly Pitch, Toss Aside, Youko Form, Stars in Her Eyes, Throw Servant and
+  Kazama-Style Traditional Martial Arts went the same way on Ranged, Titan,
+  Ally, Charge and Punch. Descendant of Hizuru likewise let a Weapon card block
+  for full value instead of setting the block modifier to +0.
+- Fixed: more gates naming a keyword could not see it when the card printed it
+  in its stat line. Eren's Message, The Best Detectives and The Manipulations of
+  Zeke Yeager never saw the Titan, Spell or Ranged card they milled, and Juri
+  Han, Thrill-Seeker, Misguided Big Brother, Beast Titan, Scouting Skirmish,
+  Determined Seeker and Quiet Contemplation went the same way asking whether the
+  attack was a Kick, Ally, Shift, Throw or Weapon. Mikasa Ackerman, Protective
+  Friend missed a revealed Weapon, Evoking the Wielders missed your Vestige
+  foundations, and Overwhelming Size misread a Titan rival character.
+- Fixed: a card handing its keywords to your attack handed over nothing when it
+  printed them in its stat line. Devour Your Power, Inventor's Creation and
+  Okey Dokey! all granted an empty list, and the menu asking which keyword to
+  strip off a rival attack was empty for the same reason.
+- Fixed: a card that does not count toward progressive difficulty to play one
+  type of card stopped counting toward every play that turn. Spirit Unicorns
+  excuses itself only to play Spell cards, and once its first attack went in
+  nothing else in your pool counted either, so the rest of the turn came out
+  cheaper than it should have been.
+- Fixed: Enough of This did nothing at all. It prints that it does not count
+  toward progressive difficulty to play foundations, and nothing anywhere
+  recorded that, so every foundation you played after it cost as much as if
+  the card were still counting against you.
 
 ## 0.0.1
 

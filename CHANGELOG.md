@@ -6,6 +6,55 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.2
 
+- "This attack's speed and damage cannot be reduced below printed" only ever protected the damage, so one card did nothing at all and two others protected half of what they say. Two more cards that name damage alone were quietly protecting their speed as well, and no longer are.
+
+- Three cards make blocking an attack cost your rival something extra, a revealed block or a discarded card, and charged nothing. One of them made the attacker discard their own card instead. Both are fixed: the defender pays, and cannot block at all if they cannot.
+
+- Three cards make your rival pay an extra foundation to play abilities during an attack, and charged nothing at all. The cost is now taken, and only on the abilities each card names.
+
+- One card gives health back to "that player" after a player loses health, and always gave it to whoever played it. It now goes to the player who actually lost the health.
+- One card offers "ready this character or remove the top card of a player's deck" and only ever readied the character: the second half of the choice was never offered. Both halves are now on the menu, and removing asks whose deck.
+- Five cards that search your deck print "reveal it", and nothing was ever
+  shown: your rival saw only that you had searched. The card found is now
+  flashed to both players, as is the card name you announce when a search
+  asks you to name one.
+- Two cards that search your deck and put the card back on top were not
+  shuffling it at all, so the rest of your deck stayed in an order you
+  already knew. The shuffle now happens before the card is placed, which is
+  the order the cards print.
+- Seven cards that do something extra "the second time you have played this
+  ability this turn" were counting the wrong ability. Playing anything else in
+  between, including a card your rival plays in response, answered the question
+  instead, so the card skipped the drawback it prints for repeating.
+- "Build 1 Ally asset or Ally backup from your card pool. If you did and it is
+  your turn, draw 1 card" now asks both questions. The draw used to happen
+  whether or not there was anything to build, and on your rival's turn too.
+- Eight cards that reward you for playing their own Powerful, EX or Deflect
+  ability paid out when the card was played instead. The reward arrived
+  before the ability's cost had been paid, and arrived whether you ever
+  played the ability or not.
+- Sacrificing a face down foundation now only pays out when the card turned
+  over is the one the ability asks for. The draw and the build were running
+  whatever the sacrifice revealed.
+- A bonus to your next check now waits for the check it names. Twelve cards
+  buff the next check to play an attack, a block, a Shift attack or a card
+  from your removed pile, and every one of them paid out on whatever check
+  came next instead, including a foundation.
+- A card searched out of your deck goes where the card says. Two cards spelled
+  their destination in a way the reader missed: one put its named card in your
+  hand instead of your discard pile, and the other searched your whole deck
+  rather than for the name it prints, then put the wrong card in your momentum.
+- "Each player adds 1 foundation from their stage to their hand" now lets your
+  rival choose which of their own foundations to take back. The attacker was
+  picking it for them.
+- "Your rival adds 1 foundation from their stage to their hand" now lets them
+  choose it, for the same reason.
+- "Flip 1 of your rival's foundations" is your pick again. Your rival was
+  being asked which of their own foundations to turn over.
+- "Choose a player. That player loses 1 health, draws 1 card, and discards 1
+  random card" now does all three, to the player you chose. Only the discard
+  happened before, and it always came out of your own hand.
+
 - Board is landscape and 4:3. Cards are drawn larger and the window opens at the
   board's own shape, so there are no black bars.
 - Card pool sits above your own stage. Both run the full width of the board.
@@ -1828,6 +1877,158 @@ The version you are running is written across the bottom of the home screen, in 
   it used up your Combat Phase's first form. A card printing "First Form" was
   refused for the rest of the phase, and your rival's game disagreed about
   whether it had been played at all.
+- Fixed: some attacks announced a Blitz step that then had nothing to
+  offer. An attack whose blitz only readies a card opened the step even
+  with nothing left to ready, which reads as the ability having fired.
+- Fixed: cards that read the top of a discard pile looked at the bottom
+  of it instead. Ten abilities asking whether the top card is an attack,
+  or is named Tornado, were answered about the oldest card in the pile.
+- Fixed: "add the top card of your rival's discard pile to their card
+  pool" moved the card only on your rival's screen, and moved the wrong
+  card.
+- Fixed: readying one copy of a foundation marked every copy of it. With
+  two of the same card in your stage, "ready 1 foundation that hasn't
+  been readied this Combat Phase" refused the second for something the
+  first did. 31 abilities print that restriction.
+- Fixed: unflipping one copy of a foundation marked every copy of it,
+  so "unflip 1 card in your stage that has not been unflipped this
+  turn" refused the second copy for something the first did.
+- Fixed: the discard you take for playing no form did not count as your
+  rival discarding a card from their hand, so yyhdt-192's abilities
+  stayed unplayable after it.
+- Fixed: nor did a card you discarded out of your rival's revealed hand,
+  or one they pitched from hand to pay a cost. Every way a card leaves
+  their hand for their discard pile now counts.
+- Fixed: a rival backup that ran out of stamina went into your discard pile
+  and stayed listed in their stage, so the same backup could keep blocking
+  and your pile grew a card you never owned. It also counted as you
+  sacrificing a card.
+- Fixed: "this attack gets +1 damage for each card that has been destroyed
+  this turn" counted only your own foundations, so Luna Ring could not see
+  the rival asset its own first ability had just destroyed.
+- Fixed: "if a rival foundation was destroyed this turn" asked whether YOU
+  had destroyed a foundation, of either owner. It now asks who owned the
+  card that was destroyed.
+- Fixed: a backup reduced to 0 stamina was recorded as a card you sacrificed
+  rather than one that was destroyed, so "only playable if 2 or more rival
+  cards have been destroyed this Combat Phase" never counted a backup.
+- Fixed: "each rival backup loses 2 stamina" and "a rival backup loses 3
+  stamina" changed nothing on your rival's own screen, so their backups
+  stayed at full stamina there and any that died went on standing.
+- Fixed: "build 1 momentum card face down" showed the card in your rival's
+  stage on their screen while it was still counted in their momentum, so the
+  same card was in two places at once.
+- Fixed: "move all Wall counters from this card to another card" left the
+  counters showing on the old card on your rival's screen.
+- Fixed: destroying one of your own foundations to pay for an ability was
+  recorded as a sacrifice. Cards answering "after a foundation is destroyed"
+  stayed asleep, "if you have destroyed a foundation this turn" said no, and
+  cards that trigger on a sacrifice woke up when nothing had been sacrificed.
+- Fixed: spending a Power or Heat token opened the "after a foundation is
+  destroyed" window, offering free triggers for something that never happened.
+- Fixed: an Enhance reading "if your attack deals damage to a character" was
+  asked before the attack had swung, so it always answered no and the reward it
+  guards never paid out. Same for "if your non-Throw attack deals damage".
+- Fixed: "if it deals damage to a Titan backup, that backup loses 1 stamina"
+  asked you to choose a backup, and asked whenever the attack dealt damage to
+  anything at all. It now drains the backup the attack actually hit, and only
+  when that backup is a Titan.
+- Fixed: "if this attack is not completely blocked" was asked before anyone had
+  the chance to block, and an attack nobody has blocked is not completely
+  blocked, so the reward was handed over every time.
+- Fixed: "if this is the only card in your card pool" was answered by whether
+  the attack had been blocked, which during your own Enhance Step is always no.
+  All four cards printing it paid out regardless of how full your pool was.
+- "Commit 1 rival asset" committed one of their foundations instead. Six cards
+  reach past the foundations when they commit, and five of them name what they
+  reach: an asset, a backup, or either of those or a foundation. The printed
+  word is carried through now and the commit takes the card it names.
+- Four more commits that name what they take. "Commit 1 rival foundation or
+  asset" stopped reading at the first word, "your rival commits 1 asset or
+  backup" took a foundation instead, and "your rival commits 1 foundation and
+  asset" is two cards rather than one.
+- Sealing, freezing, flipping and sacrificing now reach the card they name too.
+  "Seal 1 rival asset", "flip 1 rival asset or foundation" and "sacrifice 1
+  foundation or asset" all took a foundation whatever they printed.
+- "Commit and freeze" and "commit and seal" now freeze or seal the card they
+  just committed. They used to ask for a second, separate card, which let you
+  freeze one you had not committed and lost the printed type a second time.
+- "Commit and flip 1 rival foundation" flips the card it committed too.
+- "After your rival plays an attack, remove it from the game" removes their
+  attack. It used to remove the card the ability was printed on.
+- "You may flip 1 foundation and ready it" readies the foundation it flipped
+  rather than the attack that said so.
+- "A player of your choice gains N health or a backup of your choice gains M
+  stamina" reads both printed numbers instead of using one for both.
+- "While there are N or more different keywords among cards in your card pool" now
+  gates the bonus it is printed with. Only the "If there are" wording was read.
+- "If there are N or more different keywords among the cards milled this way" is
+  read at all now, so the offer that follows it is made only when it is earned.
+- "Your attack with 1 or fewer abilities gets +2 speed and +2 damage" counts the
+  abilities on the attack in flight. Every attack used to collect the bonus.
+- "Your rival commits 1 card in their stage with no abilities" reaches the whole
+  stage and skips the cards that print something. A keyword is an ability here.
+- "Add 1 card with "Dagger" in its name not named "Dagger, Dagger, Dagger"" no
+  longer hands back the card that said so. The exclusion was dropped.
+- "After you block with a foundation not named "Size Specialist", build it" no
+  longer fires when Size Specialist is the foundation that blocked.
+- "Add 1 other card from your stage to the top of your deck" no longer sends
+  away the card that committed itself to say it. "Add 1 other middle attack from
+  your card pool to your momentum" no longer moves the attack in flight.
+- "You may clear 1 other attack from your card pool" to pay an Echo cost no
+  longer lets the attack pay for itself, and the offer is only made when the
+  pool holds another attack that could cover it.
+- "If you have another action or Spell in your card pool, this attack gains
+  Stun: 2" no longer counts the attack asking, which is itself a Spell sitting
+  in that pool. The Stun was unconditional.
+- "After your rival plays an attack that shares a keyword with another attack in
+  their card pool, skip this attack's Enhance Step" reads what the attack has to
+  share. The response used to fire on any attack they played.
+- A response that asks a rival to attack another backup is no longer offered by
+  the backup the attack is already aimed at, where redirecting earned nothing
+  and still cost a commit.
+- Abilities whose trigger names the card it happened to can no longer be played
+  when that card is the one excluded. Nineteen cards were offered, charged their
+  cost and then did nothing.
+- Setting the Standard's "the speed and damage values of each other attack you
+  play this turn become 4" now applies to every attack you play after it. It
+  used to be spent on the first one.
+- Stomp of the Female Titan doubles a bonus once per time you play the response,
+  up to the three it prints. The second and third plays used to buy nothing. It
+  also no longer doubles a bonus the attack gave itself, which is not "another
+  card's effect".
+- Four more "up to N" effects are a ceiling rather than a demand: removing cards
+  from a rival's discard pile, shuffling your discard pile into your deck,
+  freezing foundations stunned during an attack and adding cards to the bottom
+  of your deck. Each took the full count whenever the pile or stage held that
+  many or fewer, so coming in under the printed number was never offered.
+- "Add N cards from your discard pile to the bottom of your deck" no longer asks
+  how many when the card does not print a ceiling. Asking made a flat instruction
+  declinable.
+
+- Six more cards reading "after you block an attack with this card" now check
+  which card blocked. They fired off any block at all, so a foundation sitting in
+  the stage could draw a card, slow the next attack or blank an attack it had
+  taken no part in blocking. Two of them also answer only Throws, as printed.
+
+- "Your rival removes 1 random card from their hand" no longer asks them to
+  choose. The card they would least like to lose was the one they handed over.
+- "Your rival draws 1 card and adds 1 random card from their hand to their card
+  pool face down" now does both halves. The second clause shares its subject with
+  the first, and only the draw was read.
+
+- Cards reading "after you completely block an attack with this card" now check
+  which card blocked. Ryu, Ken and their reprints could be played from hand off a
+  block some other card made, and retaliate with a card that never blocked.
+- "When you completely block with this card" no longer fires on a partial block.
+- "After your attack is not completely blocked, build it face down committed" now
+  reads the word "not". It used to fire after any attack resolved, including one
+  that was completely blocked.
+
+- "Freeze up to 2 foundations stunned during this attack" and "freeze 1 of them"
+  now freeze only the foundations the attack's Stun ability committed. Both cards
+  reached the whole rival stage instead, so either could freeze any foundation it
+  liked whether Stun had touched it or not.
 
 ## 0.0.1
 

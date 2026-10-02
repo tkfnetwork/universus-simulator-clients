@@ -6,11 +6,63 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.2
 
-### 2026-10-01
+### 2026-10-02
+- When your rival mills more cards than their deck holds, your screen now shuffles the cards milled before the cycle back into their deck with the rest. It used to leave them in their discard pile, so your screen showed their deck short and their discard pile too big.
+- When your rival puts a card from their hand on the bottom of their deck, such as with Teenage Downtime, your screen now moves it. It used to usually move nothing, leaving their hand a card too big. Your rival's game is also no longer told which card you put there.
+- Trace Eyes' "destroy 1 ready foundation to pay for this attack's Echo cost" now only accepts a ready foundation and destroys it, so cards that count your destroyed foundations see it. It used to accept a committed one and sacrifice it.
+- Breaker's penalty, and other effects that change your rival's next check to play a card, now apply when that next card is an action whose ability they play from hand, or an Echo replay. They used to skip those and land on a later card.
+- Combination Salvo's response now only returns an attack spent on the Powerful cost it answers. If that cost was paid another way, such as by discarding from your hand, it could hand back a card spent on an earlier ability.
+- When you commit a foundation as the extra cost Charged Alien Sploof, Ride the Lightning or Maintain Distance puts on your abilities, your rival's screen now shows it committed too.
+- When your rival blocks with a card already in their card pool using Jin's Glove, your screen now uses that card. It used to take a card out of their hand and show the blocker twice in their pool.
+- When your rival blocks with the top card of their discard pile using Suzuki, your screen now takes that card off their discard pile. It used to take a different card out of their hand and leave the blocker on their discard pile.
+- Mitchell Cimino's "After you review a card, add it to your momentum" now adds the reviewed card to your momentum. It used to do nothing and use up the ability for the turn.
+- Fusion Chest Cannon, played on a block in your rival's turn, now removes itself with a Kiryu counter at the start of that End Phase, and Mitchell Cimino's removed momentum comes back to your hand at the start of the End Phase you removed it in. Your rival's screen also no longer moves your Integrated Weapons into its own removed pile a turn later.
+- Unflipping a face down Unique foundation, such as Following Orders, when you already have a face up copy now sacrifices the unflipped copy, as the rules say. Before, both copies stayed in play.
+- Paying for an EX or Powerful ability by sacrificing Stunt Specialist or Second Wielder now sacrifices that foundation. It used to sacrifice your attack instead.
+- When your rival's Itsuka Kendo sets their hand size to 8, your screen now uses 8 too, so cards that compare or count hand sizes give the same result on both screens.
+- Echo can now be used more than once a turn, as the rules allow. Levi's Rampage, which stays face up after its echo, can echo again while you have momentum to pay.
+- Mothra, Divine Moth's "considered completely blocked" now makes the attack completely blocked on both screens and skips the offer to block, as the rules say. Before, only its damage changed, so cards that care whether an attack was completely blocked treated it as unblocked.
+- Blocking Channeling Spell Seal now seals your blocker on your own screen as well as your rival's, so you can't go on playing its abilities that turn.
+- Your rival can now cancel your Form abilities with cards like Impenetrable Defense, as the rules allow. Forms used to resolve without giving them the chance.
+- Cancelling your rival's ability with an action from your hand, such as Impenetrable Defense, now plays the card: it is checked, goes to your card pool, and does nothing if the check fails. It used to cancel without a check and stay in your hand, so it could cancel again and again.
+- The Coronation of Historia Reiss now commits every copy of the foundation your rival played an ability on. It used to commit nothing after you paid for it.
+- When an attack's zone is changed during its attack, such as by Roman Cancel, bonuses for attacks in that zone, like Sky Dominance's, now apply on both screens, and bonuses for the zone it left no longer do.
+- Hate Fish and Stomp of the Female Titan now double only a bonus. A penalty your rival gave your attack is no longer doubled, and no longer uses up the doubling meant for your next bonus.
+- Attacks whose damage cannot be reduced below printed by rival effects, such as Colossus's Steam Barrier, now keep their printed damage against Deflect. The attacking player's screen used to take the full Deflect off and deal less.
+- When your rival's backup, such as The Female Titan, is destroyed by losing stamina to pay for its own ability, it now leaves their stage on your screen too. It used to stay there, could be attacked again, and an attack on it could end up in momentum on one screen and the discard pile on the other.
+- When your rival searches their deck or discard pile for a card and builds it, such as with Mechazoid Onslaught, your screen now shows one copy built. It used to build a second copy from one of their hand cards.
+- Willy Tybur's Sacrifice and United Front now let you choose which of the top 3 cards to add to your hand. They used to add the top card, and your rival's screen didn't show it leaving your deck.
+- When Survival of the Fittest or Zeke's Dream Becoming Real gives one of your backups stamina, your rival's screen now shows it too. Before, their attack could destroy that backup early on both screens.
+- Winning with Spreading the Word or Knife Edge Death-Match now ends the game: you see Victory and your rival sees Defeat. Before, neither screen showed the result and your rival could keep playing.
+- Unflipping or unsealing a card now lets you use its [Once per turn] abilities again that turn, as the rules say its abilities are new ones.
+- A Roman Cancel token removed to pay for one of its colours now ceases to exist instead of staying in your removed pile, where it counted toward cards that care how many cards you have removed.
+- Wall Artillery now gives +1 damage for every 2 Wall counters on cards in your stage, as printed. It was giving +1 for each one.
+- When your rival plays Deus Ex Machina, the Bullet counters it adds to their character now show on your screen too.
+- After Violent Betrayal, your battle log now shows the foundations you flipped as well as your rival's.
+- [Once per turn] abilities, such as Break the Spell's response, now count every use in the turn. One used in the Start Phase could be used again in the Combat Phase, and one used in the End Phase could not be used in the next turn's Start Phase.
+- Adjourning Sweep's "rival foundations cannot be readied during this Combat Phase" now ends with the Combat Phase. It used to stop readies until the next Combat Phase began. Suzuki's and Annie, Female Titan's permission to block from somewhere unusual now lasts only for the attack it was played on.
+- Get In, Get Out and Dorian's Lute can no longer be flipped when your rival's card makes you flip a foundation, by your rival's half of an effect that makes each player flip one, or by Caught Misbehaving.
+- Threat Neutralized, Hercules: Red Riot and face down foundations protected by your character can no longer be destroyed when your rival's card makes you destroy a foundation, or by a rival card that destroys every foundation in play.
+- When your rival levels up, such as with Grinding Overtime, your screen now counts it once. It used to level them up twice and name a skill they had not unlocked.
+- When your rival plays a card from their hand that removes itself from the game or builds itself, your screen no longer also takes one of their hand cards with it.
+- When your rival plays Surprising Strength or another card that adds itself to momentum, your screen no longer also moves one of their hand cards to their momentum.
+- Cards you add to your momentum face down from your hand or the top of your deck are no longer revealed to your rival's game.
+- A card that says to remove it when it leaves your card pool, such as an attack played with Nina Williams, is now removed from the game when it would add itself to your momentum, instead of going to your momentum.
+- When Tongue Snatch or Pinpoint Focus: Blackwhip Shot makes you add a random card from your hand to your card pool face down, your rival's game is no longer told which card it was.
+- When you choose between cards that include your rival's face down cards, such as with Thieving Goblin Bolt, Horn Dash Hammer or Soothing Grog's Rage, those cards are now shown face down instead of revealing them. Thieving Goblin Bolt no longer copies abilities from a face down foundation, which has none.
+- Dragging a card onto your discard pile to pay the no-form penalty or a discard cost no longer leaves that card in your hand as well as your discard pile. Clicking twice quickly on a card to discard no longer causes an error.
+- Abilities that make a check and reward passing or failing it, such as Weapons Within, Treasure Chest, Fenthras, Sadistic Jeer and Cohort Support, now give the same result on both screens. Before, the rival's screen always treated the check as failed, so Weapons Within's +3 damage was missing there.
+- When Secretary of Defense or Wingnut, Mechanical Genius seals one of your foundations again at the start of the next turn, it is now sealed on your screen too, so you can no longer play its abilities that turn. The second seal is also shown in the battle log.
+- After Bertolt Hoover, Living Weapon makes each player keep 3 foundations, the foundations your rival sacrificed now leave their stage on your screen too, and the other way round.
+- When your rival pays Raphael, The Muscle's "Discard your hand" or Izuku Midoriya, On the Move's "Commit X foundations", your screen now shows every card they discarded or committed, not just one or none.
+- Cards that say to remove them when they leave your card pool, such as Fortitude of the Armored Titan, Ruthless Mockery and Nullify, are now removed from the game when they are cleared as a block, cleared to pay a cost or discarded from the pool by an effect, instead of going to the discard pile.
+- Spring the Trap! and other cards that say they are added to momentum face up now stay face up however they get there, including when Waylay returns them.
 - Fixed an issue where the battle log only said your rival "commits 1 card" when they paid a Drive cost by committing a face up foundation, instead of naming it as their own log does.
 - Fixed a game freeze where, after an action card failed its check to play one of its abilities during the Enhance Step, a quick pass from the other player could be lost and both players were left waiting on each other.
 - Fixed an issue where, after paying for an enhance by committing a card, the Pass button came back while your rival was still deciding whether to cancel it. Passing then could leave the two screens out of step about the enhance.
 - Fixed an issue where, with Little Mister in your rival's stage, a cost they paid by milling showed one card fewer on your screen than they milled, so "if you milled an attack this way" could be answered differently on the two screens.
+
+### 2026-10-01
 - Fixed an issue where, after you played Gas Propellant, your screen showed your rival's attacks that turn at full speed while theirs showed the -1, and the two screens disagreed.
 - Fixed an issue where your rival's Power of Youko could count toward progressive difficulty on one screen and not the other, because your screen read an earlier discard instead of the card they discarded from your card pool.
 - Fixed an issue where Bat Strike and Oar Strike counted cards your rival milled to pay a cost as cards they discarded this turn. Only cards discarded from their hand count.

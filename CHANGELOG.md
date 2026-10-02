@@ -7,6 +7,25 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.2
 
 ### 2026-10-01
+- Fixed an issue where the battle log only said your rival "commits 1 card" when they paid a Drive cost by committing a face up foundation, instead of naming it as their own log does.
+- Fixed a game freeze where, after an action card failed its check to play one of its abilities during the Enhance Step, a quick pass from the other player could be lost and both players were left waiting on each other.
+- Fixed an issue where, after paying for an enhance by committing a card, the Pass button came back while your rival was still deciding whether to cancel it. Passing then could leave the two screens out of step about the enhance.
+- Fixed an issue where, with Little Mister in your rival's stage, a cost they paid by milling showed one card fewer on your screen than they milled, so "if you milled an attack this way" could be answered differently on the two screens.
+- Fixed an issue where, after you played Gas Propellant, your screen showed your rival's attacks that turn at full speed while theirs showed the -1, and the two screens disagreed.
+- Fixed an issue where your rival's Power of Youko could count toward progressive difficulty on one screen and not the other, because your screen read an earlier discard instead of the card they discarded from your card pool.
+- Fixed an issue where Bat Strike and Oar Strike counted cards your rival milled to pay a cost as cards they discarded this turn. Only cards discarded from their hand count.
+- Fixed an issue where Sasha Blouse, Food Fanatic drew 2 cards after adding nothing to your momentum, if an asset had been added on an earlier use.
+- Fixed an issue where your rival's In the Lead had the wrong damage on your screen, read from an earlier reveal instead of the momentum they revealed, or from an earlier reveal on both screens when they had no momentum to reveal.
+- Fixed an issue where Divine Dominance of Annihilation, with no rival card to return, stopped your rival from playing copies of a card returned earlier in the game.
+- Fixed an issue where Abyss Damnation, with no rival foundation to seal, unsealed a foundation another card had sealed when the attack resolved. Secretary of Defense could likewise seal a foundation again that it never sealed.
+- Fixed an issue where Armin Arlert, Scared Strategist and Vex, The Siren gave +2 damage after discarding nothing, because a foundation had been flipped earlier, or the other way round. This could differ between the two players' screens.
+- Fixed an issue where Maximum Follow-Through's damage bonus counted foundations an earlier card had committed to pay its cost, instead of the foundations Maximum Follow-Through just committed.
+- Fixed an issue where Fiery Stare, Bertolt, Colossus Titan Advancing and Nott the Brave, Chaotic Meddler compared the cards they discarded or milled with cards an earlier card had discarded or milled, so two cards that shared a type could be read as not sharing one. Sakyo's Gamble still compares both players' milled cards.
+- Fixed an issue where a card discarded from your hand to pay for an ability was not the card the ability then read. Spell Bolt and Sword Swipe asked what an earlier effect had discarded instead, and Caleb Widogast, Fiery Transmuter, Choi Jong-In, Dash toward Disaster, Sacrifice for the Cause and Genkai could read an earlier discard in place of the card just paid.
+- Fixed an issue where Jacob Johnson's enhance could draw and build because of an action discarded earlier in the turn, when the foundation it sacrificed was not an action.
+- Fixed an issue where your rival's This is Freedom had the wrong speed and damage on your screen: committing no backups still counted backups committed earlier, and a backup they committed could also commit a second copy of it on your screen.
+- Fixed an issue where your rival's Execute Orders! or Teamwork Attack had the wrong speed or damage on your screen, read from the last foundation you had added to your hand rather than the one they added, or from an earlier one when they added none.
+- Cards that are played to an official errata now carry a small E in the bottom right corner, on the board and in the enlarged preview. Hover it to read the errata'd text. City Rampage, for one, now costs 1 momentum to play as a form, which its printed face does not show, and the message when you cannot pay now says what the cost is.
 - Fixed an issue where Disrespectful Banter's damage bonus read its own block modifier instead of the destroyed foundation's, or added one when your rival had no foundation to destroy.
 - Fixed an issue where In the Lead's damage change ignored the block modifier of the momentum it revealed, and the reveal was not shown in the battle log.
 - Fixed an issue where the cards Emerge Victorious reveals from the top of your deck were not shown to your rival or in the battle log, and abilities that check whether you revealed a card did not see them.

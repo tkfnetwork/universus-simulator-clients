@@ -6,6 +6,61 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.2
 
+### 2026-10-03
+- Against Potemkin Buster you can now still play responses timed "before the Damage Step", such as Deflect or King Ghidorah, Three-Headed Monster's, since its lock only covers the Damage Step itself.
+- Potemkin Buster's lock on response abilities no longer stops your automatic effects during its Damage Step, so Yasha Nydoorin, Orphanmaker still gains her Rage counter.
+- "When you take damage" responses, such as Fateful Meeting, no longer answer an attack on one of your backups, which is the backup taking the damage, not you.
+- The card you keep from a look at your deck, such as with Willy Tybur's Sacrifice, is no longer named to your rival.
+- Searching your deck for any card and adding it to your hand, such as with Xilien Agent, no longer tells your rival which card you took.
+- Looking at the top of your own deck and putting cards back in order or on the bottom, such as with Combadge or Seize the Opportunity, no longer tells your rival which cards they were, and their screen now reorders the right cards.
+- Taking a face-down card out of your momentum, such as with The Dark Tournament Looms or Sickle Flash, no longer tells your rival which card it is, and now moves it on their screen too.
+- When your rival's Clear the Perimeter sends your backup to your momentum, your "after cards are added to your momentum" responses are now offered right then instead of at some later play.
+- Cards moved from the stage to momentum by an effect, such as Goblin Bolt or Clear the Perimeter, now go face down like every other card added to momentum.
+- "Reduce the damage you would take" effects, such as Redirect Power to Shields and Impenetrable Defense, now reduce what a partially blocked attack would actually deal you, after it is halved, instead of the attack's damage before halving.
+- When Reiner Braun, Warrior or King Ghidorah, Emperor of the Cosmos survive losing the game, your rival now sees the right health instead of double. When King Ghidorah has no counter left and the game is lost, your rival's screen ends the game too.
+- Heat is Unique, so adding Heat while you already have one now sacrifices the new token instead of stacking a second. Cards that count Heat you added still count every add.
+- A card your rival adds to their momentum face down from their hand or deck no longer sometimes shows face up on your screen.
+- An asset ability Yoshimitsu gains is now a character ability on your rival's screen too, so Countermeasure's "non-character ability" cancel no longer answers it, and Yeagerist Takeover's "character ability" response does.
+- When a card makes you check again, such as Improvised Riposte, the new check now keeps your "checks get +1 this turn" bonus, such as from Lady Kima of Vord.
+- Rando's Spirit Gun now lets you play only [Once per turn] abilities printed on your character a second time, not unlocked skill tree abilities such as Sung Jinwoo's Quicksilver.
+- A copy of your starting character attached to it no longer gives its abilities a second time, so King Ghidorah, Emperor of the Cosmos spends a counter to survive instead of losing, and Godzilla, King of the Monsters' damage bonus applies once.
+- You can now level up after unlocking every skill on your skill tree, as the rules allow, so Double Dungeon's "after you level up" response is still offered and the level-up shows in the battle log.
+- "After this attack resolves" clauses you play on your rival's attack now happen when it resolves, so Trinket returns to your hand and Faith's Shield flips the attack.
+- Kaya's Compassion, Teleportation Stone and Dwueth'var, the Star Razor now stop your rival from playing an attack as their next form, as printed.
+- Checks that play no card, such as the one Sadistic Jeer makes your rival take, now get your rival's "your next check gets -N" (Crystal Formation) and The Teenage Mutant Ninja Turtles' check floor. Bonuses printed for your next check "to play a card" or "to play an attack", such as Black Abyss: Sabbath and 16 Instant Slashes, now wait for that play instead of being spent on such a check or on another kind of card.
+- The keyword Okey Dokey! gains from the discarded card now shows on your rival's screen too, so their blocks and responses see it, such as Rising Uppercut no longer answering a Ranged attack.
+- Foundations that ignore progressive difficulty, such as Dumbfounded, Steadfast Bodyguard and Jaguar Sprint behind a Throw, now ignore it when you block with them too.
+- High Spirit Awareness can now cancel a Deadlock Stun, such as Heat Ray's or Blasting Off's.
+- Gas Propellant's +2 Breaker rating now goes to the card you blocked with instead of your rival's attack, and the Breaker penalty on your rival's next check includes it.
+- Time for Rest's speed penalty now applies to an attack that gains the named keyword, such as from Enraged Tettsui Otoshi, and no longer to one that has lost it, such as through Fortitude of the Armored Titan.
+- When you block with A Titan (Small), it is now built at the end of that Combat Phase instead of being discarded and built a turn later. Violent Past and Loot Box played on your rival's turn now clean up at the end of that Combat Phase too.
+- A card sealed during your turn is no longer still sealed at the start of your rival's next turn, so Imprisoned and Chu can answer your rival's Ready Step.
+- The Pilot of the River Styx now remembers a card your rival discarded from their hand during the Start Phase, such as at the Review Step, for the rest of that turn.
+- When your card, such as Tongue Snatch, makes your rival draw or add cards to their card pool face down, Dedicated Artisan, Totally Not Jealous and Legendary Bandit now answer it right away, instead of at some later play or not at all.
+- After Stabbing Dagger makes your rival mill until they mill an attack, a later mill in the same attack, such as Playing Pranks, now reads its own cards on both screens instead of the dagger's.
+- When Reina or King Ghidorah, Emperor of the Cosmos survive a lethal loss, your rival now sees the Devil Gene or King Ghidorah counter change too.
+- Horn Dash Hammer and Historia's Declaration can now choose either player's character, so Horn Dash Hammer can add a Horn counter to Pony Tsunotori.
+- Nott's Flask and Hunter's Dagger can now pay their "remove 1 counter" costs with the counters on themselves, instead of asking for counters on your character.
+- A backup that loses its last stamina to an effect, such as Widogast's Web of Fire, now counts as destroyed, so "after a backup is destroyed" cards like The List answer it.
+- Destroying a rival backup with an effect now counts as a backup destroyed, so cards like The List answer it, and no longer counts as a foundation destroyed.
+- Backups, assets and foundations that grant a bonus "while in your stage" (such as Genghis Frog, Temperamental Toad) no longer grant it while still in the card pool, only once they reach your stage.
+- Fixed cards dropped into your card pool right as your Combat Phase began being left there unplayed. Your rival's screen also counted them as still in your hand.
+- A sealed Plate of the Dawnmartyr no longer stops you losing your last health to rival effects, and a sealed Shaun Gilmore no longer gives your character its class, since sealed cards have no abilities.
+- When Vox Machina, Warding Sigil or Luna Tijeras makes your rival spend momentum, their "after you spend momentum" responses such as Unyielding Rage are now offered, as they already were for other cards that make them spend.
+- Burning Fist spent from your momentum through a "spend 1 momentum" card such as Toothy Bite is now removed from the game as it says, as it already was when spent any other way.
+- Catching a Meteor now adds the same number of Meteor counters on both screens when your rival spends momentum through a card such as Toothy Bite.
+- Nimble Maneuver now puts the top card of your discard pile on top of your deck, as printed. It used to let you pick any card from the pile.
+- Decompose now removes the top 2 cards of your rival's discard pile. It was removing the 2 at the bottom.
+- Suzuki's block with the top card of your discard pile now takes the top card. It only accepted the bottom card once your discard pile had more than one.
+- Putting cards from the top of your rival's deck back in an order, or on the bottom, with April's Investigation, Psycho Mine or Rule of Acquisition #111 now moves the cards you looked at, and names them correctly when you choose. Before, it named and moved other copies from anywhere in their deck.
+- Fixed a freeze when starting a rematch: if the player who accepted rolled for the other to go first, sometimes neither player got a turn.
+- Extra copies of your starting character in your deck list, such as Kurama, Youko Unleashed, are now dealt into your deck. Only one became your character and the rest went missing, leaving the deck short.
+- The first player's second mulligan now follows the rules: it is only offered when the new hand has no foundations, that hand is shown to the rival, and the deck is shuffled after the mulligans rather than between them, so the first hand can't come straight back.
+- A copy of your starting character attached to it can no longer play its abilities from the copy, as the rules say. Its abilities are your character's, so [Once per turn] abilities such as Garett Brett's can no longer be played twice a turn.
+- Your rival's attached characters can no longer be chosen by effects, such as Spreading the Word's counter, as the rules say. Only your own were protected before.
+- Transforming a character, such as Izuku Midoriya or Ymir, no longer restores it to full health. It keeps the health it had, as the rules say, and the health shown updates straight away.
+- When you remove the top card of your rival's deck with Spireling Fetch or Earwig Pincer, your screen now shows the card actually removed. It used to show a random card from their deck.
+
 ### 2026-10-02
 - When your rival mills more cards than their deck holds, your screen now shuffles the cards milled before the cycle back into their deck with the rest. It used to leave them in their discard pile, so your screen showed their deck short and their discard pile too big.
 - When your rival puts a card from their hand on the bottom of their deck, such as with Teenage Downtime, your screen now moves it. It used to usually move nothing, leaving their hand a card too big. Your rival's game is also no longer told which card you put there.

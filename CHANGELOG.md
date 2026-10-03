@@ -7,6 +7,19 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.2
 
 ### 2026-10-03
+- When your rival sacrifices one of several Power tokens to pay for its own ability, your screen now removes that same token, so their committed and ready tokens no longer swap on your board.
+- "Your attacks this turn get +N" enhances, such as Gas Propellant's, now also apply to the attack you play them on, and its "your rival's attacks this turn" half to the rival attack you play it against.
+- Yeagerist Follower's speed penalty now stops at its printed minimum of 1.
+- Removing a counter from your character with Combined Perfect Form's effect no longer counts as paying a cost, so it no longer sets off Oxygen Destroyer's Power token later, for either player.
+- Against Charged Alien Sploof, Maintain Distance or Ride the Lightning, you are no longer offered an enhance or response you cannot pay the extra foundation commit for, so you no longer lose its printed price for nothing.
+- "Build 1 foundation from your card pool" effects, such as Ymir's, no longer offer a face-down card in your pool by the type it hides, or turn it face up.
+- When your rival picks a card from your discard pile that has another copy there, such as with Garett Brett or Jet Jaguar, Warrior of Justice, your screen now moves the copy they picked, so both discard piles stay in the same order.
+- Cards you try to play from your discard pile, removed pile or momentum through an effect, such as Nina Williams, Kazuya Mishima or Yusuke, Team Leader, now go to your card pool to be played, so an attack played this way is no longer dropped as it starts, and your rival sees the play.
+- When a second copy of a Unique card is sacrificed after the End Phase builds it, or after a card that builds itself as it is played, the "after you sacrifice" responses now answer it right then instead of at some later play.
+- Decay Awakened and Total Destruction now open the "after a foundation is destroyed" responses, such as Cheerful Teen's, and each destroyed card's own "after this card is destroyed" ability.
+- Brace for Impact now really returns the attack to its printed speed and zone for your block, so the block check and whether the block is full or partial use them.
+- A card you block with through Gunslinger's Focus now blocks as the mid block it grants, so it fully blocks a mid attack and partly blocks a high or low one, and the attack's "cannot be blocked by" restrictions still apply to it.
+- The face-down attacks Beauregard Lionett, Expositor adds from your deck are no longer named to your rival, including when you choose whether to send one to momentum.
 - Against Potemkin Buster you can now still play responses timed "before the Damage Step", such as Deflect or King Ghidorah, Three-Headed Monster's, since its lock only covers the Damage Step itself.
 - Potemkin Buster's lock on response abilities no longer stops your automatic effects during its Damage Step, so Yasha Nydoorin, Orphanmaker still gains her Rage counter.
 - "When you take damage" responses, such as Fateful Meeting, no longer answer an attack on one of your backups, which is the backup taking the damage, not you.

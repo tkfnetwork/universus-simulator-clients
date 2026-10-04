@@ -6,7 +6,60 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.2
 
+### 2026-10-04
+- A "(min. 1)" printed with a penalty, such as Set the Record Straight's, no longer stops a later effect like Adaptable Anatomy's from making the attack deal no damage.
+- Ticking Time Bomb and Ready to Go no longer answer when your rival pays health as a cost; they answer health lost to an effect, as printed.
+- Advancing Destruction and Evil Aura now remove your attack, as printed, instead of removing themselves.
+- Sneaking Home and Teamwork Attack now let you pick a backup from your stage to add to your hand, instead of any foundation or face-down card.
+- Blocking with Memories of the Fallen now clears Memories of the Fallen from your card pool, instead of calling off the attack you blocked.
+- Rodan, Giant Monster of the Sky's Enhance now lets you reorder the cards you looked at, including all 4 when you have 4 or more attacks removed, instead of asking for an order before showing them.
+- Twins' Bond's +1 speed and +1 damage for chosen cards that share a type now shows on your rival's screen too, so both players see the same attack.
+- Keeping Alert can now cancel any rival ability that draws cards, including ones that draw a card for each of something.
+- Aerial Arrival now works on the first attack of the turn whoever played it, so you can slow your rival's first attack with it.
+- Special Assignment's "They discard 1 card at random" option now discards a random card instead of letting your rival pick it.
+- Steaming Sphere's Power now cancels rival abilities that make you discard or spend momentum, and no longer answers one that moves their own momentum to their deck.
+- Condescending Explanation now flips the attack in progress, as printed, instead of the card it removed to pay for itself.
+- Cards you build during the Combat Phase now count as built this turn, so Hertz Blade - Diablo's Blitz gets its bonus for them.
+- Colossal Detonation's Blitz now commits your character to pay for it, not the attack itself, and can't be played while your character is committed.
+- Twin Twains now answers when your rival makes the choice on your own Diplomacy card, and no longer when you made the choice on theirs.
+- Karasu's Enhance now counts every foundation destroyed this turn, including the ones your rival destroyed.
+- Flying Elbow Drop's removed-pile replay is now offered only when you discard it together with at least 1 other card from your hand.
+- Abrupt Drop and Needle Barrage now count the character cards you milled, instead of always counting zero.
+- Sheng Pao now counts face down foundations in both players' stages, as "in play" says.
+- "Name a card type" (Tarot Reading, Singing Fish, Golden Death, Heart of the Band and others) now offers Backup and Arena as well.
+- An enhance that fails its play check now counts as tried, so First Enhance abilities are no longer offered after one in the same Enhance Step.
+- Personal Reload, Rocksteady, Easily Angered and Jaw Titan, Crushing Biter can now be played on any attack: the bonus still needs the named attack type, but the draw or card they add always happens.
+- Scales of Juno and Seventh Wielder: Float no longer offer to cancel a rival ability that clears your card pool; they answer only abilities that take cards from the rival's own pool.
+- Vestige Slingshot's "after this attack receives a speed penalty" response is now offered when the attack in flight gets a speed penalty.
+- Damage your attack deals to a rival backup now counts as damage dealt this turn, so cards like Ki-Charged Strike and Angelic Heart get their bonus.
+- Cards that don't count toward progressive difficulty "to play attacks" or "to play foundations" (such as Reborn Human, Fast and with Finesse and Enough of This) now still count when you block, since blocking isn't playing an attack.
+- Cards that ask whether an attack is Throw, Kick, Weapon, Ally or Shift (such as Determined Seeker) now count keywords the attack gained and ignore ones it lost or had sealed.
+- Godzilla vs Mechagodzilla and Guide to Self Defense now return the card you blocked with to your hand, instead of taking their cost and doing nothing.
+- After Moral Conflict, you can no longer pay a clear cost or take a "you may clear it" offer for the rest of that Combat Phase.
+- Widogast's Web of Fire's Mage Blitz now makes your rival lose 2 health as well as hitting their backups' stamina.
+- Turbo Speed Dash now draws its first card only if the attack dealt damage.
+- Enchanted Weapon Attack, Quest Board, Curious Tea Preparation and Rebuilt Forces can now build the asset or backup they name within the printed difficulty, instead of finding nothing to build.
+- Faith's Shield now flips the attack it blocked after that attack resolves, instead of flipping itself.
+- Abilities that count copies of a named card, such as Marleyan Soldiers, no longer count face-down cards in your stage, card pool or momentum.
+- Finding Strength now counts card types among the cards both players milled, not only your own.
+- When Utgard Castle Stands or Sand Blast has you choose a rival foundation to commit, you can now only pick one within the printed difficulty.
+- Jarett Howarth, Hasty Retreat and The Prowess of the Survey Corps now return your attack to your hand, as printed, instead of returning themselves.
+- Useful Information now counts the Titan cards you have in play as the rules define it: your stage, including your character, and not your card pool.
+- A Heat token's "after your attack deals no damage" now answers only your own attacks, so your rival no longer loses health when their attack against you is blocked.
+- Midnight (II) and Massive Abnormal Titan now need a non-attack card to have actually been discarded or milled, so a discard or mill of nothing no longer counts.
+- Phoenix Stance, answering your End Phase pool clear, now offers the cards that clear just discarded rather than those of an earlier clear.
+- Humanity Fights On now counts your character's INFINITY symbol and no longer counts face-down cards in your stage, which show no symbol.
+- Hange's Last Stand now gets its -3 difficulty when your rival has cycled this game, as well as when you have 10 or less health.
+- Jaw Titan's Trap now makes your rival lose 1 health for each attack they milled, and draws you a card for each, counting their mill rather than your own.
+- A card that Lightning Rod, or a similar effect, puts in play and later removes or sacrifices is now only taken if it is still where it was put, so one destroyed in the meantime stays in your discard pile.
+- Eren Yeager, Humanity's Hope, Eren Yeager, Usurper, Jester Lavorre, Prankster Priestess and Hedrium Endurance now return 1 card from your discard pile to your hand, as printed, instead of 2.
+- Twist Reality now cancels only a rival ability that adds tokens, so abilities that sacrifice Power tokens, such as Artificial Power, are no longer cancelled.
+- Cards that your abilities treat as assets, such as Mechazoid, now count as assets for "if you have assets in your stage" checks, so Raphael's Sai no longer builds itself beside one.
+- The Colossus Titan now draws you a card whenever it leaves your stage, including when it is destroyed, sacrificed or returned to your hand, not only when it is removed.
+- Eren Yeager, Usurper and Punisher's Beam now add only a milled card with one of the keywords they name to your momentum, and you choose which one.
+
 ### 2026-10-03
+- A card played out of your removed pile no longer keeps its Kiryu counter, so Mechagodzilla, Modified Type-3 Kiryu only lets you play cards that still carry one.
 - When your rival sacrifices one of several Power tokens to pay for its own ability, your screen now removes that same token, so their committed and ready tokens no longer swap on your board.
 - "Your attacks this turn get +N" enhances, such as Gas Propellant's, now also apply to the attack you play them on, and its "your rival's attacks this turn" half to the rival attack you play it against.
 - Yeagerist Follower's speed penalty now stops at its printed minimum of 1.

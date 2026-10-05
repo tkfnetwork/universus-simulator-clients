@@ -6,7 +6,166 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.2
 
+### 2026-10-05
+- Hard Rock Witch and the other answers to "an ability that modifies, increases or reduces the damage" (or speed) now answer abilities that return an attack to its printed damage, swap its speed and damage, cap it, or give your next attack more damage, such as Arrogant Smirk and Team Stash.
+- Pulverizing Punch's second play now mills 3 more cards and counts those, instead of counting the first 3 again, and does not offer the momentum spend a second time.
+- Sealing a face down card in your card pool with For All Our Sakes now shows your rival the seal on that card, without telling them what it is.
+- This is How It Ends now readies its foundations when you have dealt damage only to backups this turn: it asks about damage to a character.
+- A Titan (Small) is built at the end of the Combat Phase only if it is still in your card pool, not from wherever it went after leaving it.
+- Speed and damage penalties picked from "X speed or Y damage", like Visions of the Survey Corps', or counted per card, or worked out as X, now respect "cannot be reduced" protections and count as your rival reducing the attack for cards that answer that.
+- The Blitz step now counts as the start of the Enhance Step, as the rules say: Disrupting Plans counts a foundation Jaws of Life's Blitz sacrificed, and Loss of Consciousness answers being discarded in the Blitz step.
+- Heat and Power tokens now count as the Token card type in your stage, so Fully Equipped, Armored Blow and the "4 or more card types" cards count them.
+- Nature Calls's response is now offered when you commit it to pass a check to block, which it never was.
+- Heroic Conviction now draws a card when the next attack you play deals damage, as printed; before, it asked as the Form resolved and never drew.
+- Stealing Quirks's offer is now used up by the next keyword ability you play, even one with no momentum to pay, and no longer carries to a later one.
+- Mai Fighting Style now commits and freezes the foundation your rival built or readied, instead of finding nothing and wasting its flip.
+- Warden's Protection now answers your rival making you flip your own foundations, not only a flip they aim at your stage.
+- Fathom-Blade Binding's "block modifiers get +1" now raises every block, whichever pool it is in, and the block badge on a card in hand matches the block it makes.
+- Dash toward Disaster and Mirko (II) now let you pick 1 attack in your card pool to clear: Dash toward Disaster's Form used to clear nothing and report itself cleared.
+- Cage of Hell and Furious Assault go to your momentum during the End Phase only if they are still in your card pool, not from wherever they went after leaving it.
+- Deterioration Palm's "if this attack deals damage and your rival has 8 or more foundations" enhance now waits for the damage instead of failing as it is played.
+- This Is My Chance!! still offers to clear itself when completely blocked if another attack is in your card pool: only its +2 speed asks for it to be your only attack.
+- Guardian Angel of Chinatown's "cannot be reduced by your rival's effects" now also stops penalties counted per card or worked out as X, such as Loyalty of a Friend's and Armored Skin's.
+- "Share a card type" now compares card types only, not traits such as Weapon or Spell: Nott the Brave, Chaotic Meddler, Twins' Bond and Sakyo's Gamble read it as printed.
+- Doubling an attack's speed or damage, as Humanity's Final Stand does, no longer makes a negative number more negative: effects cannot double a negative number.
+- Hardware Hurl's discount for face down cards is now used up by the next card you try to play even when that card already ignores them, or is a block, instead of carrying on to a later card.
+- Corona Beam played with no check no longer reads the previous card's check as its own modified check.
+- The foundations Intimidating Command commits in both stages now count as committed for cards that ask whether foundations were committed this turn.
+- Benimaru, Shooting Star no longer counts a face down foundation's hidden difficulty when you add it to your momentum: face down, it prints none.
+- Ochaco Uraraka (V) now answers once when you commit several foundations together during the Enhance Step, not once for each, and not when a foundation is only flipped.
+- With two copies of a foundation in your stage, removing one with World's Weakest Hunter now shows your rival the same copy removed.
+- Stockpiled Quirks now counts any printed keyword ability, Unique, Throw and Shift included, when picking a spent card with a keyword ability.
+- Beast Titan now draws when a Titan backup leaves your stage by being removed or returned to your hand, not only when it is destroyed.
+- After Gravity Well, an effect that has you sacrifice a foundation, yours or one your rival forces, can no longer destroy one: a sacrifice is a destroy.
+- Sound Sensitivity's "copy of the card you are trying to play" now counts another printing of that card, since a copy is a card with the same name.
+- Cards that "discard the rest" from your deck, such as Yelena, now count as you discarding: Krista Lenz and Last-Ditch Effort answer it.
+- Mt. Lady (III)'s "Reveal 1 momentum" can now be paid with face down momentum, which you can look at and so can show.
+- Sacrificing a face down foundation to Armored All Might no longer counts as sacrificing an Armor card: face down, it prints nothing.
+- Thunder Spear's enhance can now be played on any attack: the +3 damage still needs a Ranged attack, and your next attack's +3 speed applies either way.
+- Devour Your Power now gains only the keyword abilities and ratings of the removed card, as printed, not its keyword traits such as Kick, Weapon or Ranged.
+- Fenthras and Jean Kirstein's "you may change the zone" now lets you keep the attack where it is.
+- Willy Tybur can stand in for a foundation only when you sacrifice foundations, as printed, and no longer when you commit them.
+- Cards that answer a foundation "destroyed by a rival effect", such as Armored Car Hercules, Threat Neutralized and Binding Mr. Aizawa, now ask what destroyed this foundation, not who destroyed something last: they answer a sacrifice your rival forces and ignore one you pay yourself.
+- Leonardo, The Leader's block response now offers to commit him to draw a card, which it never did.
+- Best Served Cold now answers once when your rival commits 1 or more of your foundations, and not for each card they commit or for cards that are not foundations.
+- Follow-on sentences that print no "may" now happen by themselves instead of waiting for a click you could skip: Chomp is removed after it leaves your card pool, and Acid Man flips after it resolves.
+- First Contact Day now slows your rival's attacks only while you also have a Diplomacy card in your card pool, as printed.
+- A card that prints no difficulty, such as the backup side of The Armored Titan, no longer counts as difficulty 0 for effects that ask for "printed difficulty N or less".
+- A card that removes itself from the game, such as Eighth Wielder or Nothing Like Andy, now counts as a card you removed, and cards that answer a removal see it.
+- G Corp Soldier now reduces health loss from rival effects while committed too, as its text has no "while ready".
+- Cossack Kicks and other "after you flip 1 or more foundations" cards now answer a foundation you flip to pay a cost such as "Flip 1 foundation", and answer once for several flipped together.
+- Clearing your own card pool, as with Godzilla vs Biollante, no longer lets you pick a card that cannot leave it.
+- "Clear this card from your card pool" now clears the card that says it: Infiltrating Xhorhas and Alliance with Hizuru clear themselves instead of your attack, and Quick Hook clears itself without calling off the Punch you just played.
+- With two or more copies of Wide Awake in your stage, your rival now sees the right copies sealed and unsealed after its trade.
+- Acrobatic Style now answers your effect committing a rival foundation on your rival's turn too, such as when you block.
+- High-Orc Soldier and The Colossus Titan now answer being removed from your stage to pay a cost, not only by an effect.
+- Clearing your rival's card pool, with Momentum Shift or Enthusiastic Encounter, now leaves the cards that cannot leave it, such as Unrelenting Advance during the Combat Phase. And Spire of Conflux and Pact of Wrath only protect against your rival's effects, so you can clear your own protected attacks again.
+- A sealed card has no abilities, so Unsavory Morsel can now make your rival commit a sealed card in their stage.
+- Punch Me a Way Out!: when your rival chooses to freeze, they now freeze 1 of their own committed foundations, rather than you freezing any of their foundations.
+- Flipping a foundation that was already committed now counts as a flip, not a commit: Skeptical and Cossack Kicks answer it, and cards that ask about a commit no longer do.
+- Cards that ask what happened "during the Enhance Step", such as Rooftop Rumble, no longer count what happened later in the attack.
+- Battle Plan now answers your rival committing a face down card in your stage, which is a foundation whatever its front says.
+- Porco Galliard's enhance now still offers to transform when you had 4 or more attacks in your card pool as it began, even if the card you returned to your hand was one of them.
+- Armored Titan, Finale's response can now be paid by committing any ready card in your stage, not only the character.
+- Bertolt, Colossus Titan Advancing now lets you remove each of your attacks after it resolves, as printed, alongside the +2 damage.
+- A sealed card loses its own protections and permissions for the turn, as the rules say: a sealed Channeling Spell Seal no longer seals your block, and a sealed Threat Neutralized or Hercules: Red Riot can be destroyed by your effects. The same goes for cards that cannot be flipped, cannot leave the card pool, or may block from the stage.
+- Armin Arlert, Brilliant Mind's response can now be played after you play an Outwit ability, not only a keyword ability.
+- Cart Titan's Form now readies Cart Titan as part of its price, and can only be played while Cart Titan is committed.
+- Shroom-Shooter can now ready any card with a Mushroom counter on it, such as a backup marked by Splitgill Lung Strike, not only a foundation.
+- Combined Firepower's permission to be played from your discard pile now ends with the turn, so a later attack played with the same card does not grant it again.
+- Stockpiled Quirks and Combination Salvo now let you choose which of the spent cards to add to your hand when more than one qualifies.
+- Psych Burst now also makes your rival spend the momentum card their ability was played on, as well as cancelling it.
+- When your rival's Confused Strike or similar effect commits your character, Holding Out Hope and other "committed due to a rival effect" responses are now offered.
+- Stomp of the Female Titan and Hate Fish now double every speed or damage bonus an effect gives your attack, including Gas Propellant's and bonuses that depend on the attack's difficulty.
+- Moving a card to the top of your discard pile with Pitching In no longer counts as discarding it, so it does not trigger Cornered Dagger Master's bonus or appear as a discard in the log.
+- Securing Utgard Castle no longer offers a response that does nothing after you play it; its rule to attack a backup still applies.
+- After your rival plays Gravity Well, Collateral Damage and other effects can still destroy their assets and backups; only foundations are protected.
+- Playing a second Time for Rest in a turn now adds its -2 speed to the keyword it names, instead of replacing the first one's.
+- Nott the Brave, Chaotic Meddler's +X speed now includes the "plus 1" on top of your momentum.
+- Chorus of a Thousand Skulls can no longer remove itself to pay its own Echo cost.
+- Dragonfly Slash now answers an enhance ability played on a card your abilities treat as an asset, such as Mechazoid.
+- Cards that show Unique only in their stat line, such as Heaven's Wrath, now count as Unique for "non-Unique" effects like Jet Somersault Kick and Death Rattle.
+- Historia Reiss, Secret Identity now answers a foundation built face down even when face-up copies of the same card are already in your stage, since a face-down card has no name.
+- The Guilt of Bertolt Hoover can now cancel abilities like Vox Machina's and Luna Tijeras' that make you spend or discard momentum.
+- Creeping Vine Eruption now checks the damage your attack actually dealt, after any block, before returning Faith's Shield to your hand.
+- Nott's Flask's -2 speed now comes and goes during an attack as its Booze counters are removed or added.
+- Removing a card from your discard pile with King Ghidorah, Emperor of the Cosmos now counts as removing it, so Supersonic Flight's draw and "removed a card this turn" checks see it.
+- Yeetus Deletus and Driven by Retribution can now move any card from your rival's stage to their card pool, not only foundations, and Yeetus Deletus no longer reaches face-down cards, which have no difficulty.
+- Cute Baby #202's +1 or -1 to keyword ratings now lands on the played card on both players' screens.
+- Harley Quinn's Enhance now only lets you take a milled card that has at least 1 keyword.
+- Where All Paths Converge now has you name a keyword before you mill, as printed, instead of after the milled cards are showing.
+- The Teenage Mutant Ninja Turtles' "check a 3 or less, check a 4 instead" now also applies to an Echo replay's check and to the check to play a card for its ability.
+- Victor Chevalier and Coup de Chevalier now answer once when you commit several assets at the same time, instead of once for each asset.
+- Body Memorization now counts copies of the attack it enhances, played by that attack's owner, so its damage reduction can happen.
+- Cleaving Swipe now lets you choose whether your rival loses 2 health or one of their backups loses 2 stamina, instead of doing both.
+- Knockdown Blow, Emerging Threats and Deadly Research now recognise Shift attacks that show Shift only in their stat line, such as War Hammer Titan Attacks!
+- A keyword with a rating, such as Powerful: 3, now counts as one ability, so Ryukyu (II)'s Enhance and Unsavory Morsel see the right number.
+- Heidern, Hard-Boiled Assassin's Enhance no longer makes your rival discard cards revealed by an earlier ability when you do not have exactly 3 attacks in your card pool.
+- I Can't Forgive You, Jean's Provoking Stubbornness and Reconsider now clear themselves from your card pool when played as a block, instead of calling off your rival's attack.
+- King, The Beautiful Kick's Illusion now gives its +2 speed and +2 damage only to a Kick attack, so a Throw attack, which does not gain Kick, no longer gets them.
+- An ability borrowed with Thieving Goblin Bolt or copied by Himiko Toga (IV) now acts on the card that played it on both screens, so "ready this card" and similar effects no longer go missing on your rival's screen.
+- Crossing Enemy Lines' +1 or -1 now waits for the chosen player's next check to play a card, instead of going to whatever check they make next.
+- Sam Rutherford, Resourceful Engineer's Enhance now lets you choose damage as well as speed for its +1 or -1.
+- When Monster vs Machine freezes or Frenzied Dive seals the card it just committed, and your rival has two copies of that card, both screens now agree on which copy it was.
+
 ### 2026-10-04
+- Hiding Out now stops your first attack of the turn from counting toward progressive difficulty, instead of itself.
+- While Gravity Well stops cards from being flipped, abilities that flip a card as their cost are no longer offered.
+- Meteor Raid, Divine Dominance of Annihilation and Enraged Tettsui Otoshi now need and sacrifice their Heat token when played from a pile or replayed with Echo, not only from your hand.
+- Pizza Party now counts the Pizza cards in your card pool as well as your stage.
+- Porco Galliard's ability now checks for 4 or more attacks in your card pool once, before it starts, so taking an attack back to your hand no longer cancels the rest of it.
+- Reiner Braun, Marley's Shield's End Phase ability now also needs you to have at least 1 momentum, as printed.
+- Death by Degrees can now destroy any card in your rival's stage other than their character, not only a foundation.
+- Catching a Meteor and other abilities answering a momentum spend now count the momentum that spend used, including momentum spent by an effect instead of a cost.
+- Impenetrable Defense now answers only abilities that commit, destroy, flip, remove or seal a card in your stage, including ones that make you do it, and no longer answers your rival's abilities that only touch their own cards.
+- Stun-Baton Thrust, Arcane Spell Bolt and Increased Velocity no longer read the hidden difficulty or speed of face-down cards, which have none.
+- The Beast Titan's Call and Painful Experiment now count the damage your attack actually dealt after a block or reduction, not its full damage.
+- A sealed card that says to remove it when it leaves your card pool, such as Fortitude of the Armored Titan, is now discarded instead. A Frenemies blocked from the stage is now removed when Hiei, Dragon Within discards it or a card clears it from your rival's pool.
+- The foundation Invisible Infiltration removes now comes back after the attack on both players' screens, not only on the screen of the player who played it.
+- America's #1 Hero's Pro Hero ability now gives the attack a keyword trait of your choice after taking one away, and only offers keyword traits such as Kick or Weapon. Armor-Clad Faith now only offers keyword abilities.
+- Mollywhop and Bison . . . Who Is That? now keep the Combat Phase going only when your rival fails the check those cards name, not whichever check they make next.
+- Bebop, Burly Brawler, Beauregard Lionett, Expositor, Cynthia Utrom, Veiled Villain and The Joker now finish taking cards off the top of a deck before the rest of the ability resolves, including when the deck has to be reshuffled first.
+- Power of Youko can pay its price with a face-down card from your rival's card pool: the right card leaves on both screens, and its real difficulty decides whether Power of Youko counts toward progressive difficulty.
+- Can't Escape Me and Disarming Glance now recognise every ability that adds cards to a hand, including ones that look and take a card (Seize the Opportunity, Happy Chaos) and "draw 1 card or ..." choices (Rapid Speed Slash).
+- Eren, Attack Titan no longer offers its Ruin when your rival sacrifices a foundation during your attack, only when you do.
+- Unflipping a card to pay a price, such as Falling Heel Strike's, now counts as unflipping it, so Shapechanger's Skill and other "after this card is unflipped" abilities trigger.
+- After Adjourning Sweep, your rival's foundations can no longer ready themselves (for example with Capture the Target) for the rest of that Combat Phase.
+- Young and Free's speed protection now also stops rival effects that set or reduce its speed to a number, such as Substitute Member's.
+- "After this attack is not blocked" cards such as Gravity Blow, Golem Beating and Too Slow now trigger even when the unblocked attack ends up dealing no damage.
+- Hate Fish and Stomp of the Female Titan now also double a bonus whose size is counted, such as Unmatched Power's +X damage, instead of skipping it for a later fixed bonus.
+- Health lost to pay War Hammer Titan's Enhance now counts as health lost to pay a cost, so Macabre Regeneration and Revelatory Speech answer it.
+- First Form abilities such as Repair and Unbelievable Power are no longer offered after you have already played a card as a form that Combat Phase.
+- A card you are allowed to block with from your card pool or stage (Jin's Glove, The Apathy of Annie Leonhart) now still obeys the attack's block restrictions, such as Play Fighting's "cannot be blocked by attack cards", and the block zones.
+- Seals and freezes that name a symbol, such as Family Dispute, Doing What Must Be Done and Defending Family, can no longer target a face-down foundation, which shows no symbol.
+- Desperate Tactics and similar responses now answer rival abilities that give your attacks this turn, or your next attack, less speed or damage.
+- Tragic Realization is now offered only when you clear cards from your own card pool, not when your rival clears theirs.
+- Extra Supplies' permission to commit assets as foundations now lasts only for the check it was played on, not every check until your next attack.
+- Irreverent Attitude, Mothra, Divine Moth and Scanlan's Hand now give their bonus or penalty to the next attack this turn whoever plays them, so a defender can use them on the attacker's next attack.
+- Calling from Shadow now answers rival abilities that add a backup to its owner's momentum, and no longer answers ones that add cards to your momentum instead of theirs.
+- Attack Titan's Hardening now asks, once you have cycled, whether to give +1 speed and +1 damage instead of -1 damage, so it can still slow your rival's attack.
+- Air Force Engage now only lets you add a card with the infinity symbol from your discard pile, as printed, instead of any card.
+- Choosing the minus on a "+X or -X" card such as Chaos in the Streets now counts as reducing the attack too, with the same protections and responses as a fixed reduction.
+- Rampant Growth's "the next card you play ignores progressive difficulty" now applies when that next card is a block.
+- Journey of Redemption is now only protected from your rival's seals, so your own effects like Arcane Spell Bolt can seal it.
+- Daredevil's +2 or -2 speed now triggers when its own Enhance returns it from your stage to your hand, and other cards that return themselves from the stage now count as leaving it.
+- Icy Blade no longer offers to cancel a rival ability that readies or commits their character; it answers ones that ready or commit a foundation, as printed.
+- Historia Reiss, Secret Identity now answers every foundation you build with a new name, including ones built by effects like Hange Zoe, Four Eyes and ones built face down, not just foundations built from your card pool at the end of the turn.
+- Rules Stickler and Caught Misbehaving now answer when your rival builds a foundation during the Combat Phase by an effect, such as Fight for Your Friend's Blitz.
+- Ruin now shows the same face-down foundation leaving on both players' screens, and is logged and counted as a sacrifice on both.
+- When your rival sacrifices or destroys one of two copies of a foundation for your effect (such as The Beast Titan Appears), both players now see the same copy go.
+- Fresh Cut Grass, Positive Reinforcement now readies 1 foundation in your rival's stage and 2 in yours, instead of 3 of your own.
+- Sacrifice for the Cause, Heroic Conviction and Countermeasure now answer rival abilities that give an attack "+N or -N" damage, since those could go either way.
+- Choosing the minus on a "+N or -N" card such as Incomparable Size now counts as reducing the attack, so protections like Soaring Anvil Smasher's and Colossus's Steam Barrier's stop it, and "after your attack's damage is reduced" responses can answer it.
+- Surprising Strength now lets you choose Powerful: 2 or EX: 2 for your attack, as printed, instead of always giving Powerful: 2.
+- Adaptive Strategy now draws only when your own attack is below its printed speed, not when your rival's attack is.
+- Weight of Responsibility played with no momentum spent no longer costs your rival health on their screen that it didn't cost on yours.
+- Nesh's Blitz now only lets you put a foundation from your stage on top of your deck, as printed, not an asset or backup.
+- Storm Bringer and Open Wide now heal the damage the attack actually dealt after blocks and reductions, not its full damage.
+- Leave it to Chance's die-roll re-check now includes modifiers to all checks this turn, and shows them in the check breakdown.
+- When Mariner's Spell Bolt or The King of Illyria returns one of two copies of a foundation to your rival's hand, both players now see the same copy leave.
+- Tavern Landing and Eren, Attack Titan Advancing can now add any card from your stage to your hand, backups included, not only foundations.
+- Cape of No Return now removes the attack in progress from the game, as printed, instead of trying to remove itself a second time.
+- Spinning Swing, Donatello, The Smart One and other "for each asset in your stage" cards now count cards like Mechazoid that your abilities treat as assets.
 - A "(min. 1)" printed with a penalty, such as Set the Record Straight's, no longer stops a later effect like Adaptable Anatomy's from making the attack deal no damage.
 - Ticking Time Bomb and Ready to Go no longer answer when your rival pays health as a cost; they answer health lost to an effect, as printed.
 - Advancing Destruction and Evil Aura now remove your attack, as printed, instead of removing themselves.

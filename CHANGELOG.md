@@ -6,6 +6,94 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.2
 
+### 2026-10-11
+- An attack Mothra, Divine Moth makes count as completely blocked now sets off "after this attack is blocked" and "completely blocked" cards such as Hitch Dreyse, while "after you block" cards stay quiet because no block was played.
+- Sung Jinwoo's unlocked Form skill, Shadow Extraction, can now be played. Cabal's Ruin no longer gains a Charged counter when a rival's attack on your backup deals no damage. Cards removed from the top of your deck at your rival's request, as Cynthia Utrom, Veiled Villain asks, now set off your "after you remove" cards at once.
+- A foundation Invisible Infiltration puts back into its owner's stage now counts as being built: its own "when you build this card" ability triggers, and a duplicate Unique foundation is sacrificed as usual.
+- A card the End Phase moves from your card pool to your momentum or stage now counts as leaving the pool, so Hundred Lightning Kicks returns to your hand. The Coronation of Historia Reiss's commits now set off "after you commit" and "committed due to a rival effect" cards for both players.
+- Cards drawn by Cute Host Koto at the start of your End Phase, or by Heroic Conviction after its attack deals damage, now set off "after your rival adds cards to their hand" cards such as Dedicated Artisan at once, instead of on a later effect.
+- A card built face up by an effect, such as Warden's Protection building Fungus Among Us, now sets off its own "when you build this card" ability, as it does when built at the End Phase.
+- Foundations committed in all stages by Ice Sword Execution or Intimidating Command now set off "after you commit" cards such as "Big Sister" of 1-B for their owner, and Intimidating Command now sets off your rival's "committed due to a rival effect" cards such as Hidden Motives.
+- A card Trinket returns to your hand after its attack resolves now sets off Dedicated Artisan's "after your rival adds cards to their hand" at once, instead of at the End Phase or never.
+- Cards Burning Godzilla removes from each card pool, and cards removed as they leave the pool such as Fortitude of the Armored Titan, now count as cards removed this turn, and Burning Godzilla's removals set off "after you remove" cards.
+- Foundations removed by World's Weakest Hunter, Devastate or Koenma's Task, and cards King Ghidorah, Emperor of the Cosmos removes from a discard pile, now count as removed on both players' screens, so "after you remove" cards respond. While Gravity Well protects your foundations, Colossus Swat's end-of-turn sacrifice and Bertolt Hoover's "they sacrifice it" no longer take one.
+- Military Airship's "Freeze this card" enhance is no longer offered while the card is already frozen, since a frozen card can't be frozen again.
+- Health your rival loses to cancel an effect now counts as health lost to pay a cost, so Revelatory Speech responds, and a foundation or momentum removed to cancel, as Triple Trouble allows, counts as a card removed.
+- Cards removed from a stage by Invisible Infiltration or Violent Animus Shot now count as cards you removed, so Inspired Design and other "after you remove" cards respond.
+- While Gravity Well keeps your foundations from being destroyed, a second copy of a Unique foundation is no longer sacrificed, as the rules' own example says. Emerge Victorious, Bertolt Hoover, Living Weapon's "sacrifice the rest", and commit-or-sacrifice choices can't sacrifice your foundations then either.
+- Kuro Momotaro's -5 damage when your rival has played two or more copies of it this turn now counts copies they played and later discarded, and no longer counts copies placed in their card pool without being played.
+- While your foundations can't be destroyed, for example after Gravity Well, you're no longer offered a cancel price like Button Collector's "destroy 1 of your foundations", which would have cost you nothing.
+- Jet Haymaker and Acidic Sludge now let you choose the order of the cards they put into a deck even when the discard pile holds only those cards.
+- Naming Tension with Don't Use That Word now stops Sol Badguy's first-attack Tension, and Survey Corps Elite responds when Heaven or Hell reveals it from your hand, as it already did when revealed to pay a cost.
+- A card with a "twice per turn" ability, such as Distracting the Female Titan, can use it again after it leaves and comes back or is unflipped, like a "once per turn" ability already could.
+- A card with no block zone played as a block through Jin's Glove now partially blocks the attack, as the rules say for a block whose zone doesn't match, instead of not blocking it at all.
+- An attack that "cannot be reduced below printed", such as Determined Advance, now keeps a bonus played after a reduction, instead of the floor swallowing it.
+- Milling a card to pay for Forward-Flip Slash's EX or Powerful abilities is now treated as part of the price, so "after you mill" responses wait until the payment is finished and your rival's screen keeps the right cards.
+- A card that readies itself, such as Survey Corps, Hope of Paradis after it blocks, now counts as you readying a foundation, so Spirit Unicorns and other "after you ready" cards respond.
+- A card sacrificed at the end of the Combat Phase or the turn, such as Rebuilt Forces' backup, now leaves your rival's screen too, and "after you sacrifice" responses answer it straight away.
+- A card discarded for failing its check now counts as leaving your card pool straight away, so Venomous Dagger Slash's health loss happens even when the failure ends your Combat Phase.
+- Adding the top card of your deck to your hand with Happy Chaos is no longer counted as a draw, so it no longer sets off "after you draw" responses.
+- Cards removed from the top of your deck, as Spewing Vitriol does, now count as cards you removed, so Science Bros responds and "removed this turn" counts include them. Health lost when Big Freakin' Explosion's attack resolves, or paid to cancel an effect such as Duel of the Ackermans, is announced at once, so Serving Shade responds. Sasha Blouse, Food Fanatic no longer offers a face-down card by its hidden difficulty, and Guide to Self Defense only returns a blocker still in your card pool.
+- The Devil Gene counter Kazuya Mishima adds now appears in both players' battle logs.
+- When G Corp Soldier loses stamina to soften a health loss, that now counts as a backup losing stamina, so cards like Survival of the Fittest respond to it.
+- Anti-Titan Artillery Shell's "after this attack deals damage to a backup, it loses stamina" does nothing to a backup the hit already destroyed, instead of destroying it again.
+- When Clash with the Bloodred has each player reveal the top card of their deck, both cards are now turned face up on both players' screens, instead of the rival's card only being named.
+- The Teenage Mutant Ninja Turtles' "if you check a 3 or less, you check a 4 instead" now replaces the number on the checked card before any bonuses are added, as the rules define a check, and works the same way for every kind of check.
+- An attack on a backup that was destroyed before the Damage Step, for example by To the Grave's blitz, now deals no damage, instead of destroying that backup a second time and putting it in the wrong discard pile on one screen.
+- Sol Badguy gives your first attack Tension only once with a copy attached, and not while sealed. A face-down card committed in your stage no longer counts as committing an asset for cards like Coup de Chevalier.
+- Hange Zoe's speed bonus for committing a backup is given once even with a copy attached, and not by a sealed copy. A sealed attack such as Sniping Bolt no longer gives itself bonuses. A retaliating attack, such as Rising Uppercut's, keeps its own player's lasting bonuses when the board changes mid-attack.
+- An attack whose own bonus depends on the board, such as Timely Counterattack's +1 speed and damage while you have fewer foundations or less health than your rival, now gains or loses it as soon as that changes during the attack.
+- A sealed or face-down Thanks a Million! no longer changes its own block modifier, and a copy of Victor Chevalier in your stage no longer adds his check bonus a second time.
+- A card unsealed during an attack, such as Igris, gives the attack its lasting bonuses and penalties again straight away.
+- Hannes' lasting damage bonus from Wall counters no longer uses up a doubling such as Stomp of the Female Titan's, so the doubling goes to the next bonus you play and the attack's damage stays steady.
+- An attack's speed and damage now update the moment a card giving it a lasting bonus or penalty is committed, readied or flipped, so First Contact Day stops slowing an attack once it is committed, and Genghis Frog, Temperamental Toad stops adding damage once it is flipped face down.
+- Momentum spent while another response window is open is still named when its own window opens, so Mitchell Cimino removes it and Stockpiled Quirks gets it back.
+- A foundation rebuilt after it was unflipped earlier in the turn counts as not yet unflipped, so Sergei Dragunov can unflip it.
+- When an ability's price fails partway, such as Beauregard Lionett, Expositor's check after its discard, what was already paid is announced at once, instead of being announced as part of the next ability you play.
+- A card Superfly, Malicious Mutant keeps in your card pool for the turn no longer stays locked in later turns if it left the pool early, and Titanstone Knuckles' permission to use Deflect from your stage lasts only for the attack it was used in.
+- A card that leaves your stage or card pool comes back as a new card: an attack Nina Williams let you play from your discard pile can't be played from there again, Jin's Parry's block no longer ignores progressive difficulty after the card has moved, and a rebuilt foundation counts as not readied for Dedicate Your Heart.
+- A foundation that gained a rival foundation's abilities from Thieving Goblin Bolt keeps them if that rival foundation is flipped later, and loses them if it leaves your stage, as the rules say.
+- Turning a face-down foundation face up to play its Outwit ability now counts as unflipping it, so cards like Outmaneuver that answer an unflip respond, and Unique is checked.
+- When Rising Uppercut, Exilio or Countersnipe attacks back after a complete block, the player whose turn it is still gets the first chance to respond in each response window.
+- An attack or action built face up, such as one picked from your card pool with a build that lets you choose its facing, is now discarded straight away as the rules say, instead of staying in your stage.
+
+### 2026-10-10
+- Secret Past's check from the bottom of your deck now applies to a check an ability or a cost makes, such as Treasure Chest's, instead of waiting for your next check to play a card.
+- A foundation silenced by Malicious Evil that leaves your stage and comes back in the same Enhance Step can play its abilities again.
+- A copy of your starting character attached to it, such as a second King Ghidorah, Emperor of the Cosmos, no longer lists that character's abilities twice.
+- Only the active arena is face up now. Arenas waiting under it in the arena deck are face down, as the rules say, and turn face up once nothing is on top of them.
+- Mothra, Divine Moth no longer stops an attack on a backup from dealing damage; there is no Block Step for it to be considered blocked in.
+- Switching an attack's speed and damage, as Elder Toguro does, or setting either outright no longer counts as giving it a bonus, so Making Preparations no longer pays out for it.
+- A card unsealed by Wide Awake or Abyss Damnation can use its once per turn abilities again, as the rules give a newly unsealed card.
+- "It deals no damage", as from Adaptable Anatomy or Nott the Brave, Chaotic Meddler, now beats "still deals 1 damage when completely blocked", as from Blind-Side Slash, whichever was played first.
+- Cards that look for a word "in its name" now need the whole word, as the rules say: Spirit no longer finds Ancestor Spirits, Rage no longer finds Enraged Tettsui Otoshi, and Armor no longer finds Armored Skin.
+- Helping Out and Bomber Jet Ride now clear the same block from your card pool on both screens when you have two blocks of the same card.
+- Double Spirit Blast played while you are defending no longer raises your own block modifiers; it only ever raises your rival's.
+- When Reina survives losing the game to her own health loss, your rival's screen now also counts that health as lost this turn.
+- Playing The Attack Titan's attack side from your stage now shows on your rival's screen as that card leaving your stage, instead of a card leaving your hand while The Attack Titan stayed put.
+- When your rival makes you destroy one of your foundations, both screens now agree that you destroyed a foundation this turn, so Charging In and Karasu read the same on each.
+- Blocking with a card from your stage, as Frenemies lets you, now lifts the same copy on your rival's screen when you have two of it.
+- Electric Shock's face down build from momentum now shows on your rival's screen, where it used to leave their stage a card short.
+- Enthusiastic Encounter and Twins' Bond now clear the same card from your rival's card pool on both screens, including a face down card or one of two copies.
+- With two copies of Quick Hook in your card pool, the earlier one clearing itself no longer clears and calls off the attack you are playing on your rival's screen.
+- Michelangelo, The Wild Card now returns the ready foundation you picked from your rival's stage, not another copy of it they had committed.
+- When your rival removes a face down momentum card to cancel Triple Trouble, it now leaves their momentum on both screens.
+- Driven by Retribution now removes the same card from your rival's card pool on both screens, including a face down card or one of two copies.
+- When Audio Reverberation makes your rival put a foundation on the bottom of their deck and they have two copies of it, both screens now move the same copy.
+- When Reckless Abandon or another card returns a foundation from your stage to your hand and you have two copies of it, your rival's screen now returns the same copy you chose.
+- Weaponized Wreckage's Ruin no longer takes face down foundations from a rival whose foundations cannot be destroyed this turn.
+- Unarmed Noncombatant and Guide to Self Defense now answer right after you block, so Unarmed Noncombatant's Breaker: 2 can be used on the block it was granted for.
+- Speed and damage cuts from Defend the Rear, Peerless Footwork and Momo Yaoyorozu (III) now respect "cannot be reduced below printed by rival effects", and count as a rival reducing your attack.
+- Classmate Support's +2 now goes to the check you just made, not your next check.
+- Desperate Plea now builds the card you blocked with after you pick face up or face down, instead of leaving it in your card pool.
+- Chief Excellent Officer and Mei Hatsume (II) now raise the rating of a keyword printed on your attack when you play it, not only a keyword an ability gave the attack.
+- Integrated Weapons' Mechagodzilla response now costs a foundation commit or a momentum spend, your choice, instead of both.
+- Re-checks, such as Leave it to Chance's die roll, now replace a check made to block, an ability's check and an Echo replay's check, not only a check to play a card.
+- Sniping Spy now counts a face down card it clears as having no check value, so it gets the full +5 damage.
+
+### 2026-10-09
+- Devil's Domination's check to play its Form now asks for 0 when you have 8 or more cards in your removed pile, so a check of 0 passes it, and Electric Wind God Fist's +1 for a Heat token is added to the check rather than taken off the difficulty.
+
 ### 2026-10-05
 - Hard Rock Witch and the other answers to "an ability that modifies, increases or reduces the damage" (or speed) now answer abilities that return an attack to its printed damage, swap its speed and damage, cap it, or give your next attack more damage, such as Arrogant Smirk and Team Stash.
 - Pulverizing Punch's second play now mills 3 more cards and counts those, instead of counting the first 3 again, and does not offer the momentum spend a second time.

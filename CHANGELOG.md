@@ -6,7 +6,44 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.2
 
+### 2026-10-12
+- Fixed an issue where an attack Catching a Meteor played out of your discard pile never counted as played for "after you play this attack" abilities such as Mega Burst's, or for your rival's responses to a played attack.
+- Fixed an issue where an attack created by Kamikaze Robots or Beauregard Lionett, Expositor counted on your screen as an attack your rival played, so attack counts such as Bang Bang's and Undercover Infiltration's read one higher than on theirs.
+- Fixed an issue where, after your rival tried to play a card out of a pile and it went back to their hand (no form ability, a form they could not pay for, or an open window), their next card played from the hand counted on your screen as played from somewhere else.
+- Fixed an issue where your rival's attack played out of their discard pile by Catching a Meteor, or replayed from their pool by Echo or a retaliate, counted on your screen as played from their hand, so Demon Lord's Blast showed less damage on your screen than on theirs.
+
 ### 2026-10-11
+- Fixed an issue where Audio Reverberation and Roman Cancel's "after your blocked attack resolves" were offered for an attack that was blocked and then dropped, though a dropped attack never resolves.
+- Fixed an issue where a card your rival played from their removed or discard pile, such as Forbidden Exorcism, counted on your screen as played from their hand, so "played from anywhere other than your hand" effects such as Concealing Power read differently on the two screens.
+- Fixed an issue where Big Freakin' Explosion still made you lose health "after it resolves" when your rival dropped the attack, though a dropped attack never resolves.
+- Fixed an issue where, with several copies of the same foundation in your stage, your rival's Too Big to Contain, Duel of the Ackermans, Chronically Dehydrated or The Power of Love could destroy, freeze or seal a different copy on your screen than the one they chose. A rival sacrificing several copies of one foundation now also removes the same ones on both screens.
+- Fixed an issue where, with two copies of the same foundation in your rival's stage, their Arcane Spell Bolt could seal the committed copy on your screen instead of the ready one, and their Jaws of Life could sacrifice the face down copy instead of the face up one.
+- Fixed an issue where, with a committed and a ready copy of the same foundation in your stage, your rival's Michelangelo, The Wild Card could send the committed copy to your hand on your screen instead of the ready one they chose.
+- Fixed an issue where, with two copies of the same foundation in your rival's stage, a flip they made could be recorded against the wrong copy on your screen, so a later clause about the flipped foundation acted on the other one.
+- Fixed an issue where Wide Awake was not offered when your rival sealed your attack, as Filled with Doubt does, or sealed your block, whether after it blocked or through Channeling Spell Seal: it only answered seals of your foundations.
+- Fixed an issue where Own Free Will and Armored Car Hercules asked once for every foundation your rival destroyed, plus once more, instead of once for the whole destruction.
+- Fixed an issue where a card discarded by a check did not count as entering your discard pile from your deck, so Extra Cheese, Brotherly Love and Wolf's Ferocity never answered a check.
+- Fixed an issue where your rival failing an attack's check made your screen count their attacks this turn one too low, so Frantic Plea and Cardboard Crusader$'s attack-count responses fired on the wrong attack.
+- Fixed an issue where the foundations each player flips for Violent Betrayal did not count as flipped, so "after you flip a foundation" responses and Warden's Protection's "flipped by a rival effect" were never offered.
+- Fixed an issue where Unrelenting Brute, Explosive Salvo and Explosive Speed did not answer your rival lowering your attack's damage to a number, as King Ghidorah, Three-Headed Monster, Eri and Titan Injection do.
+- Fixed an issue where Mitchell Cimino returning a card to hand in your rival's End Phase did not open "after a player adds cards to their hand" responses such as Dedicated Artisan's.
+- Fixed an issue where The Colossus Titan and Titan backups did not answer leaving your stage when Clear the Perimeter moved them to momentum, Driven by Retribution pulled them into your rival's card pool, an effect put them on top of your deck, or a price such as Benimaru, Shooting Star's or Hardware Hurl's took them from your stage.
+- Fixed an issue where Adapting the Plan, Resilient Charge and Unrelenting Brute did not answer a rival bringing your attack's speed or damage down to a number, as Rising Uppercut's "reduce that attack's speed to 4" does, back to its printed value, or by switching its speed and damage.
+- Fixed an issue where Unrelenting Brute and Explosive Salvo's "after the damage of this attack is reduced" responses were not offered when your rival's Deflect reduced it.
+- Secret Past's "before you make a check, you may check from the bottom of your deck" can now be used before a check an ability or a price asks you to make, not only before a check to play or block with a card.
+- Fixed an issue where Sniping Spy's damage, after clearing a face down card, came out different on the two players' screens.
+- A check can now be re-checked only once, as the rules say: Leave it to Chance and Kyoka Jiro (III) can no longer re-check a re-check to keep trying until it passes.
+- Doubling an attack's speed or damage, as Humanity's Final Stand, Split-Second Standoff, Grenadier Blast and Bad News Bullet do, no longer counts as giving it a bonus, so Making Preparations no longer pays out for it.
+- Fixed an issue where The Teenage Mutant Ninja Turtles did not raise a low die roll from Leave it to Chance to 4 on an attack check, though it did on other checks.
+- Fixed an issue where the health gained from Run, Idiot! and the readies from Money and Destruction or Jamie Siu, Peacekeeping Breakdancer on a completely blocked attack did not open "after you gain health" or "after you ready" responses until some later effect resolved.
+- Fixed an issue where Supersonic Flight and The Colossus Titan did not draw when a rival's Invisible Infiltration or Devastate removed them from your stage.
+- Fixed an issue where Venomous Dagger Slash, Shoot Style: Knee Smash and Spirit Slash's "after this card leaves your card pool" fired late or not at all when the card failed its check as a block or as an Echo replay.
+- Fixed an issue where Dedicated Artisan's "after your rival adds cards to their hand due to their effect" did not answer Happy Chaos or Descent into Subconscious adding a card to hand.
+- Fixed an issue where Gravity Well did not stop Last-Second Rescue sacrificing itself, and where a sacrifice or destroy price, or a Drive paid by sacrificing, could still take a foundation it protects.
+- When your rival removes one of your stage cards, for example with Violent Animus Shot or Concealing Power, that card's own "after this card is removed" or "leaves your stage" ability, such as The Colossus Titan's or Supersonic Flight's, now triggers.
+- After Hiei, Dragon Within lets your rival block again, "completely blocked" and "partially blocked" cards such as Adaptable Anatomy and Makeshift Repair no longer trigger a second time, or for a status the attack didn't first have.
+- After Hiei, Dragon Within cancels a block and the rival blocks again, "after this attack is blocked" cards no longer trigger a second time. If the rival doesn't block again, "not blocked" cards such as Horseplay no longer trigger for an attack that was already blocked.
+- When Divine Dominance of Annihilation returns your foundation to your hand, your "after this card leaves your stage" cards such as The Colossus Titan now respond.
 - An attack Mothra, Divine Moth makes count as completely blocked now sets off "after this attack is blocked" and "completely blocked" cards such as Hitch Dreyse, while "after you block" cards stay quiet because no block was played.
 - Sung Jinwoo's unlocked Form skill, Shadow Extraction, can now be played. Cabal's Ruin no longer gains a Charged counter when a rival's attack on your backup deals no damage. Cards removed from the top of your deck at your rival's request, as Cynthia Utrom, Veiled Villain asks, now set off your "after you remove" cards at once.
 - A foundation Invisible Infiltration puts back into its owner's stage now counts as being built: its own "when you build this card" ability triggers, and a duplicate Unique foundation is sacrificed as usual.

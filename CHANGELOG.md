@@ -4,6 +4,21 @@ What changed in each build of the Universus Simulator client, newest first.
 
 The version you are running is written across the bottom of the home screen, in the middle.
 
+## 0.0.3
+
+### 2026-10-13
+- Pending modifiers now sit where they will be spent, for both you and your rival: next check modifiers are centred under the discard pile, and other modifiers, such as next keyword rating, stay in the column by the deck.
+- Next attack and block modifiers now sit in the card pool slot that card will go into, inside an outline: NEXT ATTACK in orange in the attacking player's pool, and NEXT BLOCK in grey in the defending player's pool. Each player's next attack modifiers wait until their turn, and their block modifiers until their rival's. The outline only shows while it has a modifier in it.
+- You can now pick up a card from your hand while you are waiting and hold it over the card pool, a discard pile or another drop target. If that target has opened by the time you let go, the card is played there; before, a card picked up while you were waiting always went back to your hand.
+- Cards now glide smoothly between zones. A draw or a move from the card pool to the stage could start, then jump straight to where it was going whenever the game paused for a moment early in the move, such as while loading a card's art.
+- Fixed an issue where an arena your rival checked and added to the arena deck, such as Ortiz Farm, stayed in their discard pile on your screen as well. Once the arena above it left, as Yakushima does after its ability, the one beneath never turned face up on your screen, and the arena that left was not shown going to the discard pile.
+- Fixed an issue where the enlarged card preview could stay on screen after the game ended, sitting over the Defeat or Victory prompt.
+
+### 2026-10-12
+- The Play screen now reads Host, then "or", then the game code with Join beside it, so it is clear the code is only for joining. The code box is larger, with the code centred in bigger text, and the buttons have more room from the deck list above and the Back button below.
+- The home screen now says when a newer build is out, beside the version at the bottom, including a later build of the same version. Click it to open the downloads page. The game only reads the public list of builds; nothing about you is sent.
+- Fixed an issue where a response to your rival playing an attack, such as Yelena's Machinations, could land on their previous attack when the attack was played by Catching a Meteor or as a retaliate.
+
 ## 0.0.2
 
 ### 2026-10-12

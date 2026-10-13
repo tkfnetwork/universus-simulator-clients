@@ -8,30 +8,30 @@ You will need a [tcgs.io account](https://tcgs.io?game=universus) and a deck of 
 
 | Platform | File | Size | Built (UTC) |
 | --- | --- | --- | --- |
-| linux | [linux.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/linux.zip) | 71 MB | 2026-10-12T07:31Z |
-| macos-arm64 | [macos-arm64.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/macos-arm64.zip) | 71 MB | 2026-10-12T07:33Z |
-| macos-x86_64 | [macos-x86_64.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/macos-x86_64.zip) | 76 MB | 2026-10-12T07:33Z |
-| windows | [windows.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/windows.zip) | 81 MB | 2026-10-12T07:32Z |
+| linux | [linux.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/linux.zip) | 71 MB | 2026-10-13T14:55Z |
+| macos-arm64 | [macos-arm64.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/macos-arm64.zip) | 71 MB | 2026-10-13T14:56Z |
+| macos-x86_64 | [macos-x86_64.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/macos-x86_64.zip) | 76 MB | 2026-10-13T14:57Z |
+| windows | [windows.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/windows.zip) | 81 MB | 2026-10-13T14:56Z |
 
 macOS comes as two downloads, one per processor: **macos-arm64** for Apple Silicon, which is every Mac from late 2020 onwards, and **macos-x86_64** for an Intel Mac. If you are not sure, the Apple menu, then About This Mac, names the chip.
 
 Check a download against what was built:
 
 ```
-dd06e1b39c3fd16f1440cd7657f955487c0e1884ba6030e6da2a0f39c7e71161  linux.zip
-54299fae82f181d70a73412ee1a9049c34354da5c43c61b44fbb5121d8d60975  macos-arm64.zip
-7b00d38f30f2eda051a751f8daf759df049bcaa86cdd44ddc8327dba8a44b4d0  macos-x86_64.zip
-d44d88c53f76aa56ab428b1c303462770dd62822453994ef8b973c33474d6248  windows.zip
+97e94490afc1580a523d4ec9b38a338c9ecdd5773c5f8bfe2368e6f162d354c0  linux.zip
+305b332ca805664a3f94f2490003ad469ba3ca748980e3316750aba841a92844  macos-arm64.zip
+b0d315b3458594c9768941dbfe01584c993f796146fe61a96e0767e2365380dc  macos-x86_64.zip
+223228f5aadb6f61e71c55c8c04a4518ca68832527aa0758d822bcae57ad6e30  windows.zip
 ```
 
 ## What is in these builds
 
 | Platform | Version | Engine | Access | Channel | Relay | API | Built-in deck |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| linux | 0.0.2 | 4.7.2.stable.mono.arch_linux.ed1daf0bf | restricted | ALPHA | hosted | default | false |
-| macos-arm64 | 0.0.2 | 4.7.2.stable.mono.arch_linux.ed1daf0bf | restricted | ALPHA | hosted | default | false |
-| macos-x86_64 | 0.0.2 | 4.7.2.stable.mono.arch_linux.ed1daf0bf | restricted | ALPHA | hosted | default | false |
-| windows | 0.0.2 | 4.7.2.stable.mono.arch_linux.ed1daf0bf | restricted | ALPHA | hosted | default | false |
+| linux | 0.0.3 | 4.7.2.stable.mono.arch_linux.ed1daf0bf | restricted | ALPHA | hosted | default | false |
+| macos-arm64 | 0.0.3 | 4.7.2.stable.mono.arch_linux.ed1daf0bf | restricted | ALPHA | hosted | default | false |
+| macos-x86_64 | 0.0.3 | 4.7.2.stable.mono.arch_linux.ed1daf0bf | restricted | ALPHA | hosted | default | false |
+| windows | 0.0.3 | 4.7.2.stable.mono.arch_linux.ed1daf0bf | restricted | ALPHA | hosted | default | false |
 
 What changed in each version is in [CHANGELOG.md](CHANGELOG.md). The version a build is stamped with is also written across the bottom of its home screen, in the middle, next to the commit it came from.
 

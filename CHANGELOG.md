@@ -6,12 +6,85 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.3
 
+### 2026-10-22
+- Fixed an issue where your attack's Powerful ability gave no damage when your rival answered it with a response, such as Jin's, even one that did nothing. Hammer-Hand Pummel's Powerful now adds its damage whatever your rival responds with.
+- Fixed an issue where Caught Misbehaving's response flipped and committed the foundation your rival had just built on your rival's screen but not on yours. The two screens then disagreed about their stage.
+- Fixed an issue where your rival taking a face-down card from their card pool back to their hand, such as with Loop the Loop, left it in their pool on your screen. The two screens then disagreed about their hand.
+- Fixed an issue where your battle log called your own card "a face-down card" when its effect came to nothing after you turned it face down to pay for it, such as Money and Destruction's enhance. Your log now names your card.
+- Fixed an issue where playing Rocksteady, Easily Angered's enhance on your rival's attack put the top card of your deck into your hand instead of face down in your card pool, on your screen only. The two screens then disagreed about your hand.
+- Fixed an issue where Stun-Baton Thrust's response could get a bonus on your screen but not your rival's when the foundation it stunned was face down and you then sacrificed it. A face-down card has no printed difficulty, so it now adds nothing on either screen.
+
+### 2026-10-21
+- Fixed an issue where your battle log said you revealed an empty hand when your rival's Heidern, Hard-Boiled Assassin made you reveal it. Your log now lists the cards you revealed, before the ones you discarded.
+- Fixed an issue where a card your rival's effect added to your card pool, such as from your discard pile with Eat My Sticky Balls, went back to your hand on your screen while staying in your pool on theirs.
+- Fixed an issue where an attack you played again with Echo kept the speed and damage changes from its first attack while its responses were played, so Sam Rutherford, Resourceful Engineer's switch on Thunder Spear Barrage gave it the wrong numbers on your screen.
+- Fixed an issue where the game could stop responding after you blocked your rival's attack from Rising Uppercut on your own turn. Your End Turn button never came back, and your rival was shown one instead.
+- Fixed an issue where switching an attack's speed and damage as it was played, such as with Sam Rutherford, Resourceful Engineer's response, ignored the attack's own bonuses like Chain Punch: Sheath's +1 speed on the attacker's screen. The two screens then showed different numbers for the attack.
+- Fixed an issue where a counter added to one of your face-down cards, such as a Wall counter from Visions of the Survey Corps, showed in your battle log without saying the card was face down.
+- Fixed an issue where a card your rival made you add from your hand to your card pool, such as with Lizard Tail Splitter's enhance, went back to your hand on your screen while staying in your pool on theirs.
+- Fixed an issue where Stun-Baton Thrust's response could get a smaller bonus on the attacker's screen than on the defender's when a foundation it stunned was returned to the defender's hand before the response. The two screens then showed different numbers for the attack.
+- Fixed an issue where a card you added from your hand to your momentum, such as with Hashogeki's response, showed in your battle log without saying it went in face down.
+- Fixed an issue where the game could stop responding after your rival played This Is My Chance!!'s enhance on your attack and then completely blocked it. Its "you may clear it from your card pool" was being applied to your attack instead of theirs.
+- Fixed an issue where failing a check to block with Reverse Narcissus could leave your rival's attack at -2 speed on your screen for a moment, and your battle log said the attack numbers disagreed with your rival's.
+- Fixed an issue where your rival readying one of your face-down foundations, such as with Fresh Cut Grass, Positive Reinforcement's enhance, showed in your battle log as you readying "1 card". Your log now names your own card.
+- Fixed an issue where your battle log said your rival's Alisa Bosconovitch enhance did nothing right after showing them draw a card from it. Abilities that start with "If" now show the same outcome on both screens.
+- Fixed an issue where the card your rival revealed from their momentum to pay for Mt. Lady (III)'s enhance was not shown on your screen when it had been added there face down from their deck.
+- Fixed an issue where your rival's What Could This Be? could get the wrong bonus on your screen, such as +2 damage when the card checked to play it was an attack and it got +2 speed. Your screen then showed different numbers for the attack than theirs.
+- Fixed an issue where pressing End Turn while playing Rising Uppercut's attack on your rival's turn ended your turn inside theirs, and the game stopped responding for both players.
+- Fixed an issue where a card you dropped into your card pool while your rival's Rising Uppercut attack was being played stayed there unplayed, and your rival's screen still counted it in your hand. It now goes back to your hand.
+
+### 2026-10-20
+- Fixed an issue where an attack you were allowed to play from your removed pile, such as one removed by Enough Talk, offered its own enhances there too. Playing one, such as its EX, spent your momentum and helped nothing.
+- Fixed an issue where your rival paying a Drive of 2 or more by committing foundations, such as Psycho Punisher's, was shown in your battle log as several separate commits and then a count of them.
+- Fixed an issue where your rival sacrificing their own cards outside a cost, such as at the end of the turn, was shown as those cards being destroyed in your battle log.
+- Fixed an issue where an action that removes itself from your hand to pay for its ability, such as Welcome To Space Land, was not known to your rival's screen as the card being checked.
+- Fixed an issue where cancelling your rival's held ability, such as Acid Sprinkler's "Your rival may destroy 1 foundation to cancel this ability", was not shown in your own battle log, and could wrongly cancel the next such ability on your screen.
+- Fixed an issue where the game could freeze on a "Commit (0/0)" button you could not press, when an ability such as Power Drain asked you to commit no foundations.
+
+### 2026-10-19
+- Fixed an issue where losing because you could not cycle your deck showed Defeat on your screen only. Your rival's screen now shows Victory instead of waiting on a game that had ended.
+- Fixed an issue where Double Jumbo Fist's "your other attacks get +1 speed and +1 damage" did not apply to the attack in progress when its enhance put the copy in your card pool, until some other card left a card pool.
+- Fixed an issue where a card your rival revealed and then played straight away, such as with Singing Fish, attacked as a face-down card on your screen.
+- Fixed an issue where cards that print "If ..., X. Otherwise, Y", such as Summoned Home, could do both halves on your rival's screen, because the half you took could make the "if" true by the time their screen asked it.
+- Fixed an issue where the game could freeze for good after Mitchell Cimino's "+1 or -1 to one of its keyword ratings" was played on an attack that one screen counted a keyword rating for and the other did not.
+- Fixed an issue where Tsuyu Asui (IV)'s "that attack gets +3 speed" applied on your screen only. Your rival's screen showed the attack 3 speed slower, and the battle log said the attack numbers disagreed.
+- Fixed an issue where removing one of your own momentum cards from the game to pay a cost, such as for Shishiwakamaru's Form, was not shown as paying a cost in your battle log.
+- Fixed an issue where your rival putting a card from their stage on top of their deck, such as Battle Holds the Answer, could count it twice in their deck on your screen.
+- Fixed an issue where cards your rival revealed for the rest of the turn, such as with Kevin Broberg, and then built, discarded or removed turned face down on your screen when the reveal ended.
+- Fixed an issue where your rival removing Roman Cancel to pay for its ability was not shown as paying a cost in your battle log.
+- Fixed an issue where pressing Pass a second time while your Start Phase was finishing, such as after answering a Before Draw Step card like Short-Lived Promotion, skipped your whole Combat Phase and left your rival's screen stuck.
+- Fixed an issue where, after your rival revealed cards from their hand that stay revealed, such as with Kevin Broberg, playing or discarding one of them could leave the revealed copy showing in their hand on your screen, so the two screens disagreed about their cards.
+- Fixed an issue where a foundation built as you played it, such as by Lars Alexandersson, could not be answered by cards that respond to you playing a card or to it resolving.
+- Fixed an issue where King Ghidorah, Emperor of the Cosmos returning to maximum health instead of losing the game was not shown in your rival's battle log, and Reina surviving on a set health instead of losing the game was not shown in your own.
+- Fixed an issue where your battle log said you removed the top card of your deck when your rival's card did it, such as Earwig Pincer.
+- Fixed an issue where the face-down attacks Beauregard Lionett, Expositor adds to the attack stack never attacked on the rival's screen, so the two screens fell out of step for the rest of the turn. The rival's battle log now calls them face-down attacks rather than naming a card.
+- Fixed an issue where playing an enhance on your rival's attack, such as Nymph's Invitation, could make your battle log say the attack numbers disagreed between the two screens, when they did not.
+- Fixed an issue where the game could freeze at the start of a turn when several foundations were built at the end of the previous turn and a card answered each one, such as Historia Reiss, Secret Identity. The End Phase now waits for every answer before it ends.
+- Fixed an issue where Lady Nagant's "After it resolves, clear it or draw 1 card" was offered after any attack resolved once her Form had been played, and choosing "Clear it" cleared nothing. It is now offered only after the foundation her Form played as an attack resolves, and clears that attack.
+- Fixed an issue where a card you dragged into your card pool and could not play, such as an action with no Form, counted as leaving your card pool when it went back to your hand. Cards that answer a card leaving your card pool answered it later, at an unrelated moment.
+- Fixed an issue where Nina Williams' "When that card leaves your card pool, remove it" removed Nina Williams herself from the game when the next card left your card pool, even if her Form had played nothing. It now removes only the attack her Form played, on both screens.
+
 ### 2026-10-18
-- The coin toss now decides who chooses, as the rules say ("Randomly decide who chooses the player to go first"). The winner picks Go first or Go second, and both players are told the result. Before, the coin simply decided who went first.
-- The coin toss is now a gold 3D coin, tossed up towards you and spun end over end before it lands on YOU or RIVAL.
+- Fixed an issue where your battle log said you had no enhance to play in an Enhance Step that had already ended, such as when your rival's Sniping Spy cleared itself from their card pool.
+- Fixed an issue where Forward-Flip Slash's "You may mill 1 as though you were spending 1 momentum" milled the card without saying so on your rival's screen. Their battle log now shows the milled card.
+- Fixed an issue where Pass could be pressed while your own response or enhance was still resolving, such as Instant Shining Flash waiting for your rival to spend momentum. Passing closed the window early, and your rival's screen never saw the ability played.
+- Fixed an issue where a card your rival's effect moved from your card pool to your discard pile did not count as cleared, though the rules say any such move is a clear. This covers your rival clearing your pool, paying a cost with your pool cards, or discarding your attack with Kurama, Youko Unleashed. Demon's Shaft, Burning Fist and Departure stayed in your discard pile, and Hundred Lightning Kicks did not make your rival lose 1 health.
+- Fixed an issue where Koenma's Task, removing every copy of a named card from your rival's deck, showed other cards in their removed pile on your screen. It now shows the copies that were removed.
+- Fixed an issue where a card your rival had put into their momentum face down from their hand could not be found on your screen when their effect moved it, such as In the Lead revealing it into their hand. It stayed in their momentum on your screen, and In the Lead's damage was worked out without it. With two such cards, the wrong one could be moved.
+- Fixed an issue where cards your rival made you discard from your revealed hand, such as with Heidern End or Heidern, Hard-Boiled Assassin, did not count as you discarding. Cards that answer you discarding, such as Horn Dash Hammer and Last-Ditch Effort, did not answer.
+- Fixed an issue where Titan Swarm's Echo replay did not get its -3 difficulty. The replay is the second time you tried to play it, but it was only counted as a try once its check had passed. A failed replay, or a failed check to block with a card, now counts as a try too.
+- Fixed an issue where Eren, Attack Titan Advancing's "+3 speed" for the next attack you try to play stayed waiting after that try failed, including a failed Echo replay, and went to a later attack instead.
+- Fixed an issue where Hadir putting your attack on top of your deck did not count as it leaving your card pool, so cards that answer that, such as A Mother's Embrace, answered late or not at all.
+- Fixed an issue where an attack whose check failed still counted as an attack you had played on your own screen, but not on your rival's. Cards that ask about the first or last attack of the turn, such as Reiner, Armored Titan Advancing and Point-Blank Blast, could read the failed attack and give the two screens different numbers.
+- Fixed an issue where an attack added to the attack stack during another attack took what Saving Stab, Underhand Smash, Unexpected Reunion, High Three and Rebellion give "the next attack you play". The rules say those attacks are not played, so it now waits for the next attack you do play.
+- Fixed an issue where the momentum Waylay made your rival remove could come back in a different order on their screen than on yours, so a later effect that takes a momentum card could take a different one on each screen.
+- Fixed an issue where your terrain, destroyed because your rival built a newer one with an effect, such as building it from their deck or discard pile, was answered late by cards that answer a card or asset of yours being destroyed. The same happened when your rival's effect had you build a card from your discard pile and that sacrificed or destroyed one of yours. They now answer straight away.
+- Fixed an issue where Neelix Cheese's "You may change this attack's damage to match the printed damage of the discarded card" changed the damage on your screen only. Your rival's screen kept the old damage.
 - An attack now lunges at what it hits when it deals damage: it lifts up off the board towards you, comes down on the character or backup, and springs back to its place. The hit lands with a flash and sparks, the target shudders, and the damage it took shows on it in a red splash. Both players see it.
-- Fixed an issue where switching an attack's speed and damage turned a damage below 0 into 0 speed. It now carries across as a negative speed, as the rules allow.
+- The coin toss is now a gold 3D coin, tossed up towards you and spun end over end before it lands on YOU or RIVAL.
+- The coin toss now decides who chooses, as the rules say ("Randomly decide who chooses the player to go first"). The winner picks Go first or Go second, and both players are told the result. Before, the coin simply decided who went first.
 - Fixed an issue where cards committed to pass an action's check during an attack counted as committed to pass the check to play that attack, for cards that ask about it.
+- Fixed an issue where switching an attack's speed and damage turned a damage below 0 into 0 speed. It now carries across as a negative speed, as the rules allow.
 
 ### 2026-10-17
 - Sealed, frozen and stunned cards now show it across the whole card, in place of the small badges: a sealed card is chained and padlocked, a frozen card has snowflakes drifting down it and a faint frost at its edges, and a stunned card has stars circling its middle, passing behind it. They turn with the card when it is committed and stay sharp at any zoom.

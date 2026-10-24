@@ -6,7 +6,31 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.3
 
+### 2026-10-24
+- Fixed an issue where a response played as your rival's attack was played, such as a seal, could reach your screen before the attack itself, so the two screens disagreed about its keywords.
+- Fixed an issue where responses played as your rival's attack was played could see different speed, damage or keywords on each player's screen, such as when the attack was sealed or had a "next attack" bonus.
+- Fixed an issue where a response window could close early when a face-down card took effect as your attack dealt damage, so neither player could answer it.
+- Fixed an issue where a response window could close early when your rival discarded and drew cards at once, such as with Beautiful Suzuki, so neither of you could answer it.
+- Fixed an issue where your battle log said your rival "changes a card's block zone" instead of naming their block, such as Vagrant Truthseeker.
+- Fixed an issue where a card your rival turned face down to pay for a response before blocking with it, such as Secret Past, stayed face up on your screen.
+- Fixed an issue where your battle log left out the numbers for your rival's check when its difficulty had been reduced below 0, such as for Space Terror.
+- Fixed an issue where your battle log read "Opponent's a face-down attack" for a face-down attack you had not been shown, such as one added by Beauregard Lionett, Expositor.
+- Fixed an issue where your rival's discard pile could show two cards in the wrong order on your screen after they played an ability that discards a card and then makes a check, such as Beauregard Lionett, Expositor's.
+
+### 2026-10-23
+- Fixed an issue where playing an ability that turns its card face down and then makes a check, such as Gamma System's form, said that card was committed a second time after you committed it to pass the check.
+- Fixed an issue where your battle log listed your rival's response one extra time when they played two copies of it in a row, such as Yeagerist Takeover.
+- Fixed an issue where a face-down attack your rival added from their deck, such as with Beauregard Lionett, Expositor, went to their discard pile as a different card on your screen once it left their card pool.
+- Fixed an issue where your battle log said your rival "readies 1 card" when they readied one of their face-down foundations, such as with Fresh Cut Grass, Positive Reinforcement, instead of saying it was a face-down card.
+- Fixed an issue where your battle log said your rival "commits 1 card" when they played an Outwit ability, such as Buying Time's, instead of naming the card they committed.
+- Fixed an issue where an effect that commits one of your rival's foundations, such as Mechagodzilla, Modified Type-3 Kiryu's, could pick a foundation they had just built already committed, such as with Uraraka's Plea, and so commit nothing.
+
 ### 2026-10-22
+- Fixed an issue where a face-down card your rival had added to their card pool from the top of their deck, such as with Jun Kazama, Light of Hope, stayed in their pool on your screen when they removed it from the game, such as with Battle for Dominance.
+- Fixed an issue where a rival's Breaker, played off their blocking card such as Cohort Support, was treated as played off your attack, so cancelling it with Tattered Costume named your own attack in the battle log.
+- Fixed an issue where your rival committing one of their face-down foundations to pass a check left it ready on your screen. The two screens then disagreed about their stage.
+- Fixed an issue where you could play Radiant Pegasus Bomb's response after blocking your rival's attack with it, though it only answers your own attack. It built your rival's attack on your side, and the two screens then disagreed about both boards.
+- Fixed an issue where your battle log named one of your cards without saying it was face down when it was turned face down and then used straight away, such as Blood Talon readying itself.
 - Fixed an issue where your attack's Powerful ability gave no damage when your rival answered it with a response, such as Jin's, even one that did nothing. Hammer-Hand Pummel's Powerful now adds its damage whatever your rival responds with.
 - Fixed an issue where Caught Misbehaving's response flipped and committed the foundation your rival had just built on your rival's screen but not on yours. The two screens then disagreed about their stage.
 - Fixed an issue where your rival taking a face-down card from their card pool back to their hand, such as with Loop the Loop, left it in their pool on your screen. The two screens then disagreed about their hand.

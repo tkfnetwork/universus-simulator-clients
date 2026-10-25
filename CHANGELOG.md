@@ -7,7 +7,8 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.4
 
 ### 2026-10-25
-- The large preview of a card that an effect has changed now lists what changed it and how, such as "-2 speed from Tense Standoff", "gains Powerful from Surprising Strength", "+2 speed bonus from Silk Cocoon" or "sealed by Frozen Palace". It covers an attack's speed, damage and keywords, including bonuses saved for your next attack, and sealed or frozen cards. For the attack in play it also shows its current speed and damage.
+- Fixed an issue where the prompt to use an ability printed without a name, such as an arena's "When you play or check this card", said "play ResponseWindow?". It now asks "Use Ortiz Farm?" with the card's text, and abilities without a name are listed by their kind, such as "Response".
+- The large preview of a card that an effect has changed now lists what changed it and how, such as "-2 speed from Tense Standoff", "gains Powerful from Surprising Strength", "+2 speed bonus from Silk Cocoon" or "sealed by Frozen Palace". It covers an attack's speed, damage and keywords, including bonuses saved for your next attack, and sealed or frozen cards. Your own effects are listed first on a faint green, and your rival's below them on a faint red. For the attack in play it also shows its current speed and damage.
 - An attack's strike now feels weightier: it winds up and leans into the dash, its shadow lifts with it, it holds for a beat on contact, and the card it hits is knocked back the way the blow came before settling. The step banners such as "Attack!" and "Pass!" now land with a small pop and lift away as they fade.
 - Fixed an issue where an attack's speed and damage stayed behind on the board while the attack lunged at its target, or the attack could drop under nearby cards mid-strike when you moved the cursor over it.
 

@@ -7,6 +7,11 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.4
 
 ### 2026-10-26
+- Fixed an issue where a card you played while the game was still waiting on your rival, such as after a replayed attack failed its check, could start its check as the Combat Phase ended and leave the next turn stuck.
+- Fixed an issue where the game could freeze at the end of a turn after your rival built an attack from their card pool while a second copy of it was in their pool, such as with Silk Rain.
+- Fixed an issue where the game could freeze when an attack dealt damage while both players had an ability waiting on that damage, such as when both played Genkai's "If this attack deals damage" enhance.
+- Fixed an issue where, when your rival destroyed one of your cards, a copy of it already in your discard pile could also be offered its "after this card is destroyed" response, such as Smiling Death.
+- Fixed an issue where Godzilla vs Mechagodzilla's "After you check this card" response was not offered when your check revealed it, and could instead be offered for a different copy.
 - Fixed an issue where a response window could close early, so neither of you could answer it, when your rival took cards out of your card pool or stage, added one of your backups to your momentum or discarded from your revealed hand, such as with Driven by Retribution, Clear the Perimeter or Heidern End.
 - Fixed an issue where a response window could close early, so neither of you could answer it, when you discarded at random, such as with Bertolt's Envy, or when your rival's attack resolved or their Combat Phase ended while one of your abilities was waiting for it, such as Violent Past.
 

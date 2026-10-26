@@ -6,7 +6,14 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.4
 
+### 2026-10-26
+- Fixed an issue where a response window could close early, so neither of you could answer it, when your rival took cards out of your card pool or stage, added one of your backups to your momentum or discarded from your revealed hand, such as with Driven by Retribution, Clear the Perimeter or Heidern End.
+- Fixed an issue where a response window could close early, so neither of you could answer it, when you discarded at random, such as with Bertolt's Envy, or when your rival's attack resolved or their Combat Phase ended while one of your abilities was waiting for it, such as Violent Past.
+
 ### 2026-10-25
+- Fixed an issue where a response window could close early when your rival discarded for playing no form in their Combat Phase, such as for Aerial Recon, so neither of you could answer it.
+- Fixed an issue where a response window could close early when your rival returned one of your cards from your stage to your hand or committed your character, such as for Mikey's Nunchaku or Holding Out Hope, so neither of you could answer it.
+- Fixed an issue where a response window could close early when your rival's check paid off one of your abilities, such as SpaceGodzilla, Bio-Quartz Monster adding a card to your momentum as their attack was played, so neither of you could answer either moment.
 - Fixed an issue where the prompt to use an ability printed without a name, such as an arena's "When you play or check this card", said "play ResponseWindow?". It now asks "Use Ortiz Farm?" with the card's text, and abilities without a name are listed by their kind, such as "Response".
 - The large preview of a card that an effect has changed now lists what changed it and how, such as "-2 speed from Tense Standoff", "gains Powerful from Surprising Strength", "+2 speed bonus from Silk Cocoon" or "sealed by Frozen Palace". It covers an attack's speed, damage and keywords, including bonuses saved for your next attack, and sealed or frozen cards. Your own effects are listed first on a faint green, and your rival's below them on a faint red, each grouped into speed, damage, keywords and seals or freezes with a small mark beside each. For the attack in play it also shows its current speed and damage.
 - An attack's strike now feels weightier: it winds up and leans into the dash, its shadow lifts with it, it holds for a beat on contact, and the card it hits is knocked back the way the blow came before settling. The step banners such as "Attack!" and "Pass!" now land with a small pop and lift away as they fade.

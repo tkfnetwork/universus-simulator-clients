@@ -6,7 +6,27 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.4
 
+### 2026-10-27
+- Fixed an issue where the game could stop at the end of your turn while you were choosing whether an attack goes to your momentum, if your rival had a card acting at the start of the End Phase.
+- Fixed an issue where pressing End Turn again while your Combat Phase was ending could make you discard twice for playing no form and leave your rival's next Combat Phase ending early or stuck.
+- Fixed an issue where the game could stop responding if you committed your rival's foundations or discarded again, with a response, while your rival's screen was still answering your first commit or discard.
+- Fixed an issue where the game could stop responding when a second card choice opened while another was still on screen, such as a reveal during a search.
+- Fixed an issue where "spend up to" momentum and "lose up to" health, such as Weight of Responsibility or Acceptable Losses, took the most without asking when you had only 1 to give or another choice was already open, instead of letting you choose none.
+- Fixed an issue where an arena's "you may add it to the bottom of the arena deck" could be done without asking you when another choice was already open.
+- Fixed an issue where a character that transformed during your attack, such as Zeke Yeager becoming Zeke, Beast Titan, did not give that attack its new face's bonuses unless your character had taken damage.
+- Fixed an issue where your rival's screen could show lower damage for an attack with Heartbeat Surround's "+1 damage for each of its keywords" bonus when your character gives your attacks a keyword.
+- Fixed an issue where your rival's screen could show lower damage or speed for an Echo attack you replayed, such as with The Jaw Titan's Bite in your stage, after a card entered or left the board.
+- Fixed an issue where an attack added from the attack stack missed Harley Quinn's "5 or more different keywords" bonus when a keyword your character gives your attacks was the fifth.
+- Fixed an issue where your rival's screen could show a different damage for your attack when it counted keywords in your card pool, such as Tuning In's "6 or more keywords" bonus, because it counted before a keyword your character gives your attacks.
+- Fixed an issue where your battle log said "a face-down card" when you put one of your own face-down foundations on top of your deck, such as with Nesh, instead of naming your card.
+- Fixed an issue where a face-down card removed from a card pool, such as with Driven by Retribution, was turned face up, and your rival's screen named it as a different card.
+- Fixed an issue where Helping Out could draw you a card for clearing an attack when there was no block in your pool to clear, and Zeke Yeager could transform after drawing no cards, because each read what an earlier ability had done.
+- Fixed an issue where your battle log said "readies 1 card" when your rival's effect readied one of your face-down foundations, such as with Heaven-Piercing Ice Wall, instead of naming your card.
+- Fixed an issue where To You, 2,000 Years From Now offered, or failed to offer, to play the card you looked at depending on a card revealed earlier, instead of the card on top of your deck.
+- Fixed an issue where your battle log could say an attack got +1 or -1 damage after it had already resolved, such as from Historia Reiss, Secret Identity, when nothing about the attack changed.
+
 ### 2026-10-26
+- Fixed an issue where, after you added a card to your hand from your discard pile with another copy of it there, such as with Fight for Truth or Stockpiled Quirks, your rival's screen could take the other copy, so the two screens disagreed about your discard pile.
 - Fixed an issue where a card you played while the game was still waiting on your rival, such as after a replayed attack failed its check, could start its check as the Combat Phase ended and leave the next turn stuck.
 - Fixed an issue where the game could freeze at the end of a turn after your rival built an attack from their card pool while a second copy of it was in their pool, such as with Silk Rain.
 - Fixed an issue where the game could freeze when an attack dealt damage while both players had an ability waiting on that damage, such as when both played Genkai's "If this attack deals damage" enhance.

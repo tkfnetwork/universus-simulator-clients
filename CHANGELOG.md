@@ -7,6 +7,14 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.4
 
 ### 2026-10-27
+- On Windows and Linux the game is now a single file, with nothing to keep beside it.
+- Picking cards from your discard pile or momentum, such as with The Beast Titan's Rock Barrage, now shows only the cards you can pick, and says how many others cannot be picked.
+- When the player being attacked has a backup out, the attack now shows a faint arrow to what it is attacking, their character or that backup, so both players can see the target.
+- Fixed an issue where searching or looking at cards in your deck, such as with Zeke Yeager, showed only card backs.
+- Fixed an issue where a stunned, sealed or frozen foundation kept showing its stars, chains or ice after it left the stage, such as in the discard pile.
+- Fixed an issue where no cards were dealt after a rematch.
+- The token pile now opens into a column when you point at it, so you can point at and read each token.
+- Fixed an issue where, after Hiei, Dragon Within let your rival block your attack a second time, "after your attack is blocked" responses were not offered for that second block.
 - Fixed an issue where the game could stop at the end of your turn while you were choosing whether an attack goes to your momentum, if your rival had a card acting at the start of the End Phase.
 - Fixed an issue where pressing End Turn again while your Combat Phase was ending could make you discard twice for playing no form and leave your rival's next Combat Phase ending early or stuck.
 - Fixed an issue where the game could stop responding if you committed your rival's foundations or discarded again, with a response, while your rival's screen was still answering your first commit or discard.

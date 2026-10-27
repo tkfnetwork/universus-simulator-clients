@@ -8,20 +8,20 @@ You will need a [tcgs.io account](https://tcgs.io?game=universus) and a deck of 
 
 | Platform | File | Size | Built (UTC) |
 | --- | --- | --- | --- |
-| linux | [linux.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/linux.zip) | 71 MB | 2026-10-27T19:17Z |
-| macos-arm64 | [macos-arm64.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/macos-arm64.zip) | 72 MB | 2026-10-27T19:19Z |
-| macos-x86_64 | [macos-x86_64.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/macos-x86_64.zip) | 76 MB | 2026-10-27T19:19Z |
-| windows | [windows.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/windows.zip) | 81 MB | 2026-10-27T19:18Z |
+| linux | [linux.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/linux.zip) | 68 MB | 2026-10-27T23:34Z |
+| macos-arm64 | [macos-arm64.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/macos-arm64.zip) | 69 MB | 2026-10-27T23:36Z |
+| macos-x86_64 | [macos-x86_64.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/macos-x86_64.zip) | 73 MB | 2026-10-27T23:36Z |
+| windows | [windows.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/windows.zip) | 78 MB | 2026-10-27T23:35Z |
 
 macOS comes as two downloads, one per processor: **macos-arm64** for Apple Silicon, which is every Mac from late 2020 onwards, and **macos-x86_64** for an Intel Mac. If you are not sure, the Apple menu, then About This Mac, names the chip.
 
 Check a download against what was built:
 
 ```
-056657027e0112c0c00ae0f9558c46c74c6daa876adcedf4b4e576ffdaa83aa5  linux.zip
-cc7a8495c5e2a5eb74b92c3fc204180de701ee4095e83f6b215a787639af8c01  macos-arm64.zip
-9fed4d92d1fdd4aa9ad2c8b828a2550d37df8b56c1142a24ca7c7eba58b62f47  macos-x86_64.zip
-a80761a16752d93c2bcb4342ddbdf77e9ed90f293fa124dd7a475690f68179f5  windows.zip
+83010b854ea18991d229e37b185a450a868d6f5e93fdd9f393b5ec5c6e4c5717  linux.zip
+f314b62425d4a3ee4606c98cc1e15a1897c1b0dee04b3bd64ca1c442b44db158  macos-arm64.zip
+ddb5ee6c9d1b3a33242f6e9993f0a507b9496d07acc919094b491fc5c046208d  macos-x86_64.zip
+5822263eecb00e9408d5e12eb7db4b98807b9429812d9319318a7c46aa50964b  windows.zip
 ```
 
 ## What is in these builds
@@ -52,9 +52,8 @@ way to you. Restore it once:
 
     chmod +x UniversusSimulator.x86_64
 
-Keep the .pck file next to the binary. The game will not start without it.
-
-Nothing needs installing. The .NET runtime is inside the pack.
+Nothing needs installing: the game, its cards and the .NET runtime are all in
+the one file.
 
 
 What you need to play
@@ -138,9 +137,8 @@ needs a certificate bought from a certificate authority.
 
 Click "More info", then "Run anyway". You only have to do this once.
 
-Keep the .pck file next to the .exe. The game will not start without it.
-
-Nothing needs installing. The .NET runtime is inside the pack.
+Nothing needs installing: the game, its cards and the .NET runtime are all in
+the one file.
 
 
 What you need to play

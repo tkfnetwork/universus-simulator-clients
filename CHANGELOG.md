@@ -6,6 +6,13 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.4
 
+### 2026-10-28
+- Fixed an issue where Uplifting Bond's attack still counted toward your progressive difficulty after it dealt damage, and the two players' games disagreed about it.
+- Fixed an issue where Scout's Downtime never offered its response to gain 1 health after you played it.
+- Fixed an issue where your battle log said a card from your card pool went to your deck face down, such as with Avoiding Conflict, when it had been face up for both players to see.
+- Fixed an issue where Gathering Energy showed the face down cards it removed as card backs when it let you look at them and choose.
+- Fixed an issue where Erwin Smith, Strategic Mastermind showed you the top and bottom cards of your deck when choosing which to build face down, which you are not allowed to see.
+
 ### 2026-10-27
 - On Windows and Linux the game is now a single file, with nothing to keep beside it.
 - Picking cards from your discard pile or momentum, such as with The Beast Titan's Rock Barrage, now shows only the cards you can pick, and says how many others cannot be picked.

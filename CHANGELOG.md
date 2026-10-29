@@ -4,6 +4,15 @@ What changed in each build of the Universus Simulator client, newest first.
 
 The version you are running is written across the bottom of the home screen, in the middle.
 
+## 0.0.5
+
+### 2026-10-29
+- The prompt that shows you cards to choose from now looks like the pile browser, with the cards laid out over the blurred board instead of in a box.
+- Prompts that show you cards, such as searching your deck, looking at the top of it or choosing a card in your stage, now lift those cards off the board over a blurred board and put them back down when the prompt closes.
+- Opening a pile (discard, removed or momentum) now lifts its cards off the pile and deals them out into a browser that opens from the middle of the screen, and closing it puts them back down where they belong. The board behind is blurred rather than darkened, the cards are larger, and a hovered card is no longer clipped at the edge.
+- The token pile fans out a little less when you point at it, and the token under your pointer comes to the front so it can be read whole.
+- Fixed an issue where the token pile stacked its tokens in a different order when closed than when open, putting the last token in front.
+
 ## 0.0.4
 
 ### 2026-10-28

@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-10-29
+- Prompts and piles that show you cards now show the cards themselves rather than copies: each card lifts out of its place on the board, keeps its markers such as frozen or sealed, and goes back, or on to wherever you sent it, when you close the prompt.
 - The prompt that shows you cards to choose from now looks like the pile browser, with the cards laid out over the blurred board instead of in a box.
 - Prompts that show you cards, such as searching your deck, looking at the top of it or choosing a card in your stage, now lift those cards off the board over a blurred board and put them back down when the prompt closes.
 - Opening a pile (discard, removed or momentum) now lifts its cards off the pile and deals them out into a browser that opens from the middle of the screen, and closing it puts them back down where they belong. The board behind is blurred rather than darkened, the cards are larger, and a hovered card is no longer clipped at the edge.

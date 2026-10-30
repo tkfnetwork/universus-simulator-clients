@@ -6,6 +6,11 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.5
 
+### 2026-10-30
+- Fixed an issue where a card stunned by an attack did not say it was stunned, or by which attack, beside its preview.
+- Fixed an issue where the game slowed down while a pile, a deck search or a card choice was open over the board.
+- The game now tells the server a little about each online game, such as the characters played, your health, hand and deck at the end of each turn, how the game ended, how long turns took, the frame rate, which system and version you play on, and any errors it hit, so problems can be found and fixed. It is sent with a random id made for this copy of the game, so one player's games can be told apart. Nothing about your account is sent.
+
 ### 2026-10-29
 - Fixed an issue where cards going back after a search or a look at a pile flew underneath the phase strip and other cards, and where scrolling through a large search drew cards over the heading and the Cancel button.
 - Prompts and piles that show you cards now show the cards themselves rather than copies: each card lifts out of its place on the board, keeps its markers such as frozen or sealed, and goes back, or on to wherever you sent it, when you close the prompt.

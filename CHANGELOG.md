@@ -6,6 +6,9 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.5
 
+### 2026-10-31
+- Fixed an issue where, after you played King Ghidorah Unleashed from your removed pile, your rival's game removed your other King Ghidorah Unleashed from the game at the end of the turn instead of the one you played, so the two games disagreed about your momentum.
+
 ### 2026-10-30
 - Fixed an issue where a card stunned by an attack did not say it was stunned, or by which attack, beside its preview.
 - Fixed an issue where the game slowed down while a pile, a deck search or a card choice was open over the board.

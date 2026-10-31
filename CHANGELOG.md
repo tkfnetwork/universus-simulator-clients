@@ -7,6 +7,10 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-10-31
+- Fixed an issue where the card you took from a deck search started to turn over as it went to your hand, though it was already showing its face.
+- When you choose a card from a pile, a deck search or a card choice, the card you chose now stays on show for a moment while the others go back, then goes where it was sent.
+- The board now keeps moving behind the blur while a pile, a deck search or a card choice is open. On a computer that cannot keep up, the blur holds still instead.
+- Fixed an issue where the cards in an open pile vanished when it closed and reappeared in the pile, instead of flying back down to it.
 - Fixed an issue where, after you played King Ghidorah Unleashed from your removed pile, your rival's game removed your other King Ghidorah Unleashed from the game at the end of the turn instead of the one you played, so the two games disagreed about your momentum.
 
 ### 2026-10-30

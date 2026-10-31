@@ -7,6 +7,14 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-10-31
+- The next attack and next block slots now look printed on the board, and show their modifiers where the card prints them: difficulty top left, block top right, and speed over damage in the bottom right corner.
+- Modifiers waiting on the same card are added together: +2 speed and -1 speed now show as +1 speed.
+- Hovering the next attack or next block slot now lists every card that changed it, in the same panel as a card's hover preview.
+- A bonus or penalty waiting on your next check is now a blue check number between your deck and discard pile. Hover it to see which cards caused it.
+- Fixed an issue where a bonus to your next check that waits for a particular kind of card was never shown.
+- Searches, including the ones some cards make before the game begins, now always show you the deck. They open on the cards you can take, with an All tab that shows the rest dimmed, instead of taking a lone match without showing it.
+- Fixed an issue where cards you had picked in your discard pile or momentum never turned green, and the large card preview popped in and out instead of fading.
+- Choosing cards from your discard pile or momentum now has Valid cards and All tabs: All shows the whole pile, with the cards you cannot pick dimmed.
 - Fixed an issue where the card you took from a deck search started to turn over as it went to your hand, though it was already showing its face.
 - When you choose a card from a pile, a deck search or a card choice, the card you chose now stays on show for a moment while the others go back, then goes where it was sent.
 - The board now keeps moving behind the blur while a pile, a deck search or a card choice is open. On a computer that cannot keep up, the blur holds still instead.

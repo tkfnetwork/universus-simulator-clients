@@ -7,6 +7,12 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-01
+- Fairy Tail: All Fired Up! is now playable, including the new Quest keyword and Quest counters. One card, which readies a foundation after foundations are frozen, cannot be played yet.
+- Card text and legality are updated from the latest card data, including cards that are no longer Standard legal and rules text corrections.
+- Fixed an issue where a continuous check bonus that only applies under a printed condition, such as having 10 or less health, applied all the time.
+- Your deck list shows where each deck lives with an icon: a cloud for a tcgs.io deck, which opens it on tcgs.io when clicked, or a computer for one kept in this client.
+- Each deck in your deck list now has an eye button that shows you every card in it, with how many copies of each.
+- You can now import a deck from uvsultra.online: paste its deck link, or just its deck id, into the same box you paste a deck list into.
 - Fixed an issue where the bonuses waiting for your next attack showed on the attack as it landed, then jumped back to the next attack slot for a moment once its check passed, then returned.
 - The removed from game pile now has a REMOVED label, so a removed card is no longer mistaken for one in the discard pile beside it.
 

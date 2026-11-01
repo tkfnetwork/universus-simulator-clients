@@ -6,12 +6,16 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.5
 
+### 2026-11-01
+- The removed from game pile now has a REMOVED label, so a removed card is no longer mistaken for one in the discard pile beside it.
+
 ### 2026-10-31
+- An attack now shows the bonuses waiting for it on its own speed and damage as soon as it lands on the board, with the cards that gave them in its hover, instead of the next attack slot sliding past it until they were applied.
+- Fixed an issue where many effects waiting on your next attack, block, check or card were never shown on the board, such as "the next attack you play gets +3 speed", bonuses for one kind of attack or check, and effects like "must attack a backup". Each now shows where it will apply, with the card that caused it.
 - The next attack and next block slots now look printed on the board, and show their modifiers where the card prints them: difficulty top left, block top right, and speed over damage in the bottom right corner.
 - Modifiers waiting on the same card are added together: +2 speed and -1 speed now show as +1 speed.
 - Hovering the next attack or next block slot now lists every card that changed it, in the same panel as a card's hover preview.
 - A bonus or penalty waiting on your next check is now a blue check number between your deck and discard pile. Hover it to see which cards caused it.
-- Fixed an issue where a bonus to your next check that waits for a particular kind of card was never shown.
 - Searches, including the ones some cards make before the game begins, now always show you the deck. They open on the cards you can take, with an All tab that shows the rest dimmed, instead of taking a lone match without showing it.
 - Fixed an issue where cards you had picked in your discard pile or momentum never turned green, and the large card preview popped in and out instead of fading.
 - Choosing cards from your discard pile or momentum now has Valid cards and All tabs: All shows the whole pile, with the cards you cannot pick dimmed.

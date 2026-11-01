@@ -8,20 +8,20 @@ You will need a [tcgs.io account](https://tcgs.io?game=universus) and a deck of 
 
 | Platform | File | Size | Built (UTC) |
 | --- | --- | --- | --- |
-| linux | [linux.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/linux.zip) | 68 MB | 2026-10-31T22:15Z |
-| macos-arm64 | [macos-arm64.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/macos-arm64.zip) | 69 MB | 2026-10-31T22:16Z |
-| macos-x86_64 | [macos-x86_64.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/macos-x86_64.zip) | 73 MB | 2026-10-31T22:16Z |
-| windows | [windows.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/windows.zip) | 79 MB | 2026-10-31T22:15Z |
+| linux | [linux.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/linux.zip) | 68 MB | 2026-11-01T00:46Z |
+| macos-arm64 | [macos-arm64.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/macos-arm64.zip) | 69 MB | 2026-11-01T00:47Z |
+| macos-x86_64 | [macos-x86_64.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/macos-x86_64.zip) | 73 MB | 2026-11-01T00:47Z |
+| windows | [windows.zip](https://github.com/tkfnetwork/universus-simulator-clients/raw/main/windows.zip) | 79 MB | 2026-11-01T00:46Z |
 
 macOS comes as two downloads, one per processor: **macos-arm64** for Apple Silicon, which is every Mac from late 2020 onwards, and **macos-x86_64** for an Intel Mac. If you are not sure, the Apple menu, then About This Mac, names the chip.
 
 Check a download against what was built:
 
 ```
-155817475266374977bd03fe11d090cb6b2b64058f60f22c2d622c44b3ac9e06  linux.zip
-0c7da1d767e1f304ff65be31ae2c86b7038d025bea8810c9e6f924a2b8d3b7f5  macos-arm64.zip
-2927054c60b245781ffa7a9ba93dc7fe18aa6a8bd24d9914cb5fec1f805ad871  macos-x86_64.zip
-72b48768fd84c20b6df3a000bd78e588ec07dcb62415b7b2fbd4f628d9cfbd3a  windows.zip
+3e86ae9978cf42c9e0d283a0a16c4a04eb10d745e75cd14c77dd7709247ce3e4  linux.zip
+46625ed82dfb35ad5a7535f8e627653de5ecd891be15bd1ba3eefaf6519d3f21  macos-arm64.zip
+9a9ad52ae744e0868f99ab31d3edd0b5de10e05fd551441f31acfbaa9dcd9d81  macos-x86_64.zip
+d344a219f91cb9eef8b6b0066a15165c170a830ac6582b316c423115abbb9f4d  windows.zip
 ```
 
 ## What is in these builds

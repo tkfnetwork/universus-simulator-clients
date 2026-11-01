@@ -7,6 +7,9 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-01
+- Frozen Resolve can now be played: after 1 or more foundations are frozen, by either player, it readies 1 of them. Every Fairy Tail: All Fired Up! card is now playable.
+- Momentum now stacks out from your character: the first card banked sits just past the character and each card after it one step further out, instead of starting at the edge of the board and sliding toward the character.
+- Fixed an issue where the frosted glass behind a card picker or pile showed a frozen picture of the board on a fast machine, instead of the board moving underneath it.
 - Fairy Tail: All Fired Up! is now playable, including the new Quest keyword and Quest counters. One card, which readies a foundation after foundations are frozen, cannot be played yet.
 - Card text and legality are updated from the latest card data, including cards that are no longer Standard legal and rules text corrections.
 - Fixed an issue where a continuous check bonus that only applies under a printed condition, such as having 10 or less health, applied all the time.

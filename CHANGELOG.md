@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-01
+- Fixed an issue where the bonuses waiting for your next attack showed on the attack as it landed, then jumped back to the next attack slot for a moment once its check passed, then returned.
 - The removed from game pile now has a REMOVED label, so a removed card is no longer mistaken for one in the discard pile beside it.
 
 ### 2026-10-31

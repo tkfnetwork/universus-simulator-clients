@@ -7,6 +7,10 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-01
+- Fixed an issue where Cana's Rage could get +4 speed and +4 damage on your rival's screen when it flipped nothing, so the two players saw different numbers for the attack.
+- Fixed an issue where Raging Bolt could count the foundations an earlier card removed on your rival's screen, giving the attack different damage on each screen.
+- Fixed an issue where Mystogan, Mysterious Mage's response took its momentum and then flipped nothing, because it looked for the card your rival just played in their stage instead of their card pool.
+- Fixed an issue where Mystogan, Mysterious Mage's enhance counted every rival foundation instead of only those with abilities.
 - Frozen Resolve can now be played: after 1 or more foundations are frozen, by either player, it readies 1 of them. Every Fairy Tail: All Fired Up! card is now playable.
 - Momentum now stacks out from your character: the first card banked sits just past the character and each card after it one step further out, instead of starting at the edge of the board and sliding toward the character.
 - Fixed an issue where the frosted glass behind a card picker or pile showed a frozen picture of the board on a fast machine, instead of the board moving underneath it.

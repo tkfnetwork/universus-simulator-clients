@@ -7,6 +7,8 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-02
+- Fixed an issue where Natsu Dragneel, Fire Dragon Slayer's enhance gave +2 damage to any attack, when only a Quest attack gets it.
+- Fixed an issue where Light Punch could only seal a rival asset, when it can seal a rival asset or foundation.
 - Fixed an issue where Erza Scarlet, Fairy Queen removed herself from the game to pay for her enhance, instead of removing a Spell from your discard pile.
 - Fixed an issue where Ice-Make: Unlimited freezing itself was missed on your rival's screen, so the two screens disagreed about whether it readied at the next Ready Step.
 

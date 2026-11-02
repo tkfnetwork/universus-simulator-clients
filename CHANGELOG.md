@@ -6,6 +6,10 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.5
 
+### 2026-11-02
+- Fixed an issue where Erza Scarlet, Fairy Queen removed herself from the game to pay for her enhance, instead of removing a Spell from your discard pile.
+- Fixed an issue where Ice-Make: Unlimited freezing itself was missed on your rival's screen, so the two screens disagreed about whether it readied at the next Ready Step.
+
 ### 2026-11-01
 - Fixed an issue where Cana's Rage could get +4 speed and +4 damage on your rival's screen when it flipped nothing, so the two players saw different numbers for the attack.
 - Fixed an issue where Raging Bolt could count the foundations an earlier card removed on your rival's screen, giving the attack different damage on each screen.

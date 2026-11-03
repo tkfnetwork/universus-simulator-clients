@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-03
+- Fixed an issue where Sky-Scraping's attack did not gain the Blitz abilities printed on the cards its Blitz milled from your rival's deck.
 - Fixed an issue where Calling out the Truth cancelled every enhance ability your rival played, without the check against a 5 they could pass to keep it.
 - Fixed an issue where Altairis made your rival lose 1 health every time you played an attack, without the check against their health that they could pass to avoid it.
 - Fixed an issue where Ice Bringer did not unfreeze the foundations in your stage after its attack dealt damage.

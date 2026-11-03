@@ -6,6 +6,21 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.5
 
+### 2026-11-03
+- Fixed an issue where Calling out the Truth cancelled every enhance ability your rival played, without the check against a 5 they could pass to keep it.
+- Fixed an issue where Altairis made your rival lose 1 health every time you played an attack, without the check against their health that they could pass to avoid it.
+- Fixed an issue where Ice Bringer did not unfreeze the foundations in your stage after its attack dealt damage.
+- Fixed an issue where Never Again! did not give your next check to play a block the check value of the momentum your rival spent.
+- Fixed an issue where Mad With Power did not remove a non-attack card from your rival's discard pile.
+- Fixed an issue where Divine Rehabilitation came back to your card pool after any block, instead of only a block with a card that has a printed block modifier of 3 or greater.
+- Fixed an issue where Get This Thing Going did not freeze itself.
+- Fixed an issue where Satellite Square Etherion could be played without a copy of Let's Go, Team! in your stage.
+- Fixed an issue where an attack enhanced by Prepare for Punishment could still be added to its owner's momentum.
+- Fixed an issue where your rival was never offered the chance to remove 2 Quest counters to cancel Stress Reliever.
+- Fixed an issue where Clear Heart Clothing could only flip a card in your rival's stage, when it can also flip one in their momentum or card pool.
+- Fixed an issue where Sky Dragon's Roar drew a card and added a Quest counter as soon as it was played, and never gained health. It now gains health equal to the chosen foundation's printed difficulty, then draws and adds a Quest counter each time that foundation is committed during the attack.
+- Fixed an issue where A.K.I., Mistress of Poison's enhance never added Poison counters to the rival's character after the attack dealt damage.
+
 ### 2026-11-02
 - Fixed an issue where Natsu Dragneel, Fire Dragon Slayer's enhance gave +2 damage to any attack, when only a Quest attack gets it.
 - Fixed an issue where Light Punch could only seal a rival asset, when it can seal a rival asset or foundation.

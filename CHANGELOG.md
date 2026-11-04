@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-04
+- Fixed an issue where a card played while your deck was being reshuffled could check a card from the deck before the shuffle finished, and your rival's screen lost track of it.
 - The frosted background behind card viewers now stays live on every machine, instead of freezing into a still picture of the board on slower ones.
 - Fixed an issue where cards flying from the board into a pile viewer were cut off at the edge of its scrolling area until they landed.
 - Spending a Power, Heat or Roman Cancel token now animates the token on top of the pile.

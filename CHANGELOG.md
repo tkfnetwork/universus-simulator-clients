@@ -7,6 +7,8 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-04
+- The frosted background behind card viewers now stays live on every machine, instead of freezing into a still picture of the board on slower ones.
+- Fixed an issue where cards flying from the board into a pile viewer were cut off at the edge of its scrolling area until they landed.
 - Spending a Power, Heat or Roman Cancel token now animates the token on top of the pile.
 - Counters on cards now show as an icon for their kind with the count inside (a blood drop for Blood, a fist for Rage), animate when added or removed, and are listed in a card's hover preview with the card that added each one.
 - Clicking a momentum bar now opens it in a viewer, so every card can be seen, and a face up momentum card's ability can be played from there.

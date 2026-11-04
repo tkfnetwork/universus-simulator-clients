@@ -7,6 +7,9 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-04
+- Spending a Power, Heat or Roman Cancel token now animates the token on top of the pile.
+- Counters on cards now show as an icon for their kind with the count inside (a blood drop for Blood, a fist for Rage), animate when added or removed, and are listed in a card's hover preview with the card that added each one.
+- Clicking a momentum bar now opens it in a viewer, so every card can be seen, and a face up momentum card's ability can be played from there.
 - Fixed an issue where the battle log showed some of your own milled cards as "a face-down card" when the mill emptied your deck and reshuffled it.
 - Fixed an issue where your screen could show your rival's deck one card short after an ability's cost spent their momentum and then milled their deck empty.
 - Fixed an issue where a game could fail to end on the winner's screen when the winning attack also made the defeated rival sacrifice a foundation. The winner was left on End Turn with no Victory screen.

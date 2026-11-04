@@ -6,6 +6,16 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.5
 
+### 2026-11-04
+- Fixed an issue where the battle log showed some of your own milled cards as "a face-down card" when the mill emptied your deck and reshuffled it.
+- Fixed an issue where your screen could show your rival's deck one card short after an ability's cost spent their momentum and then milled their deck empty.
+- Fixed an issue where a game could fail to end on the winner's screen when the winning attack also made the defeated rival sacrifice a foundation. The winner was left on End Turn with no Victory screen.
+- Fixed an issue where your screen could show your rival's deck one card short after they milled their last card and reshuffled their discard pile straight away.
+- Fixed an issue where an action whose form costs removing the card itself, such as Wielding One For All, never resolved its form after a passed check, and a second play of it that turn was missing from the battle log.
+- Fixed an issue where a "your next <keyword> attack gets" bonus missed an attack that gained that keyword from a "your next attack gains" effect played before it.
+- Fixed an issue where Heartbeat Surround's "+1 damage for each of its keywords" did not count a keyword the attack gained from a "your next attack gains" effect, such as Stun.
+- Fixed an issue where an attack replayed by Echo was flipped face down only after its own responses, so a second Echo could be paid for and replay the card face down, and that face-down attack could Echo again.
+
 ### 2026-11-03
 - Fixed an issue where Sky-Scraping's attack did not gain the Blitz abilities printed on the cards its Blitz milled from your rival's deck.
 - Fixed an issue where Calling out the Truth cancelled every enhance ability your rival played, without the check against a 5 they could pass to keep it.

@@ -6,6 +6,17 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.5
 
+### 2026-11-06
+- Fixed an issue where the Bullet and Horn counter icons were not drawn properly.
+- Fixed an issue where spending or sacrificing a Power token could take a different token on each player's screen, leaving a committed token on one and not the other.
+- Fixed an issue where removing counters from one of two copies of a card took them off the other copy on your rival's screen.
+- Fixed an issue where a counter put on a face-down foundation went missing on your rival's screen, and its hidden name was sent to them.
+- Fixed an issue where choosing which counter type an effect acts on could make your rival's screen answer their next choice wrongly.
+- Fixed an issue where cancelling your rival's play with a response that has a price could freeze both games, or skip abilities that answer that price.
+- Fixed an issue where an effect that took your rival to 0 health carried on with its later instructions, which could lose you the game if one of them emptied your deck.
+- Fixed an issue where conceding during your own Victory animation made both players see Defeat.
+- Fixed an issue where a question still open when the game ended stayed on top of the Rematch and Leave buttons.
+
 ### 2026-11-05
 - Fixed an issue where the winning attack could carry on into its After Attack window while Victory was being shown.
 - Fixed an issue where an effect asking you to pick a card while your momentum viewer was open could refuse every card you clicked.

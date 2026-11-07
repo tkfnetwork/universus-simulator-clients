@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-07
+- Fixed an issue where a "choose one that hasn't been chosen during this attack" menu could offer different choices on each player's screen, or leave both waiting, after an option was chosen as the attack was played.
 - Fixed an issue where abilities that trigger when a card leaves your card pool, or enters your discard pile from it, never triggered for cards cleared from your pool at the end of your rival's turn.
 - Fixed an issue where a card played from your deck that you were not allowed to play was built for free at the End Phase.
 - Fixed an issue where the End Phase choice to transform a Shift attack could disappear when another card was built at the same moment, leaving both players waiting.

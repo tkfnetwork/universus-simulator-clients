@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-07
+- Fixed an issue where abilities that trigger when a card leaves your card pool, or enters your discard pile from it, never triggered for cards cleared from your pool at the end of your rival's turn.
 - Fixed an issue where a card played from your deck that you were not allowed to play was built for free at the End Phase.
 - Fixed an issue where the End Phase choice to transform a Shift attack could disappear when another card was built at the same moment, leaving both players waiting.
 - Fixed an issue where, after the game corrected a difference between your screen and your rival's, your rival's stage could be left in a different order on your screen, so later effects on it could hit the wrong card.

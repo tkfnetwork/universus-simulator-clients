@@ -7,6 +7,23 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-07
+- Fixed an issue where paying to cancel "foundations cannot be destroyed" left those foundations protected on your screen.
+- Fixed an issue where destroying, committing or returning one of your rival's face-down foundations could affect a different foundation of theirs, or change which card it was, on their screen.
+- Fixed an issue where a foundation you were not allowed to play from a pile was built for free at the End Phase.
+- Fixed an issue where a card played from your removed pile that failed its check went to your discard pile instead of back to your removed pile.
+- Fixed an issue where a card played from your discard or removed pile that could not be played went to your hand instead of staying in its pile, and could be played while a response window was open.
+- Fixed an issue where a slow connection while tossing for first turn could leave both players waiting for each other to choose who goes first.
+- Fixed an issue where a retaliate could start after the Combat Phase had already ended.
+- Fixed an issue where playing a replay at the end of a retaliate left your hand and card pool unlocked for the rest of your rival's turn.
+- Fixed an issue where an attack replayed by Echo kept things from its first attack, such as being unblockable, on your rival's screen.
+- Fixed an issue where abilities that care about who is attacking ("your Kick attack is completely blocked", "you block with an Armor card", attack surcharges, healing on a partial block) answered for the wrong player during a retaliate.
+- Fixed an issue where, while your rival's revealed cards stayed face up in their hand, a different card leaving their hand could take one of the revealed cards with it on your screen.
+- Fixed an issue where a "your next Fury attack" style bonus could apply on one player's screen and not the other's, when the attack gained or lost a keyword as it was played.
+- Fixed an issue where a response played after spending momentum on Powerful or EX made that keyword pay out nothing on your screen, while your rival's screen paid it in full.
+- Fixed an issue where flipping a Spell to pay for Spellstorm's keyword abilities could pay for any ability that spends momentum, and paid a cost of 2 or 3 momentum with one card.
+- Fixed an issue where clearing a card from your pool or destroying a ready foundation in place of momentum counted as paid even when nothing was cleared or destroyed.
+- Fixed an issue where a sealed card could still protect backups, build itself from the card pool, or exempt the first copy of a name, and a face-down card could refuse to be sealed.
+- Fixed an issue where flipping a card in a card pool face down left its "while this card is in your card pool" bonus on the attack.
 - Fixed an issue where a momentum card picked for you while another momentum choice was open vanished from your momentum without going anywhere, while your rival still saw it there.
 - Fixed an issue where paying momentum to cancel an ability, or your rival's share of a momentum cost, ignored an effect that stops momentum from being spent.
 - Fixed an issue where "After this character transforms into ..." abilities never triggered when the transform happened during an Enhance Step or a response.

@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-07
+- Fixed an issue where, after the game corrected a difference between your screen and your rival's, your rival's stage could be left in a different order on your screen, so later effects on it could hit the wrong card.
 - Fixed an issue where rearranging or tidying your stage could make your rival's effects destroy, commit or put counters on a different card of yours than the one they chose.
 - Fixed an issue where "[Your attack]" abilities were offered to the defending player during a retaliate, and refused to the player retaliating.
 - Fixed an issue where a response to "your rival plays an ability that increases their health" was offered when your own effect healed your rival.

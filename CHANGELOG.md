@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-07
+- Fixed an issue where rearranging or tidying your stage could make your rival's effects destroy, commit or put counters on a different card of yours than the one they chose.
 - Fixed an issue where "[Your attack]" abilities were offered to the defending player during a retaliate, and refused to the player retaliating.
 - Fixed an issue where a response to "your rival plays an ability that increases their health" was offered when your own effect healed your rival.
 - Fixed an issue where, with two copies of a backup in play, your rival's screen could destroy the wrong copy when one ran out of stamina.

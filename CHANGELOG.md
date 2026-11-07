@@ -7,6 +7,9 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-07
+- Fixed an issue where "[Your attack]" abilities were offered to the defending player during a retaliate, and refused to the player retaliating.
+- Fixed an issue where a response to "your rival plays an ability that increases their health" was offered when your own effect healed your rival.
+- Fixed an issue where, with two copies of a backup in play, your rival's screen could destroy the wrong copy when one ran out of stamina.
 - Fixed an issue where a response window opening while your deck was being reshuffled could stop the game from continuing.
 - Fixed an issue where a response window held over from an earlier attack could open on the defender's screen during a later one.
 - Fixed an issue where a check that failed because your deck was empty showed your rival the numbers from your previous check.

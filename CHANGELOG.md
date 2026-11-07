@@ -7,6 +7,10 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-07
+- Fixed an issue where a momentum card picked for you while another momentum choice was open vanished from your momentum without going anywhere, while your rival still saw it there.
+- Fixed an issue where paying momentum to cancel an ability, or your rival's share of a momentum cost, ignored an effect that stops momentum from being spent.
+- Fixed an issue where "After this character transforms into ..." abilities never triggered when the transform happened during an Enhance Step or a response.
+- Fixed an issue where a character with only one face could be offered a transform and turn over into itself.
 - Fixed an issue where checking from the bottom of your deck took a card from the top of your deck on your rival's screen.
 - Fixed an issue where an attack that hit a backup could close abilities waiting to answer it on both screens, when the defender's own held effects resolved at the same moment.
 - Fixed an issue where an ability giving your block Breaker took effect only after the block, so it did nothing.

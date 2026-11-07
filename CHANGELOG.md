@@ -7,6 +7,11 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-07
+- Fixed an issue where a response window opening while your deck was being reshuffled could stop the game from continuing.
+- Fixed an issue where a response window held over from an earlier attack could open on the defender's screen during a later one.
+- Fixed an issue where a check that failed because your deck was empty showed your rival the numbers from your previous check.
+- Fixed an issue where your rival taking more than 20 seconds to decide on committing foundations for a check you asked them to make counted as a pass on your screen.
+- Fixed an issue where an effect that made your rival discard, sacrifice, build or remove cards could cause a step such as the Enhance Step to be skipped, when their screen and yours opened response windows at the same moment.
 - Fixed an issue where paying to cancel "foundations cannot be destroyed" left those foundations protected on your screen.
 - Fixed an issue where destroying, committing or returning one of your rival's face-down foundations could affect a different foundation of theirs, or change which card it was, on their screen.
 - Fixed an issue where a foundation you were not allowed to play from a pile was built for free at the End Phase.

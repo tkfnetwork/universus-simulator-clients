@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-07
+- Fixed an issue where an attack from the attack stack could be mistaken for another copy of the same card on your rival's screen, so it was discarded at the end of the turn instead of going to momentum.
 - Fixed an issue where a "your next ... attack" bonus could count a keyword on one player's screen and not the other's for an attack from the attack stack.
 - Fixed an issue where a card could be played from your hand while an attack from the attack stack was still in progress.
 - Fixed an issue where an attack added to the attack stack by a stage card's form ability never attacked.

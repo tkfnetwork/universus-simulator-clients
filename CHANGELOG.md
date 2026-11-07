@@ -7,6 +7,9 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-07
+- Fixed an issue where a "your next ... attack" bonus could count a keyword on one player's screen and not the other's for an attack from the attack stack.
+- Fixed an issue where a card could be played from your hand while an attack from the attack stack was still in progress.
+- Fixed an issue where an attack added to the attack stack by a stage card's form ability never attacked.
 - Fixed an issue where a "choose one that hasn't been chosen during this attack" menu could offer different choices on each player's screen, or leave both waiting, after an option was chosen as the attack was played.
 - Fixed an issue where abilities that trigger when a card leaves your card pool, or enters your discard pile from it, never triggered for cards cleared from your pool at the end of your rival's turn.
 - Fixed an issue where a card played from your deck that you were not allowed to play was built for free at the End Phase.

@@ -6,6 +6,14 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.5
 
+### 2026-11-07
+- Fixed an issue where checking from the bottom of your deck took a card from the top of your deck on your rival's screen.
+- Fixed an issue where an attack that hit a backup could close abilities waiting to answer it on both screens, when the defender's own held effects resolved at the same moment.
+- Fixed an issue where an ability giving your block Breaker took effect only after the block, so it did nothing.
+- Fixed an issue where choosing to block with the top card of your discard pile, or a backup from your stage, then not blocking kept that card in your hand.
+- Fixed an issue where a card that ends your Combat Phase, replayed during a retaliate on your rival's turn, could end your next Combat Phase as soon as it began.
+- Fixed an issue where an error during a phase change could leave the other player waiting forever.
+
 ### 2026-11-06
 - Fixed an issue where the Bullet and Horn counter icons were not drawn properly.
 - Fixed an issue where spending or sacrificing a Power token could take a different token on each player's screen, leaving a committed token on one and not the other.

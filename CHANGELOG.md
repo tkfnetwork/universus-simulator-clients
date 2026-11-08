@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-08
+- Fixed an issue where, when your Start Phase draw emptied your deck, you could play an attack while your deck was cycling, and the start of your Combat Phase was then skipped so nothing could respond to it.
 - Fixed an issue where playing the same enhance again after its check failed was missing from your battle log.
 - Fixed an issue where losing health down to 0 and being saved by Reina's ability showed as gaining health instead of a loss, and counted as gaining health for other cards.
 

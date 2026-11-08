@@ -6,6 +6,10 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.5
 
+### 2026-11-08
+- Fixed an issue where playing the same enhance again after its check failed was missing from your battle log.
+- Fixed an issue where losing health down to 0 and being saved by Reina's ability showed as gaining health instead of a loss, and counted as gaining health for other cards.
+
 ### 2026-11-07
 - Fixed an issue where an attack from the attack stack could be mistaken for another copy of the same card on your rival's screen, so it was discarded at the end of the turn instead of going to momentum.
 - Fixed an issue where a "your next ... attack" bonus could count a keyword on one player's screen and not the other's for an attack from the attack stack.

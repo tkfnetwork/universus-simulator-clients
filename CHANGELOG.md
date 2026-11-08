@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-08
+- Fixed an issue where paying Power tokens for an ability showed one battle log line per token on your screen and a single line on your rival's.
 - Fixed an issue where a mill that ran your rival's deck out named the wrong cards in your battle log, showing cards removed by the cycle instead of the ones milled.
 - Fixed an issue where returning a face-down card from your card pool to your hand sent which card it was to your rival's game.
 - Fixed an issue where, when your Start Phase draw emptied your deck, you could play an attack while your deck was cycling, and the start of your Combat Phase was then skipped so nothing could respond to it.

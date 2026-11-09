@@ -6,6 +6,9 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.5
 
+### 2026-11-09
+- Fixed an issue where flipping one of your rival's foundations with an effect turned it face down on your screen only, leaving it face up on theirs.
+
 ### 2026-11-08
 - Fixed an issue where paying Power tokens for an ability showed one battle log line per token on your screen and a single line on your rival's.
 - Fixed an issue where a mill that ran your rival's deck out named the wrong cards in your battle log, showing cards removed by the cycle instead of the ones milled.

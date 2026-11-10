@@ -6,6 +6,9 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.5
 
+### 2026-11-10
+- Fixed an issue where your rival readying one of your face-down foundations to pay for Heaven-Piercing Ice Wall showed as "readies 1 card" in your battle log instead of naming your card.
+
 ### 2026-11-09
 - Fixed an issue where flipping one of your rival's foundations with an effect turned it face down on your screen only, leaving it face up on theirs.
 

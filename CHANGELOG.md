@@ -7,6 +7,10 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-20
+- Fixed an issue where changing an attack's zone as it was played (such as with Kaminari's Sharpshooting Gear) was not seen by your rival's screen when they blocked.
+- Fixed an issue where a card you tried to play from your discard pile, and could not play, went into your hand instead of back to your discard pile, and stayed in your card pool on your rival's screen.
+- Fixed an issue where taking a mulligan with a raised hand size left your hand on your rival's screen with fewer cards than you drew.
+- Fixed an issue where an ability your rival answered without cancelling could resolve as though their answer was the ability you played, reading its keyword rating instead of yours.
 - Fixed an issue where putting two revealed copies of the same card on the bottom of your deck moved only one of them on your rival's screen.
 - Fixed an issue where playing an ability any player may play off your rival's card, when they had two copies of it, could be counted against the other copy on their screen.
 - Fixed an issue where removing a counter from your character when it had more than one kind of counter could remove a different kind on your rival's screen.

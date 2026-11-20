@@ -7,6 +7,8 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-20
+- Fixed an issue where freezing, unfreezing, readying or unsealing one of your own face-down foundations, or putting one on the bottom of your deck, could leave it unchanged on your rival's screen and tell them which card it was.
+- Fixed an issue where readying or removing one of your rival's face-down foundations (such as with Stun-Baton Thrust or Invisible Infiltration) could leave it unchanged on their screen.
 - Fixed an issue where Behemoth Typhoon's "after you commit 3 or more cards to pass the check" could be answered differently on your rival's screen.
 - Fixed an issue where Secretary of Defense sealed its foundation again at the start of the next turn even after that foundation had left the stage.
 - Fixed an issue where a card you tried to play from your discard pile, and could not play, went into your hand instead of back to your discard pile, and stayed in your card pool on your rival's screen.

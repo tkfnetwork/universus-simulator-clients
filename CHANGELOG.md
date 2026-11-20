@@ -7,6 +7,8 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-20
+- Fixed an issue where cards removed from the game face down counted as attacks or characters in your removed pile (such as for Increased Hostility). Face-down cards are blank.
+- Fixed an issue where taking a face-down removed card into your hand (such as with Gathering Energy) told your rival which card it was, and could move a different face-down removed card on their screen.
 - Fixed an issue where a card you tried to play from your removed pile or discard pile, and could not play, went into your hand instead of back to that pile.
 - Fixed an issue where moving a face-down card from your card pool to your momentum or deck told your rival which card it was, and clearing one could leave it in your card pool on their screen.
 - Fixed an issue where freezing, unfreezing, readying or unsealing one of your own face-down foundations, or putting one on the bottom of your deck, could leave it unchanged on your rival's screen and tell them which card it was.

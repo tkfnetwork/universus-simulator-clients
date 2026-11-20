@@ -7,6 +7,10 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-20
+- Fixed an issue where putting two revealed copies of the same card on the bottom of your deck moved only one of them on your rival's screen.
+- Fixed an issue where playing an ability any player may play off your rival's card, when they had two copies of it, could be counted against the other copy on their screen.
+- Fixed an issue where removing a counter from your character when it had more than one kind of counter could remove a different kind on your rival's screen.
+- Fixed an issue where an Echo attack played again after dealing damage counted as having dealt damage again, even when the second attack was blocked.
 - Fixed an issue where your rival's screen could show a card you had revealed and kept face up as the card you blocked with, removing it from your hand on their screen.
 - Fixed an issue where an attack that lost a keyword such as Powerful and then gained it back kept the bonus it had before losing it.
 - Fixed an issue where the game could stop responding if something went wrong on your rival's screen while they were committing, sacrificing, readying or milling because of your card.

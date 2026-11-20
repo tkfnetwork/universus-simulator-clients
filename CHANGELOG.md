@@ -7,6 +7,10 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-20
+- Fixed an issue where putting a card from your hand on the bottom of your deck could move a card you had revealed instead, face up, on your rival's screen.
+- Fixed an issue where your rival removing a card from their hand was not counted for abilities that check how many cards they removed this turn.
+- Fixed an issue where building a card from your hand face down told your rival which card it was.
+- Fixed an issue where committing, sacrificing or unflipping a face-down card your rival had never seen to pay a cost could leave that card unchanged on their screen.
 - Fixed an issue where adding a face-down foundation from your stage to your momentum named that card to your rival, and could move the wrong card on their screen.
 - Fixed an issue where revealing a card from your momentum to pay a cost (such as for Mt. Lady) could show your rival a different face-down momentum card than the one you revealed.
 - Fixed an issue where a face-down attack (such as one added by Beauregard Lionett, Expositor) that stayed in the card pool through the End Phase, or was built face down, was revealed to your rival, and one removed from the game at the End Phase was not.

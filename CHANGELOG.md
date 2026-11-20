@@ -7,6 +7,9 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-20
+- Fixed an issue where your rival's screen could show a card you had revealed and kept face up as the card you blocked with, removing it from your hand on their screen.
+- Fixed an issue where an attack that lost a keyword such as Powerful and then gained it back kept the bonus it had before losing it.
+- Fixed an issue where the game could stop responding if something went wrong on your rival's screen while they were committing, sacrificing, readying or milling because of your card.
 - Fixed an issue where putting a card from your hand on the bottom of your deck could move a card you had revealed instead, face up, on your rival's screen.
 - Fixed an issue where your rival removing a card from their hand was not counted for abilities that check how many cards they removed this turn.
 - Fixed an issue where building a card from your hand face down told your rival which card it was.

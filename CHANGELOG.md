@@ -6,6 +6,11 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.5
 
+### 2026-11-20
+- Fixed an issue where adding a face-down foundation from your stage to your momentum named that card to your rival, and could move the wrong card on their screen.
+- Fixed an issue where revealing a card from your momentum to pay a cost (such as for Mt. Lady) could show your rival a different face-down momentum card than the one you revealed.
+- Fixed an issue where a face-down attack (such as one added by Beauregard Lionett, Expositor) that stayed in the card pool through the End Phase, or was built face down, was revealed to your rival, and one removed from the game at the End Phase was not.
+
 ### 2026-11-17
 - Reversed an earlier change: cards that discard the rest of a reveal from your deck, such as Yelena, no longer count as you discarding for cards like Krista Lenz. A discard that names no zone means one from your hand.
 - Fixed an issue where your rival turning one of their face-down cards face up, or playing a face-down foundation as an attack with Lady Nagant, did not show on your screen.

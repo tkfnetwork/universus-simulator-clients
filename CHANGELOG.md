@@ -6,6 +6,9 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.5
 
+### 2026-11-21
+- Fixed an issue where sacrificing a face-down foundation whose hidden side is a backup counted as a backup being destroyed, and a face-down card in your stage could pay a cost that asks for a type such as an XP card.
+
 ### 2026-11-20
 - Fixed an issue where cards removed from the game face down counted as attacks or characters in your removed pile (such as for Increased Hostility). Face-down cards are blank.
 - Fixed an issue where taking a face-down removed card into your hand (such as with Gathering Energy) told your rival which card it was, and could move a different face-down removed card on their screen.

@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-21
+- Fixed an issue where Beast Titan drew a card when a face-down card left your stage, as though it were a Titan backup.
 - Fixed an issue where Beast Titan drew a card when a face-down card entered your stage, as though it were a Titan backup.
 - Fixed an issue where a face-down card in your card pool could not be chosen as a non-attack card for some effects, and a face-down attack could be chosen as one.
 - Fixed an issue where face-down attacks in your card pool (such as the ones Beauregard Lionett, Expositor adds) did not count as attacks for effects that count the attacks in your card pool.

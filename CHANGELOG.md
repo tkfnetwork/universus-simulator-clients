@@ -6,6 +6,10 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.5
 
+### 2026-11-22
+- Fixed an issue where an ability that sacrificed or flipped nothing could count the cards an earlier ability sacrificed or flipped.
+- Fixed an issue where Canister Creation Strike read the printed difficulty of a face-down foundation you removed from your stage to pay for it. A face-down foundation is blank and has none.
+
 ### 2026-11-21
 - Fixed an issue where Beast Titan drew a card when a face-down card left your stage, as though it were a Titan backup.
 - Fixed an issue where Beast Titan drew a card when a face-down card entered your stage, as though it were a Titan backup.

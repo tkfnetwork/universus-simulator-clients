@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-22
+- Fixed an issue where a copy of your character attached to it could be committed on its own to pay a cost such as "Commit 1 card in your stage".
 - Fixed an issue where an effect that readies or commits a card in a stage could pick a copy of the character attached to it. Attached cards always share the character's state.
 - Fixed an issue where an ability that sacrificed or flipped nothing could count the cards an earlier ability sacrificed or flipped.
 - Fixed an issue where Canister Creation Strike read the printed difficulty of a face-down foundation you removed from your stage to pay for it. A face-down foundation is blank and has none.

@@ -6,6 +6,9 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.5
 
+### 2026-11-23
+- Fixed an issue where a card such as Keep Them on Their Toes that you tried to play from your discard pile and could not play was logged as discarded or cleared from your pool when it went back, and counted as having entered your discard pile again.
+
 ### 2026-11-22
 - Fixed an issue where anything you did during the few seconds your game was reconnecting was lost on your rival's screen, which could leave one of you waiting forever.
 - Fixed an issue where an effect such as Catching a Meteor that spends momentum and then counts "that many" used the count from an earlier spend when you had no momentum to spend.

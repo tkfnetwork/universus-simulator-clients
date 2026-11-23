@@ -7,6 +7,8 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-23
+- Fixed an issue where Rando's Spirit Gun let your character's [Once per turn] Form ability, such as Armin Arlert's, be played any number of times that turn instead of twice.
+- Fixed an issue where a foundation Lady Nagant played as an attack, if the attack could not be played, went to your hand instead of back to your stage, and stayed in your card pool on your rival's screen.
 - Fixed an issue where a card such as Keep Them on Their Toes that you tried to play from your discard pile and could not play was logged as discarded or cleared from your pool when it went back, and counted as having entered your discard pile again.
 
 ### 2026-11-22

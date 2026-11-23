@@ -1,4 +1,4 @@
-linux	71863750	d80bd27141b8579f175cf39b679d8947b05473d9191d18cf40c4f4ee71ca836e	2026-11-23T09:42Z	4.7.2.stable.mono.arch_linux.ed1daf0bf	restricted	ALPHA	hosted	default	false	0.0.5	7d1a0e5	1795426894
-macos-arm64	72145396	99f73c456dc33b76e2256c49474f81db42029df9d91d05c548fda94bb05ac35b	2026-11-23T09:43Z	4.7.2.stable.mono.arch_linux.ed1daf0bf	restricted	ALPHA	hosted	default	false	0.0.5	7d1a0e5	1795426894
-macos-x86_64	76719709	3a755c58da7594b365a123d93a716dc694d178de6a1fc608f0bcbcd886b65edd	2026-11-23T09:43Z	4.7.2.stable.mono.arch_linux.ed1daf0bf	restricted	ALPHA	hosted	default	false	0.0.5	7d1a0e5	1795426894
-windows	82446101	61a4ff805c34c95a93cc5bb690397910bf64366187a8be046d6553454f5ebdaf	2026-11-23T09:42Z	4.7.2.stable.mono.arch_linux.ed1daf0bf	restricted	ALPHA	hosted	default	false	0.0.5	7d1a0e5	1795426894
+linux	71867280	d32ef63c397d1a9b73aaaaba744a1686902ef8175d1386e1dbced59ca7c16a13	2026-11-23T10:29Z	4.7.2.stable.mono.arch_linux.ed1daf0bf	restricted	ALPHA	hosted	default	false	0.0.5	c1344bc	1795429745
+macos-arm64	72145398	3f4d74ce4c7fb5f123bd96b40e23077386cbe5365a426c76255a91f042229146	2026-11-23T10:30Z	4.7.2.stable.mono.arch_linux.ed1daf0bf	restricted	ALPHA	hosted	default	false	0.0.5	c1344bc	1795429745
+macos-x86_64	76719716	518fd7291911613d377c3e9d6dd2eaf9d01f2067a3dfd3ad45688c4b81e4da02	2026-11-23T10:30Z	4.7.2.stable.mono.arch_linux.ed1daf0bf	restricted	ALPHA	hosted	default	false	0.0.5	c1344bc	1795429745
+windows	82455935	1604c1b1f76d23b5da2c3b2dff0927a9cf967e2eeded481bb36f694f10b8ab8a	2026-11-23T10:29Z	4.7.2.stable.mono.arch_linux.ed1daf0bf	restricted	ALPHA	hosted	default	false	0.0.5	c1344bc	1795429745

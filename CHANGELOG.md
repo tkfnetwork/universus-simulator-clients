@@ -7,6 +7,8 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-23
+- Fixed an issue where an attack such as Determined Advance, whose speed and damage cannot be reduced below printed, lost later bonuses after an effect such as Izuku Midoriya's reduced its speed to 0.
+- Fixed an issue where a penalty with a minimum, such as Set the Record Straight's -2 damage (min. 1), stopped later bonuses from counting after a second penalty.
 - Fixed an issue where Catching a Meteor could play an attack when you could not play attacks, such as after Armin Arlert's form, or without paying the attack's Heat cost.
 - Fixed an issue where trying to play a card from your discard pile or removed pile could pick a card you were not allowed to play, which then stayed stuck in your card pool.
 - Fixed an issue where a rule about your next form, such as having to play a non-attack card, stayed in place after you played a form from your discard pile or with Echo.

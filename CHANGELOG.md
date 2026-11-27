@@ -6,6 +6,9 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.5
 
+### 2026-11-27
+- Fixed an issue where cards that respond to you committing, such as Victor Chevalier, Persistent Malice, Ready Rematch and Ochaco Uraraka, were never offered when you committed cards to pass a check.
+
 ### 2026-11-23
 - Fixed an issue where an attack such as Determined Advance, whose speed and damage cannot be reduced below printed, lost later bonuses after an effect such as Izuku Midoriya's reduced its speed to 0.
 - Fixed an issue where a penalty with a minimum, such as Set the Record Straight's -2 damage (min. 1), stopped later bonuses from counting after a second penalty.

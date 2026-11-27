@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-27
+- Fixed an issue where a card Kevin Broberg revealed from your hand for the rest of the turn was turned face down again on your rival's screen when you later revealed your hand.
 - Fixed an issue where cards that respond to you committing, such as Victor Chevalier, Persistent Malice, Ready Rematch and Ochaco Uraraka, were never offered when you committed cards to pass a check.
 
 ### 2026-11-23

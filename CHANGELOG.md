@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-28
+- Fixed an issue where The Colossus Titan did not draw a card when your rival destroyed it.
 - Fixed an issue where cards that respond to being destroyed, such as Smiling Death, never responded when your rival destroyed them.
 - Fixed an issue where Beast Titan did not draw when your rival destroyed one of your Titan backups, and drew when you destroyed one of theirs.
 - Fixed an issue where Team Hero XV counted backups that left your stage as foundations, and missed face-down cards that left it.

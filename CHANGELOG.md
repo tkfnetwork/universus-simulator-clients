@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-28
+- Fixed an issue where, when your rival played two forms or abilities in quick succession, the second one's "if" condition could be worked out differently on your screen than on theirs.
 - Fixed an issue where, if your rival's enhance ended their own attack, both players could end up able to act at once in the next response window.
 - Fixed an issue where your rival freezing, sealing or committing one of their face-down cards a second time could freeze, seal or commit a face-up copy of it on your screen instead.
 - Fixed an issue where your rival committing, readying, sealing, freezing, moving or paying with one of their face-down cards could act on a face-up copy of the same card on your screen instead.

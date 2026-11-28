@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-28
+- Fixed an issue where your rival committing, readying, sealing, freezing, moving or paying with one of their face-down cards could act on a face-up copy of the same card on your screen instead.
 - Fixed an issue where your rival sacrificing a face-down foundation to pay a cost, such as for Colossus Titan, Finale, could remove a face-up copy of the same card from their stage on your screen instead.
 - Fixed an issue where a card your rival sacrificed and a card they milled to pay for the same ability, such as We're Counting on You, could end up in the wrong order in their discard pile on your screen.
 - Fixed an issue where several cards your rival milled at once, such as with Burning Godzilla, could land in the wrong order in their discard pile on your screen.

@@ -6,6 +6,11 @@ The version you are running is written across the bottom of the home screen, in 
 
 ## 0.0.5
 
+### 2026-11-28
+- Fixed an issue where Beast Titan did not draw when your rival destroyed one of your Titan backups, and drew when you destroyed one of theirs.
+- Fixed an issue where Team Hero XV counted backups that left your stage as foundations, and missed face-down cards that left it.
+- Fixed an issue where a rival who survived a killing blow with a card such as Reina could still lose the game when an effect also dealt them lethal damage at the same moment.
+
 ### 2026-11-27
 - Fixed an issue where Big Fist Bash played as a block gave your rival's attack +2 damage.
 - Fixed an issue where Gargantuan Grapple played as a block raised a keyword rating on your rival's attack instead of its own, and a raised Breaker on a block still counted as 0.

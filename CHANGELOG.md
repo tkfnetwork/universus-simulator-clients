@@ -7,6 +7,7 @@ The version you are running is written across the bottom of the home screen, in 
 ## 0.0.5
 
 ### 2026-11-28
+- Fixed an issue where a card your rival milled and a card they discarded straight after, such as with Psycho Power, could end up in the wrong order in their discard pile on your screen.
 - Fixed an issue where Combined Perfect Form removed a counter from your character without letting you choose which kind when your character had more than one.
 - Fixed an issue where a copy of your character attached to it stopped counting as attached once your character transformed, such as Annie Leonhart into Annie, Female Titan, and a copy in your card pool was discarded instead of attached.
 - Fixed an issue where The Colossus Titan did not draw a card when your rival destroyed it.
